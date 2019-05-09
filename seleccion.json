@@ -1,0 +1,955 @@
+{
+  "slug": "admission",
+  "repo": "Laboratoria/admission-curriculum",
+  "path": "es/development/00-admission",
+  "version": "1.0.0",
+  "parserVersion": "2.0.0-alpha.2",
+  "track": "js",
+  "locale": "es-ES",
+  "createdAt": "2019-05-08T19:25:19.680Z",
+  "title": "Selección",
+  "description": "<p>Dos o tres p&#xE1;rrafos explicando el curso en l&#xED;neas generales. Introducci&#xF3;n al\ntema central y su importancia para un desarrollador full stack.</p>\n<p>Mencionar qu&#xE9; se har&#xE1; en el curso a nivel de proyecto(s) o producto(s), los\ntemas principales, metodolog&#xED;a y enfoque de la experiencia.</p>\n<p>Requerimientos de la intro:</p>\n<ul>\n<li>Cu&#xE1;l es el tema en un tweet</li>\n<li>D&#xF3;nde encaja dentro del mundo profesional y en la historia del software</li>\n<li>Por qu&#xE9; es relevante aprender esto</li>\n<li>Abstract del curso</li>\n</ul>\n\n",
+  "tags": {
+    "primary": {
+      "foo": true,
+      "bar": true,
+      "baz": true
+    },
+    "secondary": {}
+  },
+  "targetAudience": "<p>Para quién es este curso?</p>\n",
+  "dependencies": "<p>Qué conocimientos previos se necesitan?</p>\n",
+  "learningObjectives": "<p>En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,\nextraído del curso de <a href=\"https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms\">paradigmas de programación</a>:</p>\n<ul>\n<li>Qué son los <strong>paradigmas de programación</strong></li>\n<li>Qué son <strong>FP</strong>, <strong>OOP</strong>, <strong>EOP</strong> y <strong>PP</strong> y cómo se comparan</li>\n<li>A entender las diferencias y entre el estilo <strong>imperativo vs declarativo</strong></li>\n<li>Las diferencias entre <strong>constructores</strong> y <strong>factories</strong></li>\n<li>Cómo implementar <strong>herencia prototipal</strong></li>\n<li>Los principios básicos de la <strong>programación funcional</strong></li>\n<li>A usar <strong>composición</strong> como alternativa la <em>herencia</em></li>\n<li>A <strong>trabajar sobre una base de código existente</strong></li>\n<li>A trabajar haciendo <strong>pair programming</strong></li>\n<li>A sacarle el jugo a git y GitHub usando <strong>issues</strong>, <strong>milestones</strong>,\n<strong>branches</strong>, <strong>forks</strong> y <strong>pull requests</strong></li>\n</ul>\n",
+  "product": "<p>Toda propuesta de curso debe de estar acompañada de un producto o proyecto a\ndesarrollar durante el curso, junto con la metodología de trabajo propuesta\nasí como entregables y método de evaluación.</p>\n",
+  "syllabus": {
+    "01-baseline": {
+      "title": "Línea base",
+      "bonus": false,
+      "description": "<p>Completa tu datos personales. Para nosotros es muy importante tener tus datos\npara conocerte mejor e identificar si tienes el perfil que buscamos en nuestras\nalumnas.</p>\n",
+      "parts": {
+        "01-questionnaire": {
+          "title": "Línea base",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 30,
+          "embeds": [
+            {
+              "type": "form",
+              "provider": "typeform",
+              "href": "https://laboratoria.typeform.com/to/LfB0Dw?email=xxxxx&fname=xxxxx&city=xxxxx&type=xxxxx&uid=xxxxx&cohortid=xxxxx&unitid=xxxxx&partid=xxxxx",
+              "id": "LfB0Dw"
+            }
+          ],
+          "body": "<p><iframe frameborder=\"0\" width=\"100%\" height=\"100%\" style=\"height: 100vh;\" src=\"https://laboratoria.typeform.com/to/LfB0Dw\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe></p>\n",
+          "durationString": "30min"
+        }
+      },
+      "order": 0,
+      "stats": {
+        "duration": 30,
+        "durationString": "30min",
+        "exerciseCount": 0,
+        "partCount": 1
+      }
+    },
+    "02-tests": {
+      "title": "Exámenes",
+      "bonus": false,
+      "description": "<p>El examen está dividido en 5 secciones que evalúan tu potencial para aprender código dentro de nuestro programa. Cada sección nos dice algo diferente de ti\npor lo que al final del examen tenemos una mejor idea de tu talento y tu capacidad. ¡No tienes de qué preocuparte! No tienes que estudiar ni tener conocimientos previos de programación.</p>\n",
+      "parts": {
+        "01-reading": {
+          "title": "Comprensión de lectura",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 90,
+          "body": "<p><code>https://laboratoria.typeform.com/to/uEPoxr?email=xxxxx&amp;fname=xxxxx&amp;city=xxxxx&amp;flow=xxxxx&amp;type=xxxxx&amp;uid=xxxxx&amp;cohortid=xxxxx&amp;unitid=xxxxx&amp;partid=xxxxx</code></p>\n",
+          "durationString": "1.5h"
+        },
+        "02-logic": {
+          "title": "Lógica",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 40,
+          "body": "<p><code>https://laboratoria.typeform.com/to/p5sZ5v?email=xxxxx&amp;fname=xxxxx&amp;city=xxxxx&amp;flow=xxxxx&amp;type=xxxxx&amp;uid=xxxxx&amp;cohortid=xxxxx&amp;unitid=xxxxx&amp;partid=xxxxx</code></p>\n",
+          "durationString": "40min"
+        },
+        "03-personality": {
+          "title": "Personalidad",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 45,
+          "body": "<p><code>https://laboratoria.typeform.com/to/lnBIRB?email=xxxxx&amp;fname=xxxxx&amp;city=xxxxx&amp;flow=xxxxx&amp;type=xxxxx&amp;uid=xxxxx&amp;cohortid=xxxxx&amp;unitid=xxxxx&amp;partid=xxxxx</code></p>\n",
+          "durationString": "45min"
+        },
+        "04-emotional-intelligence": {
+          "title": "Inteligencia emocional",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "body": "<p><code>https://laboratoria.typeform.com/to/wwy0Zf?email=xxxxx&amp;fname=xxxxx&amp;city=xxxxx&amp;flow=xxxxx&amp;type=xxxxx&amp;uid=xxxxx&amp;cohortid=xxxxx&amp;unitid=xxxxx&amp;partid=xxxxx</code></p>\n",
+          "durationString": "20min"
+        },
+        "05-math": {
+          "title": "Matemáticas",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 45,
+          "body": "<p><code>https://laboratoria.typeform.com/to/IMQkBp?email=xxxxx&amp;fname=xxxxx&amp;city=xxxxx&amp;flow=xxxxx&amp;type=xxxxx&amp;uid=xxxxx&amp;cohortid=xxxxx&amp;unitid=xxxxx&amp;partid=xxxxx</code></p>\n",
+          "durationString": "45min"
+        }
+      },
+      "order": 1,
+      "stats": {
+        "duration": 240,
+        "durationString": "4h",
+        "exerciseCount": 0,
+        "partCount": 5
+      }
+    },
+    "03-prework": {
+      "title": "Prework",
+      "bonus": false,
+      "description": "<p>Bienvenida al curso en línea donde aprenderás conceptos básicos de programación y GrowthMindset. Podrás hacerlo a tu ritmo. Encontrarás quizzes y ejercicios prácticos que evalúan tu desempeño y habilidades de aprendizaje.</p>\n",
+      "parts": {
+        "01-welcome-and-orientation": {
+          "title": "Bienvenida y orientación",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 10,
+          "body": "<p>Hola y bienvenida a la tercera etapa del proceso de selecci&#xF3;n: el pre-trabajo.\nDebes sentirte muy orgullosa de estar dispuesta a invertir tu tiempo y esfuerzo\npara completar una de las etapas m&#xE1;s importantes del proceso. Esta etapa\nconsiste en realizar el curso <strong>01. Introducci&#xF3;n a la programaci&#xF3;n (con\nJavaScript)</strong> de Laboratoria, que es el punto de inicio ideal para aprender a\nprogramar. Aqu&#xED; empezamos desde cero, ense&#xF1;&#xE1;ndote los fundamentos de JavaScript,\nel lenguaje de programaci&#xF3;n m&#xE1;s popular de la Web.</p>\n<p>Este curso es un paso fundamental del proceso de selecci&#xF3;n, pues nos permitir&#xE1;\ncomprobar tu inter&#xE9;s por la tecnolog&#xED;a, as&#xED; como tu compromiso para pertenecer\nal programa. Adem&#xE1;s, analizaremos tu capacidad para aprender de manera\nindividual e independiente.</p>\n<p>La duraci&#xF3;n aproximada del curso es de 15-20 horas. T&#xFA; podr&#xE1;s avanzar a tu\npropio ritmo, pero te recomendamos organizarte con tiempo para que vayas\nhaci&#xE9;ndolo poco a poco. El equipo de Laboratoria estar&#xE1; record&#xE1;ndoles\nconstantemente las fechas de cierre para el pretrabajo, no olvides anotarla y\ntenerla presente.</p>\n<p>Para pasar a la siguiente etapa del proceso de selecci&#xF3;n es necesario que\ncompletes todo el pre-trabajo. Las postulantes que demuestren el mayor\ncompromiso y potencial para aprender, ser&#xE1;n invitadas a iniciar el periodo de\npre-admisi&#xF3;n, donde continuaremos con este curso de modo presencial. Ser&#xE1; una\nbuena oportunidad para demostrar todo lo que ya dominan y saben hacer.</p>\n<h2 id=\"acompa&#xF1;amiento-y-puntos-de-apoyo\">Acompa&#xF1;amiento y puntos de apoyo</h2>\n<p>Recuerda que no est&#xE1;s sola en este proceso. Nosotros te estaremos acompa&#xF1;ando a\ncada paso a trav&#xE9;s de varios canales de apoyo a lo largo del curso:</p>\n<!--\n## Descargar y cuentas\n\nPara completar este curso, necesitarás descargar y crear cuentas de algunos\nservicios web. Antes de empezar, es necesario que:\n\n1. Tengas una cuenta de Google (Gmail). Si no tienes, puedes crea una aquí:\n   https://accounts.google.com/SignUp?hl=es\n2. Tengas el navegador web Google Chrome. Si no lo tienes, puedes descargarlo\n   aquí: https://www.google.com/chrome/browser/desktop/index.html\n3. Crea una cuenta en Replit (un salón de clases virtual para aprender código):\n   https://repl.it/signup\n4. Crea una cuenta en GitHub (una plataforma de trabajo colaborativo para\n   programadores): https://github.com/join\n5. Descarga Atom (un editor de texto): https://atom.io/\n\nVideo de Michelle explicando las descargas:\n\n[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TePHiOKb72k/0.jpg)]\n(https://www.youtube.com/watch?v=TePHiOKb72k)\n-->\n\n<h3 id=\"1-grupo-de-facebook\">1. Grupo de Facebook</h3>\n<p>&#xDA;nete al grupo de Facebook correspondiente a la sede a la que est&#xE1;s postulando.\nAh&#xED; podr&#xE1;s preguntar y resolver dudas en conjunto con las dem&#xE1;s postulantes, con\nel apoyo del staff de profesores de Laboratoria.</p>\n<ul>\n<li><a href=\"https://facebook.com/groups/LaboratoriaLima20172/\" target=\"_blank\">Lima</a></li>\n<li><a href=\"https://facebook.com/groups/LaboratoriaMX20172/\" target=\"_blank\">Ciudad de M&#xE9;xico</a></li>\n<li><a href=\"https://facebook.com/groups/LaboratoriaCHILE20172/\" target=\"_blank\">Santiago de Chile</a></li>\n<li><a href=\"https://www.facebook.com/groups/LaboratoriaGDL20171/\" target=\"_blank\">Guadalajara</a></li>\n</ul>\n<!--\n### 2. Horas de consulta\n\nCada sede de Laboratoria tiene horarios de consulta para que puedas visitarnos y\nrecibir la ayuda de nuestro staff de profesores. Si no puedes asistir, no te\npreocupes, vamos a transmitir estas sesiones por Facebook Live para que puedas\nverlas en línea. Luego también subiremos los videos a los grupos para que puedas\nvolver a verlos cuantas veces necesites.\n\nLas horas de consulta por sede son las siguientes:\n\n* Lima:\n  - Lunes 24 de julio de 6pm a 8pm, Av. José Pardo 601, oficina 1104, Miraflores.\n  - Lunes 31 de julio de 6pm a 8pm, Av. Benavides 1180, piso 7, Miraflores.\n* México. Avenida Insurgentes Sur # 253, Piso 2. Colonia Roma:\n  - Lunes 24 de julio de 5pm a 7pm.\n  - Miércoles 26 de julio de 5pm a 7pm.\n* Santiago de Chile. Puma 1180, Recoleta, Santiago de Chile:\n  - Jueves 20 de julio de 4pm a 6pm.\n  - Jueves 27 de julio de 4pm a 6pm.\n  - Martes 1 de agosto de 4pm a 6pm.\n* Guadalajara. Av. Adolfo López Mateos Sur 2077, Jardines de Plaza del Sol,\n  Guadalajara, Jal.\n-->\n\n<h3 id=\"2-correo\">2. Correo</h3>\n<p>Si no has podido resolver tus dudas y necesitas  recibir la ayuda de nuestro\nequipo de formaci&#xF3;n, tambi&#xE9;n tendr&#xE1;s la opci&#xF3;n de escribirle al equipo de\nselecci&#xF3;n y entrenamiento del bootcamp, a trav&#xE9;s de los datos de contacto\nse&#xF1;alados por sede.</p>\n<p>Trata de utilizar esta opci&#xF3;n como &#xFA;ltimo recurso ya que mientras m&#xE1;s correos\nrecibamos, m&#xE1;s nos tardaremos en responderlos.</p>\n<p>Los contactos para cada sede, son los siguientes:</p>\n<ul>\n<li>Lima:<ul>\n<li>Alejandra Ram&#xED;rez: <a href=\"mailto:alejandra@laboratoria.la\" target=\"_blank\">alejandra@laboratoria.la</a></li>\n</ul>\n</li>\n<li>Ciudad de M&#xE9;xico:<ul>\n<li>Lucile Baratier: <a href=\"mailto:lucile@laboratoria.la\" target=\"_blank\">lucile@laboratoria.la</a></li>\n</ul>\n</li>\n<li>Santiago de Chile:<ul>\n<li>Valentina Smith: <a href=\"mailto:valentina@laboratoria.la\" target=\"_blank\">valentina@laboratoria.la</a></li>\n</ul>\n</li>\n<li>Guadalajara:<ul>\n<li>Karla Rejas: <a href=\"mailto:karla@laboratoria.la\" target=\"_blank\">karla@laboratoria.la</a></li>\n</ul>\n</li>\n</ul>\n<h2 id=\"sobre-este-curso\">Sobre este curso</h2>\n<h3 id=\"objetivo-del-curso\">Objetivo del curso</h3>\n<p>Este curso est&#xE1; dirigido a personas sin conocimientos previos de programaci&#xF3;n\nque tienen el inter&#xE9;s de aventurarse al mundo del c&#xF3;digo. Ser&#xE1; tu primer paso en\nla ruta de aprendizaje.</p>\n<p>El prop&#xF3;sito de este curso es darte una idea de qu&#xE9; se trata el mundo del\ndesarrollo de software, para que puedas determinar si es algo que te apasiona\nperseguir como profesi&#xF3;n. Al terminar este curso sabr&#xE1;s si el c&#xF3;digo es lo tuyo\ny habr&#xE1;s sentado unas buenas bases para el desarrollo de tu carrera profesional\nen el mundo tech.</p>\n<h3 id=\"aprender&#xE1;s\">Aprender&#xE1;s</h3>\n<ul>\n<li>Entender <strong>qu&#xE9; es la programaci&#xF3;n</strong> y por qu&#xE9; aprender a programar.</li>\n<li>Entender <strong>qu&#xE9; es JavaScript</strong> y por qu&#xE9; aprenderlo.</li>\n<li>Tener un primer acercamiento al mundo del c&#xF3;digo, creando <strong>tu primera p&#xE1;gina\nweb</strong>.</li>\n<li>A darle dinamismo a tu web utilizando JavaScript.</li>\n<li>Algunos <strong>conceptos b&#xE1;sicos de programaci&#xF3;n</strong> como: variables, tipos datos y\noperadores.</li>\n</ul>\n<h3 id=\"requerimientos-previos\">Requerimientos previos</h3>\n<p>Ning&#xFA;n conocimiento previo de programaci&#xF3;n es necesario para completar este\ncurso. Est&#xE1; dise&#xF1;ado para principiantes.</p>\n<!--\n## Syllabus\n\nEste pre-work consta de 2 módulos principales:\n\n### Módulo 1: Introducción\n\nQueremos motivarte a aprender a programar, y por ello te brindaremos más\ninformación sobre cómo, a través del código, podrás transformar tu futuro.\nAdemás, te daremos algunos consejos para aprender a aprender. Después de eso,\n¡te enseñaremos a crear tu primera página web!\n\n* Sesión 1: lectura\n  - Unidad 1: Bienvenida y orientación\n* Sesión 2: lectura\n  - Unidad 1: Growth Mindset\n* Sesión 3: lectura\n  - Unidad 1: ¿Qué es la programación y porqué aprender a programar?\n* Sesión 4: lectura\n  - Unidad 1: Tu primer sitio web\n* Sesión 5: quiz\n  - Unidad 1: Prueba tu conocimiento\n\n### Módulo 2: Variables y tipos de datos\n\nEl segundo módulo entrará a más detalle en algunos conceptos base de la\nprogramación, como lo son las variables, los tipos de datos y los operadores.\n\n* Sesión 1: lectura\n  - Unidad 2: Valores, tipos de datos y operadores\n* Sesión 2: lectura\n  - Unidad 2: Variables\n* Sesión 3: lectura\n  - Unidad 2: Manipulando `strings` y `numbers`\n* Sesión 4: lectura\n  - Unidad 2: Comentarios en JavaScript\n* Sesión 5: seminario\n  - Unidad 2: Practicando con ejercicios de variables y tipos de datos\n* Sesión 6: quiz\n  - Unidad 2: Prueba tu conocimiento\n* Sesión 7: practice\n  - Unidad 2: Ejercicios\n-->\n",
+          "durationString": "10min"
+        },
+        "02-growth-mindset": {
+          "title": "Growth Mindset",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "http://www.youtube.com/watch?v=pN34FNbOKXc&cc_lang_pref=es&cc_load_policy=1",
+              "id": "pN34FNbOKXc"
+            }
+          ],
+          "body": "<h2 id=\"sobre-growth-mindset\">Sobre Growth Mindset</h2>\n<p>Laboratoria es un programa incre&#xED;ble, que te ense&#xF1;a todo lo que necesitas para\niniciar tu carrera en el sector digital en un periodo muy corto de tiempo.\nSeguramente te habr&#xE1;s preguntado c&#xF3;mo podr&#xE1;s lograrlo, y la respuesta est&#xE1; en\n<strong>aprender a aprender</strong>.</p>\n<p>&#xBF;Alguna vez has le&#xED;do o escuchado algo sobre Growth Mindset? Al finalizar esta\nlectura, esperamos que no s&#xF3;lo entiendas este concepto, sino que adoptes una\nmentalidad de crecimiento que te permita enfrentar los retos de aprender algo\nnuevo, y tener la confianza de saber que podr&#xE1;s superarlos.</p>\n<p>La mayor&#xED;a de personas creen que la inteligencia es una capacidad mental con la\nque nacemos, que es est&#xE1;tica y que no podemos cambiar. Esta creencia ocasiona\nque pensemos que nuestra inteligencia tiene un l&#xED;mite, y que hay cosas que\nsimplemente no podremos aprender.</p>\n<p>Sin embargo, diversas investigaciones sobre el cerebro y el aprendizaje han\ndemostrado que cada vez que aprendemos algo nuevo nuestro cerebro cambia y\ncrece. En otras palabras, nosotras mismas tenemos el control para desarrollar y\nexpandir nuestra inteligencia.</p>\n<p>Hace 30 a&#xF1;os, Carol Dweck, una psic&#xF3;loga estadounidense, se plante&#xF3; investigar y\ncomparar c&#xF3;mo estas distintas creencias pod&#xED;an causar que las personas\nobtuvieran diferentes resultados al enfrentarse a un reto de aprendizaje.\nDespu&#xE9;s de varias investigaciones, ella acu&#xF1;&#xF3; los t&#xE9;rminos Fixed mindset y\nGrowth mindset, es decir, mentalidad fija o mentalidad de crecimiento, para\ndescribir a ambos tipos de creencias.</p>\n<p>A trav&#xE9;s de sus estudios en diferentes escuelas de Estados Unidos, ella\ndescubri&#xF3; que cuando los estudiantes creen que pueden lograr que su inteligencia\nse desarrolle, entonces est&#xE1;n dispuestos a esforzarse m&#xE1;s, porque entienden que\nel logro que alcanzar&#xE1;n ser&#xE1; mejor y m&#xE1;s grande.</p>\n<p>Actualmente, los &#xFA;ltimos avances en neurociencias han mostrado que el cerebro es\nmucho m&#xE1;s maleable de lo que pens&#xE1;bamos. Las investigaciones en plasticidad\nneuronal evidencian c&#xF3;mo la conectividad entre neuronas puede cambiar con las\nexperiencias que las personas van acumulando. Con pr&#xE1;ctica, las redes neuronales\nvan creciendo y creando nuevas conexiones. Esto implica que t&#xFA; puedes\nincrementar el crecimiento de tus redes neuronales con acciones, como al\nrealizar preguntas, leer, practicar una y otra vez algo que te resulta\ncomplicado, y manteniendo buenos h&#xE1;bitos de alimentaci&#xF3;n y sue&#xF1;o.</p>\n<p>Gracias a estos nuevos descubrimientos cient&#xED;ficos, muchos investigadores han\ncomenzando a entender la conexi&#xF3;n entre los tipos de mentalidades y las\nposibilidades de alcanzar logros. Los estudios de Carol Dweck han mostrado que\nsi piensas que tu cerebro puede crecer, entonces tu comportamiento es distinto a\nsi piensas que naciste con una inteligencia fija. Por ejemplo, una estudiante\ncon una mentalidad fija, estar&#xE1; orientada a mostrar un desempe&#xF1;o perfecto, por\nlo que preferir&#xE1; realizar solo actividades que sabe que puede lograr, para as&#xED;\nverse siempre inteligente. En cambio, una estudiante con una mentalidad de\ncrecimiento, se sentir&#xE1; mucho m&#xE1;s c&#xF3;moda enfrentando retos que no necesariamente\nsabe c&#xF3;mo lograr, porque sabe que estos desaf&#xED;os le permitir&#xE1;n aprender m&#xE1;s.</p>\n<p><strong>Tener una mentalidad de crecimiento significa que entiendes que puedes\ndesarrollar e incrementar tu inteligencia y todas tus habilidades, y que no\ntienes miedo a los retos. Significa que sabes que la mejor manera de aprender se\nlogra con esfuerzo, y por ello est&#xE1;s dispuesta a cometer errores en el\nproceso.</strong></p>\n<p>Mira este video sobre Growth mindset (10 min)</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/pN34FNbOKXc?cc_lang_pref=es&amp;cc_load_policy=1&amp;autoplay=0\"></iframe></div></p>\n<h2 id=\"desarrollando-growth-mindset\">Desarrollando Growth Mindset</h2>\n<p>Ver&#xE1;s que tu mentalidad puede variar, pues aunque quisi&#xE9;ramos tener siempre una\nmentalidad de crecimiento, la realidad es que tenemos que trabajar d&#xED;a a d&#xED;a y\nen cada situaci&#xF3;n desafiante para mantenerla. Lo importante es poder reconocer y\ndetectar cu&#xE1;ndo estamos teniendo elementos de una mentalidad fija, para luego\nreflexionar y encontrar estrategias para cambiar.</p>\n<p>La siguiente imagen resume algunas de las diferencias entre ambas mentalidades,\ny te ayudar&#xE1; a identificar c&#xF3;mo mejorar:</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/35746484-ef89fb66-0814-11e8-9da8-0440d5b0375c.png\" alt=\"Image Growth Mindset\"></p>\n<h2 id=\"growth-mindset-en-laboratoria\">Growth Mindset en Laboratoria</h2>\n<p>Antes de pasar a la siguiente lectura queremos darte algunos consejos para tu\nproceso de aprendizaje:</p>\n<ol>\n<li>El aprendizaje es mejor y perdura m&#xE1;s cuando necesitas esforzarte m&#xE1;s. Los\naprendizajes f&#xE1;ciles se recuerdan hoy, pero no ma&#xF1;ana. Cuando el aprendizaje\nes m&#xE1;s dif&#xED;cil, es m&#xE1;s fuerte y se queda en tu memoria m&#xE1;s tiempo.</li>\n<li>Tratar de resolver un problema antes de que te muestren c&#xF3;mo hacerlo, te\npermitir&#xE1; luego aprender y entender mejor la soluci&#xF3;n que te ense&#xF1;en.</li>\n<li>Cometer errores y corregirlos es lo que te permitir&#xE1; construir los puentes\npara avanzar en el proceso de aprendizaje.</li>\n</ol>\n<p>Con todos estos conocimientos que has adquirido y con tu nueva mentalidad, te\nproponemos aceptar este reto: Aprender a programar para transformar tu futuro.</p>\n<p>Y para ello, t&#xFA; tendr&#xE1;s que proponerte lo siguiente:</p>\n<blockquote>\n<p>Yo, futura estudiante de Laboratoria, me comprometo a tener siempre presente\nque soy capaz de desarrollar mi inteligencia a trav&#xE9;s de aprendizajes que\nrequerir&#xE1;n mi esfuerzo, pero que me permitir&#xE1;n alcanzar un mayor logro. Me\ncomprometo a siempre querer aprender m&#xE1;s, para lo cual aceptar&#xE9; los retos y me\nmantendr&#xE9; persistente ante los obst&#xE1;culos, pues s&#xE9; que con pr&#xE1;ctica podr&#xE9;\nsuperarlos. S&#xE9; que los retrocesos o los errores que cometa no significan una\nfalla, sino que son las oportunidades en las que m&#xE1;s podr&#xE9; aprender. Soy\nconsciente de que por momentos tendr&#xE9; dudas sobre mi capacidad para aprender,\ns&#xE9; que no ser&#xE1; f&#xE1;cil, pero s&#xE9; que puedo hacerlo. Me comprometo a jam&#xE1;s volver\na decir &#x201C;no puedo&#x201D;, sino que cambiar&#xE9; esta frase por &#x201C;no puedo a&#xFA;n&#x201D;, porque\ntengo una mentalidad de crecimiento.</p>\n</blockquote>\n<p><strong>S&#xED;, me propongo y me comprometo.</strong></p>\n",
+          "durationString": "20min"
+        },
+        "03-why-learn-to-code": {
+          "title": "¿Por qué aprender a programar?",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "http://www.youtube.com/watch?v=_guTQcHaUQo",
+              "id": "_guTQcHaUQo"
+            }
+          ],
+          "body": "<p>El texto a continuaci&#xF3;n es una traducci&#xF3;n al espa&#xF1;ol, con ciertos ajustes, del\ncap&#xED;tulo 1 de <a href=\"http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf\" target=\"_blank\">JavaScript for kids</a>,\nNick Morgan, 2015.</p>\n<h2 id=\"&#xBF;qu&#xE9;-es-la-programaci&#xF3;n\">&#xBF;Qu&#xE9; es la programaci&#xF3;n?</h2>\n<p>Las computadoras son m&#xE1;quinas incre&#xED;blemente poderosas, capaces de realizar\nhaza&#xF1;as incre&#xED;bles, como jugar ajedrez competitivo, servir miles de p&#xE1;ginas web\no hacer millones de c&#xE1;lculos complejos en menos de unos segundos. Recientemente,\nlas computadoras se est&#xE1;n utilizando para crear autom&#xF3;viles aut&#xF3;nomos (que se\nmanejan solos), mundos enteros de realidad virtual y robots con inteligencia\nartificial.</p>\n<p>Pero en el fondo, las computadoras son realmente bastante tontas. Las\ncomputadoras s&#xF3;lo pueden hacer <em>exactamente</em> lo que nosotros, los humanos, les\ndigamos. Les decimos c&#xF3;mo comportarse usando <code>programas de computaci&#xF3;n</code>, que son\nsimplemente un conjunto de instrucciones para que las computadoras sigan. Sin\nprogramas, &#xA1;las computadoras no pueden hacer nada! La programaci&#xF3;n es, por lo\ntanto, el arte de crear un conjunto de instrucciones que le indican a una\ncomputadora c&#xF3;mo realizar una tarea.</p>\n<h2 id=\"&#xBF;por-qu&#xE9;-aprender-a-programar\">&#xBF;Por qu&#xE9; aprender a programar?</h2>\n<p>La programaci&#xF3;n es un espacio para crear. Es una forma de expresi&#xF3;n, as&#xED; como el\narte y el dise&#xF1;o. Es un mecanismo para transformar tus pensamientos en algo vivo\nque todo el mundo puede ver y con el cual puedan interactuar. Como dijo, Steve\nJobs, uno de los gigantes del mundo tech:</p>\n<blockquote>\n<p>&quot;Todo el mundo en este pa&#xED;s deber&#xED;a aprender a programar una computadora,\nporque te ense&#xF1;a a pensar&quot;</p>\n<p>&#x2014; Steve Jobs</p>\n</blockquote>\n<p>La programaci&#xF3;n se ha vuelto tan importante, que se encuentra entre las carreras\nm&#xE1;s demandadas por el mercado. Te damos tres datos del mercado de trabajo para\nprogramadores:</p>\n<ol>\n<li>Programador de software es la carrera que tendr&#xE1; mayor crecimiento en la\npr&#xF3;xima d&#xE9;cada en Am&#xE9;rica Latina. Seg&#xFA;n estimaciones, la regi&#xF3;n va a tener\nuna necesidad de 1.25 millones de programadores hacia 2025.</li>\n<li>Desarrolladores web y desarrolladores de software se encuentran dentro de las\nprofesiones mejor pagadas en Am&#xE9;rica Latina.</li>\n<li>Los empleos tech ya no s&#xF3;lo se encuentran en el sector tech. En la actualidad\n2 de cada 3 empleos tech se encuentran fuera del sector. Ello significa que\nla programaci&#xF3;n abre las puertas para trabajar en diferentes sectores y\naportar tu talento al desarrollo de distintas industrias.</li>\n</ol>\n<h2 id=\"historias-de-egresadas-de-laboratoria\">Historias de egresadas de Laboratoria</h2>\n<p>Las estudiantes de Laboratoria utilizan la programaci&#xF3;n como herramienta de\ntransformaci&#xF3;n. El 75% de las estudiantes encuentran empleo y triplican sus\ningresos. Aqu&#xED; algunas historias de &#xE9;xito:</p>\n<p>Sandra (M&#xE9;xico)</p>\n<blockquote>\n<p>Sandra termin&#xF3; la preparatoria y empez&#xF3; a trabajar en una tienda de\nautoservicio para mantener a su hijo. Hoy, gracias a lo aprendido en\nLaboratoria, es desarrolladora web en micochinito.com en la Ciudad de M&#xE9;xico y\ntiene un sueldo 3.5 veces mayor que antes.</p>\n</blockquote>\n<p>Danna (Chile)</p>\n<blockquote>\n<p>Danna tiene 26 a&#xF1;os y por problemas econ&#xF3;micos no pudo terminar la\nUniversidad. Antes de ingresar a Laboratoria trabajaba en un call center. Su\nprimer trabajo como desarrolladora fue en Il&#xF3;gica. Hoy trabaja en\nThoughtWorks, empresa que adem&#xE1;s de triplicar su salario, la llev&#xF3; a la India\na capacitarse.</p>\n</blockquote>\n<p>Carol (Per&#xFA;)</p>\n<blockquote>\n<p>Carol estudi&#xF3; tres a&#xF1;os de Dise&#xF1;o Gr&#xE1;fico Publicitario. Antes de Laboratoria,\ntrabajaba largas horas 6 d&#xED;as a la semana para mantenerse a ella y a su hijo.\nHoy Carol trabaja como desarrolladora web en 54solutions, una agencia de\nmedios digitales con un clima laboral positivo y ganando m&#xE1;s que nunca.</p>\n</blockquote>\n<h2 id=\"&#xBF;qu&#xE9;-es-javascript\">&#xBF;Qu&#xE9; es JavaScript?</h2>\n<p>Las computadoras son tan tontas que no podemos darle nuestras instrucciones en\ningl&#xE9;s, espa&#xF1;ol o cualquier otro idioma hablado. Tenemos que escribir nuestros\nprogramas en un <code>lenguaje de programaci&#xF3;n</code>. JavaScript es justamente eso: un\nlenguaje de programaci&#xF3;n.</p>\n<p>Puede que no hayas o&#xED;do hablar de JavaScript antes, pero ciertamente lo has\nusado. JavaScript se utiliza para escribir programas que se ejecutan en\n<strong>p&#xE1;ginas web</strong>. JavaScript puede controlar c&#xF3;mo se ve una p&#xE1;gina web o hacer\nque la p&#xE1;gina responda cuando un usuario hace click en un bot&#xF3;n o mueve el\nmouse. Sitios como Gmail, Facebook y Twitter usan JavaScript para facilitar el\nenv&#xED;o de correo electr&#xF3;nico, publicar comentarios o navegar por sitios web.</p>\n<h2 id=\"&#xBF;por-qu&#xE9;-javascript\">&#xBF;Por qu&#xE9; JavaScript?</h2>\n<p>JavaScript no es el &#xFA;nico lenguaje de programaci&#xF3;n que existe - de hecho, hay\nliteralmente cientos de lenguajes de programaci&#xF3;n. Pero hay muchas razones para\naprender JavaScript. Por un lado, es mucho m&#xE1;s f&#xE1;cil (y m&#xE1;s divertido) de\naprender que muchos otros lenguajes de programaci&#xF3;n. Pero tal vez lo mejor de\ntodo es que para escribir y ejecutar programas JavaScript, lo &#xFA;nico que se\nnecesita es un navegador web. Un navegador web es lo que utilizas para navegar\npor internet. Por ejemplo, lo que utilizas para abrir Facebook o Google o\nWikipedia en tu computadora. Los navegadores m&#xE1;s populares son: Google Chrome,\nSafari, Mozilla Firefox e Internet Explorer. Cada navegador web viene con un\n<em>int&#xE9;rprete</em> JavaScript que entiende c&#xF3;mo leer programas JavaScript.</p>\n<p>Otra raz&#xF3;n que hace interesante estudiar JavaScript en este momento es su\nposici&#xF3;n como uno de los lenguages de programaci&#xF3;n m&#xE1;s populares. Seg&#xFA;n GitHub,\nuna red de trabajo colaborativo para programadores, JavaScript es el lenguaje\nm&#xE1;s popular dentro de esta plataforma:</p>\n<p><img src=\"https://adtmag.com/articles/2015/08/20/~/media/ECG/adtmag/Images/2015/08/github_languages.jpg\" alt=\"Most popular language\"></p>\n<h2 id=\"historia-de-javascript\">Historia de JavaScript</h2>\n<p>JavaScript fue creado (&#xA1;en solo 10 d&#xED;as!) por <a href=\"https://en.wikipedia.org/wiki/Brendan_Eich\" target=\"_blank\">Brendan Eich</a>,\nen 1995, para crear interactividad y dinamismo en Netscape Navigator, uno de los\nprimeros navegadores web. Desde entonces, JavaScript ha sido adoptado por la\nmayor&#xED;a de los navegadores modernos (piensa en Chrome, Safari, etc.). Y por\nmuchos a&#xF1;os JavaScript fue utilizado &#xFA;nicamente dentro del navegador. Sin\nembargo, hoy en d&#xED;a se utiliza JavaScript tambi&#xE9;n <em>fuera</em> del navegador para\ncrear cualquier tipo de cosas. Las aplicaciones de JavaScript son casi\ninfinitas, lo cual lo hace un excelente lenguaje de programaci&#xF3;n que aprender.</p>\n<h2 id=\"escribiendo-javascript-en-la-web\">Escribiendo JavaScript en la web</h2>\n<p>Seguramente te est&#xE1;s preguntando c&#xF3;mo es eso de tener un <em>int&#xE9;rprete</em> JavaScript\nen el navegador. Pues, <em><strong>la mejor forma de aprender es haciendo</strong></em>: abre tu\nnavegador Chrome y sigue los pasos que presenta Michelle en el siguiente video.\nMichelle te mostrar&#xE1; c&#xF3;mo escribir JavaScript y c&#xF3;mo hacer cosas geniales desde\ntu computadora, &#xFA;nicamente utilizando el navegador.</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/_guTQcHaUQo?autoplay=0\"></iframe></div></p>\n<h2 id=\"javascript--java\">JavaScript != Java</h2>\n<p>&#xDA;ltima nota final sobre el contexto de JavaScript como lenguaje de programaci&#xF3;n:\nJavaScript <em><strong>no</strong></em> es lo mismo que Java. Java es <em>otro</em> lenguaje de\nprogramaci&#xF3;n. Mucha gente los confunde. T&#xFA; no :)</p>\n",
+          "durationString": "20min"
+        },
+        "04-your-first-website": {
+          "title": "Tu primer sitio web",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 20,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=wQKn1fh3pAM",
+              "id": "wQKn1fh3pAM"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=QP9FF9eoh-k",
+              "id": "QP9FF9eoh-k"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=SSiWsDoK4GE",
+              "id": "SSiWsDoK4GE"
+            }
+          ],
+          "body": "<p>El texto a continuaci&#xF3;n es una traducci&#xF3;n al espa&#xF1;ol, con ciertos ajustes, del\ncap&#xED;tulo 5 de <a href=\"http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf\" target=\"_blank\">JavaScript for kids</a>,\nNick Morgan, 2015; y de <a href=\"http://eloquentjavascript.net/\" target=\"_blank\">Eloquent JavaScript</a>,\nde Marijn Haverbeke, 2014.</p>\n<h2 id=\"html-hypertext-markup-language\">HTML: HyperText Markup Language</h2>\n<p>La consola de JavaScript que hemos utilizando hasta ahora es ideal para probar\npeque&#xF1;os fragmentos de c&#xF3;digo. Sin embargo, para crear programas reales,\nnecesitaremos algo m&#xE1;s flexible, como una p&#xE1;gina web. En esta secci&#xF3;n aprender&#xE1;s\nc&#xF3;mo crear una p&#xE1;gina web HTML b&#xE1;sica y darle interacci&#xF3;n con JavaScript.</p>\n<p>HTML (HyperText Markup Language) es el lenguaje utilizado para crear la\nestructura de una p&#xE1;gina web. Para crear una web, se empieza creando un\ndocumento en formato HTML. Esto es muy parecido a crear un documento con formato\nword, excel o powerpoint.</p>\n<p>Un documento HTML simple se ve as&#xED; (no te asustes si no entiendes todo lo que\ndice, te lo explicaremos paso a paso m&#xE1;s abajo):</p>\n<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Mi primera web&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;&#xA1;Hola Mundo!&lt;/h1&gt;\n    &lt;p&gt;Esta es mi primera web&lt;/p&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</code></pre>\n<p>Al abrir este mismo documento HTML en un navegador (como Chrome), se ve lo\nsiguiente:</p>\n<p><img src=\"https://user-images.githubusercontent.com/25912510/35747209-7899e2de-0817-11e8-9ae7-fcfe96122470.png\" alt=\"Vista en Chrome\"></p>\n<p>El navegador &quot;lee&quot; el archivo HTML (el texto y las etiquetas que est&#xE1;n adentro)\ny las presenta seg&#xFA;n las reglas del lenguaje. Por ejemplo, los textos que est&#xE1;n\ndentro de las etiquetas <code>&lt;h1&gt; &lt;/h1&gt;</code> son considerados encabezados o titulares,\nmientras que los textos dentro de las etiquetas <code>&lt;p&gt; &lt;/p&gt;</code> son considerados\np&#xE1;rrafos. Por eso, el texto <em>&#xA1;Hola Mundo!</em> se visualiza mucho m&#xE1;s grande que el\ntexto <em>Esta es mi primera web.</em></p>\n<h2 id=\"crea-tu-primera-web\">Crea tu primera web</h2>\n<p>Como ya lo dijimos, <em><strong>la mejor manera de aprender es haciendo</strong></em>. Por eso, es\nhora de que t&#xFA; misma crees una web y aprendas HTML.</p>\n<p>Michelle te explica por qu&#xE9; necesitar&#xE1;s un editor de texto para los ejercicios:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/wQKn1fh3pAM?autoplay=0\"></iframe></div></p>\n<p>En el siguiente video, Michelle te guiar&#xE1; a trav&#xE9;s de los siguientes pasos para\nque crees tu primera web:</p>\n<ol>\n<li>Descarga Atom, un editor de texto: <a href=\"https://atom.io/\" target=\"_blank\">Descargar</a>. Si tienes\nproblemas descargando Atom, puedes descargar otro editor de texto llamado\nSublime Text, hay versi&#xF3;n para Mac y Windows. Ten en cuenta que las\nexplicaciones que te dar&#xE1; Michelle, estar&#xE1;n en Atom pero t&#xFA; podr&#xE1;s hacer lo\nmismo en Sublime Text. <a href=\"https://www.sublimetext.com/3\" target=\"_blank\">Descarga Sublime aqu&#xED;</a></li>\n<li>Crea un documento HTML llamado <code>index.html</code></li>\n<li>Agrega algunos elementos al documento HTML (por ejemplo: un t&#xED;tulo y un\np&#xE1;rrafo)</li>\n<li>Guarda el documento HTML</li>\n<li>Abre el documento HTML en un navegador como Chrome</li>\n</ol>\n<p>Aqu&#xED; el video:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/QP9FF9eoh-k?autoplay=0\"></iframe></div></p>\n<h2 id=\"etiquetas-y-elementos-html\">Etiquetas y elementos HTML</h2>\n<p>Los documentos HTML se componen de <code>elementos</code>. Salvo algunas excepciones (por\nejemplo <code>&lt;!DOCTYPE html&gt;</code>), los elementos comienzan con una <code>etiqueta de inicio</code>\ny terminan con una <code>etiqueta de fin</code>. Por ejemplo, en nuestro documento tenemos\nel elemento <code>p</code>, que comienza con la etiqueta de inicio <code>&lt;p&gt;</code> y termina con la\netiqueta de finalizaci&#xF3;n <code>&lt;/p&gt;</code>. El texto que se encuentra entre las etiquetas\nde apertura y de cierre es el <em>contenido</em> del elemento.</p>\n<blockquote>\n<p>El elemento <code>p</code> (p&#xE1;rrafo) como ejemplo:\n<img src=\"https://user-images.githubusercontent.com/25912510/35747217-7bb85acc-0817-11e8-9248-5b00951cf963.png\" alt=\"Ejemplo etiqueta\"></p>\n</blockquote>\n<p>Hagamos un recorrido por todos los elementos de nuestro documento:</p>\n<ol>\n<li>El documento empieza con la etiqueta <code>&lt;!DOCTYPE html&gt;</code> (que como vimos, no\ntiene inicio o cierre). Su funci&#xF3;n es hacerle saber al navegador que\ninterprete el documento como HTML <em>moderno</em>, en contraposici&#xF3;n a varios\ndialectos que estaban en uso en el pasado.</li>\n<li>Luego viene la etiqueta de apertura <code>&lt;html&gt;</code> (la etiqueta de cierre\n<code>&lt;/ html&gt;</code> est&#xE1; al final). Por est&#xE1;ndar, todos los documentos HTML deben\ntener un elemento <code>html</code> que &quot;englobe&quot; todo lo dem&#xE1;s.</li>\n<li>Dentro del elemento <code>html</code> hay dos elementos: el <code>head</code> (cabeza en Espa&#xF1;ol) y\nel <code>body</code> (cuerpo en Espa&#xF1;ol). El <code>head</code> contiene informaci&#xF3;n <em>sobre</em> el\ndocumento, y el <code>body</code> contiene el documento en s&#xED;.</li>\n<li>Dentro del elemento <code>head</code> est&#xE1; el elemento <code>title</code> (con su etiqueta de\ninicio y de cierre), que contiene el t&#xED;tulo del documento. Es por eso que al\nvisualizar el archivo en el navegador, el t&#xED;tulo en la pesta&#xF1;a del navegador\ndice: &quot;Mi primera web&quot;. Es importante que notemos que el elemento <code>title</code>\nest&#xE1; <em>contenido</em> dentro del elemento <code>head</code>; el cual, a su vez, est&#xE1;\n<em>contenido</em> dentro del elemento <code>html</code>.</li>\n<li>Finalmente, tenemos el elemento <code>body</code> (entre su etiqueta de inicio y de\ncierre) que <em>contiene</em> el contenido que se mostrar&#xE1; en el navegador. En este\ncaso, dentro del body tenemos dos elementos adicionales: el <code>h1</code> (encabezado)\ny el <code>p</code> (p&#xE1;rrafo).</li>\n</ol>\n<!--\nUna manera de visualizar este concepto de \"encapsulado\" donde unos elementos\n\"contienen\" a otros es a través de este gráfico:\n\n![HTML Jerarquía](http://apprize.info/javascript/kids/kids.files/image057.jpg)\n-->\n\n<p>Existen muchos m&#xE1;s elementos y etiquetas HTML, que aprender&#xE1;s en su momento. Por\nel momento, es hora de regresar a JavaScript.</p>\n<!-- ## HTML + CSS\nAgrega estilos con CSS\n-->\n\n<h2 id=\"html-y-javascript\">HTML y JavaScript</h2>\n<p>Es importante que entiendas que HTML <em><strong>no</strong></em> es un <code>lenguaje de programaci&#xF3;n</code>;\nes un <code>lenguaje de marcado de texto</code>. Como hemos visto, con HTML le damos una\nestructura a nuestra p&#xE1;gina. Sin embargo, si queremos darle <em>comportamiento</em> o\n<em>interacci&#xF3;n</em> a nuestra web, necesitamos usar un <code>lenguaje de programaci&#xF3;n</code>. Y\nel <strong>&#xFA;nico lenguaje de programaci&#xF3;n para correr en los navegadores web es\nJavaScript</strong>. Con JavaScript logramos que las p&#xE1;ginas web puedan responder a las\nacciones de usuario, volvi&#xE9;ndolas interactivas.</p>\n<p>Para incluir JavaScript en un documento HTML puedes utilizar el elemento\n<code>script</code> y colocar tu c&#xF3;digo JavaScript entre sus etiquetas de inicio\n(<code>&lt;script type=&quot;text/javascript&quot;&gt;</code>) y cierre (<code>&lt;/script&gt;</code>), tal como lo muestra\nel siguiente ejemplo:</p>\n<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Mi primera web&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;&#xA1;Hola Mundo!&lt;/h1&gt;\n    &lt;p&gt;Esta es mi primera web&lt;/p&gt;\n\n    &lt;script type=&quot;text/javascript&quot;&gt;\n      alert(&apos;&#xA1;Hola Mundo!&apos;);\n    &lt;/script&gt;\n\n  &lt;/body&gt;\n&lt;/html&gt;</code></pre>\n<p>Muchas veces tu c&#xF3;digo JavaScript es tan extenso que no quieres que est&#xE9; ubicado\nen el mismo documento HTML. Para eso, la soluci&#xF3;n es crear un nuevo documento,\nesta vez de formato JavaScript - utilizando la extensi&#xF3;n <code>.js</code> - y &quot;linkear&quot;\nambos documentos a trav&#xE9;s del mismo elemento <code>script</code>, de la siguiente manera:</p>\n<pre><code class=\"language-html\">&lt;script src=&quot;nombre-del-documento.js&quot;&gt;&lt;/script&gt;</code></pre>\n<p>El mismo elemento <code>script</code> tiene un &quot;atributo&quot; llamado <code>src</code> (de source, que\nsignifica fuente en ingl&#xE9;s), al cual se le puede asignar la ruta de tu\ndocumento JavaScript.</p>\n<h2 id=\"a&#xF1;&#xE1;dele-interacci&#xF3;n-a-tu-web\">A&#xF1;&#xE1;dele interacci&#xF3;n a tu web</h2>\n<p>&#xA1;Ahora te toca a t&#xED;! Contin&#xFA;a con Michelle siguiendo los pasos para agregarle\ninteracci&#xF3;n a tu p&#xE1;gina web:</p>\n<p>Los pasos a seguir son:</p>\n<ol>\n<li>Agrega el elemento <code>script</code> al final del <code>body</code> de tu documento HTML</li>\n<li>Dentro del mismo HTML, entre las etiquetas de inicio y cierre del elemento\n<code>script</code>, escribe una l&#xED;nea de c&#xF3;digo JavaScript (por ejemplo, algo con\n<code>alert()</code>, <code>document.write()</code> o <code>prompt()</code>)</li>\n<li>Guarda tu documento HTML</li>\n<li>Refresca la p&#xE1;gina de tu navegador donde est&#xE1;s viendo tu documento HTML</li>\n<li>Ahora crea un nuevo documento llamado <code>app.js</code> en la misma carpeta donde est&#xE1;\ntu HTML</li>\n<li>A&#xF1;&#xE1;dele el atributo <code>src</code> al elemento <code>script</code> con la ruta de tu archivo\n<code>app.js</code></li>\n<li>Pasa todo el c&#xF3;digo JavaScript del documento HTML al documento JS</li>\n<li>Refresca la p&#xE1;gina del navegador y confirma que todo funciona exactamente\nigual que antes</li>\n</ol>\n<p>Aqu&#xED; el video de Michelle:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/SSiWsDoK4GE?autoplay=0\"></iframe></div></p>\n<!--\n## Sube tu página a GitHub Pages\n\ny deplegándola en [GitHub Pages](https://pages.github.com/)\n-->\n",
+          "durationString": "20min"
+        },
+        "05-quiz": {
+          "questions": [
+            {
+              "title": "1) Cada navegador web viene con un intérprete JavaScript que entiende cómo leer programas JavaScript",
+              "description": "",
+              "answers": [
+                "Verdadero",
+                "Falso"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "2) JavaScript es una versión moderna del lenguaje de programación Java",
+              "description": "",
+              "answers": [
+                "Verdadero",
+                "Falso"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "3) ¿Cuál de los siguientes NO es un navegador web?",
+              "description": "",
+              "answers": [
+                "Google Chrome",
+                "Internet Explorer",
+                "Safari",
+                "JavaScript"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "4) HTML es ...*",
+              "description": "",
+              "answers": [
+                "Un lenguaje de programaci&#xF3;n para crear p&#xE1;ginas web",
+                "Un lenguaje de marcado de texto para crear la estructura de p&#xE1;ginas web",
+                "Una herramienta de marketing para p&#xE1;ginas web",
+                "Un protocolo de env&#xED;o de informaci&#xF3;n por Internet"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "5) ¿Qué hace la siguiente etiqueta?",
+              "description": "<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;</code></pre>",
+              "answers": [
+                "Definir la apertura del c&#xF3;digo HTML",
+                "Definir las l&#xED;neas de c&#xF3;digo HTML que tendr&#xE1; el documento",
+                "Hacerle saber al navegador que interprete el documento como HTML moderno, en\ncontraposici&#xF3;n a varios dialectos que estaban en uso en el pasado.",
+                "Guardar el archivo con extensi&#xF3;n .html"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "6) En cuanto a los elementos head y body",
+              "description": "",
+              "answers": [
+                "El head contiene informaci&#xF3;n sobre el documento, y el body tambi&#xE9;n",
+                "El head contiene informaci&#xF3;n sobre los encabezados, y el body sobre los p&#xE1;rrafos",
+                "El head contiene el documento en s&#xED; y el body informaci&#xF3;n sobre el documento",
+                "El head contiene informaci&#xF3;n sobre el documento, y el body contiene el\ndocumento en s&#xED;"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "7) El elemento title debe ir dentro del elemento",
+              "description": "",
+              "answers": [
+                "head",
+                "body",
+                "h1",
+                "script"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "8) Para incluir JavaScript en una web HTML se utiliza el elemento",
+              "description": "",
+              "answers": [
+                "head",
+                "body",
+                "h1",
+                "script"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "9) ¿Qué hace la siguiente etiqueta?",
+              "description": "<pre><code class=\"language-js\">&lt;script src=&quot;nombre-del-documento.js&quot;&gt;&lt;/script&gt;</code></pre>",
+              "answers": [
+                "Asignarle el nombre al documento JavaScript",
+                "Escribir JavaScript directamente en el HTML",
+                "Incluir el c&#xF3;digo desde un archivo externo",
+                "Agregar CSS al documento HTML"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "10) Nombres comunes para tus archivos son",
+              "description": "",
+              "answers": [
+                "index.html y app.js",
+                "mi-pagina-chevere.html y javascript.js",
+                "index.js y app.html",
+                "index.html y c&#xF3;digo-facil.js"
+              ],
+              "solution": [
+                0
+              ]
+            }
+          ],
+          "title": "Quiz",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 20,
+          "durationString": "20min"
+        },
+        "06-values-data-types-and-operators": {
+          "title": "Valores, tipos de datos y operadores",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "body": "<p>El texto a continuaci&#xF3;n se basa en gran medida, con ciertos ajustes, en el\ncap&#xED;tulo 1 de <a href=\"http://eloquentjavascript.net/\" target=\"_blank\">Eloquent JavaScript</a>, de Marijn\nHaverbeke, 2014. Traducci&#xF3;n en <a href=\"http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html\" target=\"_blank\">Espa&#xF1;ol</a>\ndisponible gracias a <a href=\"https://github.com/hectorip\" target=\"_blank\">hectorip</a>.</p>\n<h2 id=\"vivimos-en-un-mundo-de-data\">Vivimos en un mundo de Data</h2>\n<p>En el 2010, el entonces CEO de Google, Eric Schmidt, mencionaba que\ncada dos d&#xED;as creamos tanta data como lo hicimos desde los inicios de la\ncivilizaci&#xF3;n hasta el 2003 (<a href=\"https://techcrunch.com/2010/08/04/schmidt-data/\" target=\"_blank\">fuente</a>).\nLas compras que haces son data, tus notas en el colegio son data, tu perfil de\nFacebook est&#xE1; minado de data. Tus b&#xFA;squedas en Google, las se&#xF1;ales de GPS de tu\ncelular, los videos que miras y subes a YouTube, las im&#xE1;genes que ves en\nInstagram, los registros del clima, los corrreos electr&#xF3;nicos ... todo eso es\ndata!</p>\n<p>La data es crucial porque nos ayuda a tomar decisiones y a entender el mundo que\nnos rodea. La data es la base de la informaci&#xF3;n, que a su vez es la base del\nconocimiento, y el conocimiento se traduce en mejores decisiones. Desde\ndecisiones simples, como elegir un lugar para almorzar en base a los reviews de\nYelp; hasta decisiones complejas, como predecir si una mujer est&#xE1; embarazada,\nseg&#xFA;n su historial de compra en un hipermercado (<a href=\"http://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#1a3ac4\" target=\"_blank\">fuente</a>).</p>\n<h2 id=\"tipos-de-datos\">Tipos de datos</h2>\n<p>Las computadoras son un gran recurso para trabajar con grandes cantidades de\ndatos. De hecho, en el mundo de las computadoras solo existen datos. Con las\ncomputadoras podemos leer data, modificar data y crear nueva data. Toda la data\nes almacenada como secuencias largas de los famosos <em>bits</em> - esas secuencias de\nunos y ceros que viste en Matrix.</p>\n<p>Las computadoras manejan billones de bits. Para hacer m&#xE1;s f&#xE1;cil el manejo de\ngrandes cantidades de bits, los podemos dividir en &quot;pedazos&quot; que representan\npiezas de informaci&#xF3;n. En un entorno JavaScript, estos pedazos son llamados\n<em><strong>values</strong></em> (valores en espa&#xF1;ol). Cada <em>value</em> tiene un <em>data type</em> (tipo de\ndato) que determina su rol. En JavaScript existen cinco (5) tipos de datos\nprimitivos:</p>\n<ol>\n<li><code>number</code> (n&#xFA;mero).</li>\n<li><code>string</code> (cadena).</li>\n<li><code>boolean</code> (booleano).</li>\n<li><code>undefined</code> (indefinido).</li>\n<li><code>null</code> (nulo).</li>\n</ol>\n<p>La data y los tipos de datos forman las bases de cualquier lenguaje de\nprogramaci&#xF3;n. Nos permiten organizar informaci&#xF3;n y determinar c&#xF3;mo ejecutar el\nprograma. En esta lecci&#xF3;n aprender&#xE1;s a definir y manipular estos tipos de datos.</p>\n<h2 id=\"1-numbers\">1. Numbers</h2>\n<p>Los <em>values</em> de tipo <code>number</code> son, sin sorpresa alguna, valores num&#xE9;ricos. Es\ndecir, pedazos de data que representan informaci&#xF3;n num&#xE9;rica se representan con\nel tipo <code>number</code>. Esto incluye n&#xFA;meros positivos, negativos, enteros y\ndecimales. Adem&#xE1;s, el tipo de datos <code>number</code> tiene tres valores simb&#xF3;licos:\n+Infinity, -Infinity y NaN (no-un-n&#xFA;mero).</p>\n<p>Veamos varios ejemplos. Abre tu consola (recuerda que lo haces haciendo click\ncon el bot&#xF3;n derecho del mouse -&gt; inspect -&gt; console) y escribe los siguientes\nn&#xFA;meros. Al hacerlo, la consola te regresa el n&#xFA;mero de vuelta.</p>\n<pre><code class=\"language-js\">13\n// retorna: 13\n\n-9.81\n// retorna: -9.81</code></pre>\n<p>Tambi&#xE9;n puedes hacer uso de la notaci&#xF3;n cient&#xED;fica para n&#xFA;meros muy grandes o\nmuy peque&#xF1;os, a&#xF1;adiendo una &quot;e&quot; de &quot;exponente&quot;, seguido por el exponente del\nn&#xFA;mero:</p>\n<pre><code class=\"language-js\">5e10\n// retorna: 50000000000\n\n-2.998e8\n// retorna: -299800000</code></pre>\n<h3 id=\"operadores-aritm&#xE9;ticos\">Operadores Aritm&#xE9;ticos</h3>\n<p>Lo principal que se hace con los n&#xFA;meros es aritm&#xE9;tica. Sigamos explorando el\ncomportamiento del tipo de dato <code>number</code> en tu consola. Escribe el siguiente\nejemplo en tu consola y confirma que tienes el mismo resultado:</p>\n<pre><code class=\"language-js\">100 + 4 * 11\n// retorna: 144</code></pre>\n<p>Los s&#xED;mbolos <code>+</code> y <code>*</code> son llamados <em>operators</em> (operadores). El primero\nrepresenta la suma y el segundo la multiplicaci&#xF3;n. Al poner un operador entre\ndos valores, se aplicar&#xE1; la operaci&#xF3;n a esos valores y producir&#xE1; un nuevo valor.\nComo ves, la multiplicaci&#xF3;n ocurre primero. Pero como en matem&#xE1;ticas, puedes\ncambiar esto encerrando en par&#xE9;ntesis la suma.</p>\n<pre><code class=\"language-js\">(100 + 4) * 11\n// retorna: 1144</code></pre>\n<p>Para la resta existe el operador <code>-</code>, y la divisi&#xF3;n se puede hacer con el\noperador <code>/</code>. Veamos m&#xE1;s ejemplos (recuerda hacerlos en tu consola tambi&#xE9;n!):</p>\n<pre><code class=\"language-js\">12345 / 250\n// retorna: 49.38\n\n1234 + 57 * 3 - 31 / 4\n// retorna: 1397.25\n\n100 / 0\n// retorna: Infinity\n\n100 / -0\n// retorna: -Infinity\n\n1000 * Infinity\n// retorna: Infinity\n\n0/0\n// retorna: NaN\n\nInfinity - Infinity\n// retorna: NaN</code></pre>\n<p>Tambi&#xE9;n existe un operador aritm&#xE9;tico m&#xE1;s, que podr&#xED;as no reconocer\ninmediatamente. El s&#xED;mbolo <code>%</code> es usado para representar la operaci&#xF3;n <em>residuo</em>.\nX % Y resulta en el residuo de dividir X entre Y. Por ejemplo, 314 % 100 produce\n14 (porque 100 multiplicado por 3 + 14 = 314), y 144 % 12 da 0 (porque 12\nmultiplicado por 12 + 0 = 144). Ver&#xE1;s a menudo este operador referido como\n<em>m&#xF3;dulo</em>, aunque t&#xE9;cnicamente residuo es m&#xE1;s preciso.</p>\n<pre><code class=\"language-js\">5 % 3\n// retorna: 2\n\n7 % 2\n// retorna: 1</code></pre>\n<h2 id=\"2-strings\">2. Strings</h2>\n<p>El siguiente <em>data type</em> b&#xE1;sico son los <code>strings</code>. Es el tipo de dato que\nutilzamos para representar texto. Se declaran al poner el contenido entre\ncomillas.</p>\n<p>Abre tu consola y escribe lo siguiente:</p>\n<pre><code class=\"language-js\">&quot;Hola, mi nombre es Michelle&quot;\n// retorna: &quot;Hola, mi nombre es Michelle&quot;\n\n&apos;Soy desarrolladora web&apos;\n// retorna: &quot;Soy desarrolladora web&quot;\n\n&quot;123&quot;\n// retorna: &quot;123&quot;</code></pre>\n<p>Tanto las comillas simples como las dobles pueden ser usadas para declarar\n<code>strings</code>, siempre y cuando coincidan al principio y al final. Casi cualquier\ncosa puede colocarse entre comillas, y JavaScript crear&#xE1; un <em>string value</em> de\nesa cosa.</p>\n<hr>\n<p><strong>Pro tip</strong>:</p>\n<p>Podemos usar tanto comillas simples (<code>&apos;</code>) como dobles (<code>&quot;</code>) para delimitar\nnuestros strings, pero por convenci&#xF3;n, normalmente en cada proyecto se elige\nusar o una u otra y tratamos de ser consistentes. Esto ayuda a la <em>claridad</em> y\n<em>mantenibilidad</em> del c&#xF3;digo a largo plazo. En nuestro caso, vamos a elegir las\ncomillas simples de aqu&#xED; en adelante.</p>\n<hr>\n<p>Existen un par de caracteres en los <em>data types</em> <code>strings</code> que tienen un\ncomportamiento especial. Por ejemplo, cuando una diagonal invertida (&quot;&quot;) se\nencuentra dentro de un texto entre comillas, indica que el car&#xE1;cter siguiente\ntiene un significado especial. Esto se denomina <em>escapar el car&#xE1;cter</em>. Cuando el\ncar&#xE1;cter <code>n</code> sigue a una diagonal invertida (backslash - <code>\\</code>), se interpreta\ncomo una nueva l&#xED;nea. Similarmente, una <code>t</code> despu&#xE9;s de la diagonal invertida\nsignifica un tab. Escribe los siguientes textos en tu consola (recuerda siempre\ncolocarlos entre comillas, sean simples o dobles).</p>\n<pre><code class=\"language-js\">&apos;Esta es la primera l&#xED;nea \\n Y esta la segunda&apos;\n// retorna: &quot;Esta es la primera l&#xED;nea\n//            Y esta la segunda&quot;\n\n&apos;Mi lenguaje favorito es \\t JavaScript&apos;\n// retorna: &quot;Mi lenguaje favorito es    JavaScript&quot;</code></pre>\n<p>Cuando una comilla es precedida por una diagonal invertida, la comilla no\nterminar&#xE1; la cadena sino que ser&#xE1; parte de ella.</p>\n<pre><code class=\"language-js\">&apos;Yo \\&apos;estudio\\&apos; en Laboratoria&apos;\n// retorna: &quot;Yo &apos;estudio&apos; en Laboratoria&quot;</code></pre>\n<p>Existen, por supuesto, situaciones en las que querr&#xE1;s que una diagonal invertida\nsea s&#xF3;lo eso en una cadena de texto, no un c&#xF3;digo especial. Si dos diagonales\ninvertidas est&#xE1;n juntas, se volver&#xE1;n una, y s&#xF3;lo eso quedar&#xE1; como resultado en\nel valor de la cadena.</p>\n<pre><code class=\"language-js\">&apos;Un car&#xE1;cter de nueva l&#xED;nea es escrito \\&apos;\\\\n\\&apos;.&apos;\n// retorna: &quot;Un car&#xE1;cter de nueva l&#xED;nea es escrito &apos;\\n&apos;.&quot;</code></pre>\n<p>Las cadenas de texto no pueden ser divididas num&#xE9;ricamente, multiplicadas, o\nrestadas, pero el car&#xE1;cter + puede ser usado en ellas. No suma, sino que\nconcatena; pega dos <code>strings</code>. La siguiente l&#xED;nea produce el <code>string</code>\n&quot;concatenar&quot;:</p>\n<pre><code class=\"language-js\">&apos;con&apos; + &apos;cat&apos; + &apos;e&apos; + &apos;nar&apos;\n// retorna: &quot;concatenar&quot;</code></pre>\n<p>Ten cuidado mezclando operaciones entre <em>numbers</em> y <em>strings</em>. Por ejemplo,\nmultiplicar un <em>number</em> por un <em>string</em> resulta en NaN.</p>\n<pre><code class=\"language-js\">&apos;hola&apos; * 3\n// retorna: NaN</code></pre>\n<p>Hay m&#xE1;s maneras de manipular <code>strings</code>, que veremos m&#xE1;s adelante.</p>\n<h3 id=\"operadores-unarios\">Operadores Unarios</h3>\n<p>No todos los operadores son s&#xED;mbolos. Algunos son escritos como palabras. Un\nejemplo es el operador <code>typeof</code>, que produce una cadena de caracteres (<em>string</em>)\nque representa el tipo del valor que le pasaste.</p>\n<pre><code class=\"language-js\">typeof 4.5\n// retorna: &quot;number&quot;\n\ntypeof &apos;hola&apos;\n// retorna: &quot;string&quot;\n\ntypeof NaN\n// retorna: &quot;number&quot;\n\ntypeof Infinity\n// retorna: &quot;number&quot;</code></pre>\n<p>F&#xED;jate que verificamos que <em>NaN</em> e <em>Infinity</em> son del tipo <code>number</code> (de valor\nsimb&#xF3;lico), tal como lo mencionamos anteriormente.</p>\n<p>Los otros operadores que hemos visto operaban sobre dos valores, pero <code>typeof</code>\ns&#xF3;lamente toma uno. Los operadores que usan dos valores son llamados operadores\n<em>binarios</em>, mientras que aquellos que s&#xF3;lo toman uno son llamados operadores\n<em>unarios</em>.</p>\n<p>El operador menos (<code>-</code>) puede usarse tanto como operador binario como operador\nunario.</p>\n<pre><code class=\"language-js\">- (10 - 2)\n// retorna: -8</code></pre>\n<h2 id=\"3-booleans\">3. Booleans</h2>\n<p>A menudo, necesitar&#xE1;s un valor que simplemente distinga entre dos posibilidades,\ncomo &quot;s&#xED;&quot; y &quot;no&quot; o &quot;encendido&quot; y &quot;apagado&quot;. Para esto, JavaScript tiene un tipo\nde dato <em>boolean</em>, que tiene solo dos valores: <em>true</em> (verdadero) y <em>false</em>\n(falso).</p>\n<h3 id=\"operadores-comparativos\">Operadores comparativos</h3>\n<p>Realiza esta comparaci&#xF3;n en tu consola:</p>\n<pre><code class=\"language-js\">3 &gt; 2\n// retorna: true\n\n2 &gt; 3\n// retorna: false\n\ntypeof (3 &gt; 2)\n// retorna: &quot;boolean&quot;\n\ntypeof (2 &gt; 3)\n// retorna: &quot;boolean&quot;</code></pre>\n<p>Los signos <code>&gt;</code> y <code>&lt;</code> son los s&#xED;mbolos tradicionales para &quot;mayor que&quot; y &quot;menor\nque&quot;, respectivamente. Estos son operadores binarios (porque operan sobre dos\nvalores). Aplicarlos resulta en un valor de tipo <em>boolean</em> que indica si son\nciertos.</p>\n<p>Los <code>strings</code> pueden ser comparados de la misma manera.</p>\n<pre><code class=\"language-js\">&quot;Aardvark&quot; &lt; &quot;Zoroaster&quot;\n// retorna: true</code></pre>\n<p>La manera en que los <code>strings</code> son ordenadas es m&#xE1;s o menos alfab&#xE9;ticamente: las\nletras may&#xFA;sculas son siempre &quot;menores&quot; que las min&#xFA;sculas, as&#xED; que <code>&apos;Z&apos; &lt; &apos;a&apos;</code>\nes <em>true</em>, y los caracteres no alfab&#xE9;ticos (<code>!</code>, <code>-</code>, y as&#xED; por el estilo) son\ntambi&#xE9;n incluidos en el ordenamiento. La comparaci&#xF3;n real est&#xE1; basada en el\nest&#xE1;ndar <a href=\"https://unicode-table.com/en/#control-character\" target=\"_blank\">Unicode</a>.</p>\n<pre><code class=\"language-js\">&apos;Zeyla&apos; &lt; &apos;ana&apos;\n// retorna: true\n\n&apos;Zeyla&apos; &lt; &apos;!na&apos;\n// retorna: false</code></pre>\n<p>Otros operadores similares son &gt;= (mayor o igual que), &lt;= (menor o igual que),\n== (igual que), y != (no es igual que).</p>\n<pre><code class=\"language-js\">&apos;Itchy&apos; == &apos;Itchy&apos;\n// retorna: true\n\n&apos;Itchy&apos; != &apos;Scratchy&apos;\n// retorna: true\n\n5 == 5\n// retorna: true\n\n10 != &apos;diez&apos;\n// retorna: true</code></pre>\n<p>S&#xF3;lo existe un valor en JavaScript que no es igual a s&#xED; mismo, y este es NaN,\nque significa &quot;no es un n&#xFA;mero&quot;.</p>\n<pre><code class=\"language-js\">NaN == NaN\n// retorna: false</code></pre>\n<p>La intenci&#xF3;n de NaN es representar el resultado de un c&#xE1;lculo sin sentido y como\ntal, no es igual al resultado de cualquier otro c&#xE1;lculo sin sentido.</p>\n<h3 id=\"operadores-l&#xF3;gicos\">Operadores L&#xF3;gicos</h3>\n<p>Hay tambi&#xE9;n algunas operaciones que pueden ser aplicadas a los valores\n<code>Booleans</code>. JavaScript soporta tres operadores l&#xF3;gicos: <em>and</em>, <em>or</em> y <em>not</em>.\nEstos pueden ser usados para &quot;razonar&quot; con los <code>Booleans</code>.</p>\n<p>El operador <code>&amp;&amp;</code> representa la operaci&#xF3;n l&#xF3;gica <em>and</em> (&quot;y&quot;). Es un operador\nbinario, y su resultado es <em>true</em> (verdadero) s&#xF3;lo si los dos valores dados son\nverdaderos. El operador <code>||</code> denota la operaci&#xF3;n l&#xF3;gica or (&quot;o&quot;). Devuelve\nverdadero si cualquiera de los dos valores dados es verdadero. <em>Not</em> (Negaci&#xF3;n)\nes escrito como un s&#xED;mbolo de admiraci&#xF3;n <code>!</code>. Es un operador binario que voltea\nel valor que se le de; !true produce false y !false produce true. Veamos unos\nejemplos:</p>\n<pre><code class=\"language-js\">true &amp;&amp; true\n// retorna: true\n\ntrue &amp;&amp; false\n// retorna: false\n\nfalse &amp;&amp; false\n// retorna: false\n\ntrue || true\n// retorna: true\n\ntrue || false\n// retorna: true\n\n!true\n// retorna: false\n\n!false\n// retorna: true\n</code></pre>\n<p>El &#xFA;ltimo operador l&#xF3;gico del que aprender&#xE1;s no es unario, ni binario, sino\nternario, opera en tres valores. Este es escrito con un s&#xED;mbolo de interrogaci&#xF3;n\ny dos puntos, como sigue:</p>\n<pre><code class=\"language-js\">true ? 1 : 2\n// retorna: 1\n\nfalse ? 1 : 2\n// retorna: 2</code></pre>\n<p>Este es llamado el operador condicional (o algunas veces el operador tenario\ndado que es el &#xFA;nico operador de este tipo en el lenguaje). El valor a la\nizquierda del signo de interrogaci&#xF3;n &quot;escoge&quot; cu&#xE1;l de los otros dos valores\nresultar&#xE1;. Cuando es verdadero, el valor central es escogido, y cuando es falso,\nel valor de la derecha se da como resultado.</p>\n<h2 id=\"4-null-y-undefined\">4. Null y undefined</h2>\n<p>Existen dos valores especiales, escritos <code>null</code> y <code>undefined</code>, que son usados\npara denotar la ausencia de un valor significativo. Son valores en s&#xED; mismos,\npero no poseen ninguna informaci&#xF3;n. Muchas operaciones en el lenguaje que no\nproducen un valor con significado (lo ver&#xE1;s despu&#xE9;s) producen <code>undefined</code>\nsimplemente porque tienen que producir alg&#xFA;n valor.</p>\n<p>La diferencia en el significado entre <code>undefined</code> y <code>null</code> es un accidente del\ndise&#xF1;o de JavaScript, y no importa la mayor&#xED;a del tiempo.</p>\n<p>Entender la diferencia entre <code>undefined</code> y <code>null</code> (s&#xED; hay una diferencia\nsem&#xE1;ntica) es importante, y m&#xE1;s sencillo de lo que parece. Ambos valores denotan\nla ausencia de un valor, pero en un caso podr&#xED;amos decir que es <em>intencional</em>\n(<code>null</code>) y en el otro no (<code>undefined</code>).</p>\n<p>El valor <code>undefined</code> significa que no se ha <em>asignado</em> un valor, a diferencia de\n<code>null</code>, que significa que hemos <em>asignado</em> el valor <code>null</code>. Esto puede ser muy\n&#xFA;til para diferenciar estados en operaciones as&#xED;ncronas, ... es com&#xFA;n que\n<code>undefined</code> signifique que la operaci&#xF3;n no ha completado a&#xFA;n, mientras que\n<code>null</code> significa que complet&#xF3; pero retorn&#xF3; un valor nulo.</p>\n<h3 id=\"conversi&#xF3;n-autom&#xE1;tica-de-tipo\">Conversi&#xF3;n autom&#xE1;tica de tipo</h3>\n<p>Cuando un operador es aplicado al tipo &quot;incorrecto&quot; de valor, JavaScript\nconvertir&#xE1; silenciosamente el valor en el tipo de dato que espera, usando un\nconjunto de reglas que a menudo no son lo que t&#xFA; quieres o esperas. Esto es\nllamado <em>coerci&#xF3;n de tipo</em>. Mira estos ejemplos:</p>\n<pre><code class=\"language-js\">8 * null\n// retorna: 0\n\n&apos;5&apos; - 1\n// retorna: 4\n\n&apos;5&apos; + 1\n// retorna: 51\n\n&apos;cinco&apos; * 2\n// retorna: NaN\n\nfalse == 0\n// retorna: true</code></pre>\n<p>El null en la primera expresi&#xF3;n se vuelve 0, y el &quot;5&quot; en la segunda expresi&#xF3;n se\nconvierte en 5 (de string a number). A&#xFA;n as&#xED;, en la tercera expresi&#xF3;n, + intenta\nhacer concatenaci&#xF3;n de strings antes de una suma num&#xE9;rica, as&#xED; que el 1 es\nconvertido en &quot;1&quot; (de number a string). Cuando algo que no se corresponde con un\nn&#xFA;mero de manera obvia (como &quot;cinco&quot; o undefined) es convertido a un n&#xFA;mero, el\nvalor resultante es NaN. Las siguientes operaciones aritm&#xE9;ticas sobre NaN\nseguir&#xE1;n produciendo NaN. Por eso, en la cuarta expresi&#xF3;n, &quot;cinco&quot; * 2 retorna\nNaN.</p>\n<p>En el caso de la quinta expresi&#xF3;n, cuando comparamos valores que tienen tipos de\ndato diferentes, JavaScript usa un complicado y confuso conjunto de reglas para\ndeterminar qu&#xE9; hacer. En la mayor&#xED;a de los casos, s&#xF3;lo trata de convertir uno de\nlos valores al tipo de dato del otro valor. Sin embargo, cuando null o undefined\nest&#xE1;n en cualquier lado de la operaci&#xF3;n, resulta verdadero s&#xF3;lo en el caso de\nque los dos lados sean null o undefined.</p>\n<p>Siguiendo con la quinta expresi&#xF3;n, las reglas para convertir cadenas y n&#xFA;meros a\nBooleanos dicen que 0, NaN y la cadena vac&#xED;a (&quot;&quot;) cuentan como <em>false</em>, mientras\nque todos los dem&#xE1;s valores cuentan como <em>true</em>. Debido a esto, las siguientes\nexpresiones retornan <em>true</em>:</p>\n<pre><code class=\"language-js\">false == 0\n// retorna: true\n\n&apos;&apos; == 0\n// retorna: true</code></pre>\n<p>Para casos en el que no quieres que ocurra ninguna conversi&#xF3;n autom&#xE1;tica de\ntipos, existen dos operadores extra: === y !==. El primero prueba si un valor es\nprecisamente igual a otro, y el segundo si no es precisamente igual. Por lo\ntanto, al cambiar de == a === las mismas expresiones anteriores, tenemos el\nresutado contrario: <em>false</em>:</p>\n<pre><code class=\"language-js\">false === 0\n// retorna: false\n\n&apos;&apos; === 0\n// retorna: false</code></pre>\n",
+          "durationString": "1h"
+        },
+        "07-variables": {
+          "title": "Variables",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 60,
+          "body": "<p>El texto a continuaci&#xF3;n se basa en gran medida, con ciertos ajustes, en el\ncap&#xED;tulo 2 de <a href=\"http://eloquentjavascript.net/\" target=\"_blank\">Eloquent JavaScript</a>, de Marijn\nHaverbeke, 2014. Traducci&#xF3;n en <a href=\"http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html\" target=\"_blank\">Espa&#xF1;ol</a>\ndisponible gracias a <a href=\"http://hectorip.github.io\" target=\"_blank\">hectorip</a>.</p>\n<h2 id=\"variables\">Variables</h2>\n<p>Ya conoces los tipos de datos m&#xE1;s comunes en JavaScript. Sabes crear, combinar y\ntransformar <code>numbers</code>, <code>strings</code> y <code>booleans</code>. Pero, &#xBF;qu&#xE9; podemos hacer con\nesto? Hasta ahora, todo lo que has trabajado ha sido para uso inmediato. Es\ndecir, los nuevos valores que generamos deben ser inmediatamente utilizados o se\npierden. Sigue en tu consola el siguiente ejemplo:</p>\n<pre><code class=\"language-js\">&apos;Hola, mi nombre es &apos; + &apos;Michelle&apos; + &apos; y tengo &apos; + 19 + &apos; a&#xF1;os&apos;;\n// retorna: &quot;Hola, mi nombre es Michelle y tengo 19 a&#xF1;os&quot;</code></pre>\n<p>Si quisiera utilizar ese <code>string</code> de nuevo, digamos porque Michelle cumpli&#xF3; a&#xF1;os\ny ahora queremos que diga 20 a&#xF1;os en lugar de 19, no lo podemos hacer. Se ha\nperdido.</p>\n<p>Para atrapar y mantener los valores, JavaScript proporciona una cosa llamada\n<code>variable</code>. Se utiliza as&#xED;:</p>\n<pre><code class=\"language-js\">var age = 19;\n// retorna: undefined</code></pre>\n<p>La palabra clave (<em>keyword</em>) <code>var</code> indica que esta frase va a definir una\nvariable. Es seguida por el nombre de la variable (el nombre <em>age</em>) y, si\nqueremos asignarle de inmediato un valor, le sigue el operador <code>=</code> y una\nexpresi&#xF3;n (el n&#xFA;mero 19).</p>\n<p>La declaraci&#xF3;n anterior crea una variable llamada age (o edad en espa&#xF1;ol) y se\nusa para retener el n&#xFA;mero 19. La consola devuelve undefined, pero no creas que\nes un error. Es lo que JavaScript hace cuando un comando no retorna valor.\nCuando escribes 12 + 5, la consola retorna 17. Pero al declarar una variable\nllamada age asign&#xE1;ndole el valor 19, no hay un valor de retorno. Por eso la\nconsola simplemente devuelve undefined (en el resto de los ejemplos vamos a\nomitir ese undefined de retorno porque no agrega mucho valor a la explicaci&#xF3;n).</p>\n<p>Despu&#xE9;s de que una variable se ha definido, su nombre puede ser usado como una\nexpresi&#xF3;n. El valor de esa expresi&#xF3;n es el valor que la variable alberga\nactualmente. Sigamos con el ejemplo anterior:</p>\n<pre><code class=\"language-js\">var age = 19;\n&apos;Hola, mi nombre es &apos; + &apos;Michelle&apos; + &apos; y tengo &apos; + age + &apos; a&#xF1;os&apos;;\n// retorna: &quot;Hola, mi nombre es Michelle y tengo 19 a&#xF1;os&quot;</code></pre>\n<p>La consola nos ayuda a saber el valor de una variable. Si escribimos el nombre\nde una variable que ha sido declarada en la consola, nos devuelve su valor. Si\nesa variable no ha sido declarada, la consola retorna un error. Y si la variabla\nha sido declarada, pero no le hemos asignado valor, la consola devuleve\nundefined.</p>\n<pre><code class=\"language-js\">age\n// retorna: Uncaught ReferenceError: age is not defined\n//           at &lt;anonymous&gt;:1:1\n\nvar age = 19;\nage\n// retorna: 19\n\nvar weight;\nweight\n// retorna: undefined</code></pre>\n<p>Cuando una variable apunta a un valor, eso no quiere decir que est&#xE1; ligada a ese\nvalor para siempre. De hecho, se llaman variables porque su valor puede variar.\nEl operador <code>=</code> se puede utilizar en cualquier momento en variables existentes\npara desconectarlas de su valor actual y apuntarlas a uno nuevo.</p>\n<pre><code class=\"language-js\">var age = 19;\n// retorna: undefined\nage = 20;\n// retorna: 20\n&apos;Hola, mi nombre es &apos; + &apos;Michelle&apos; + &apos; y tengo &apos; + age + &apos; a&#xF1;os&apos;;\n// retorna: &quot;Hola, mi nombre es Michelle y tengo 20 a&#xF1;os&quot;</code></pre>\n<p>Ten en cuenta que para reasignarle un valor, no tienes que utilizar la <em>keyword</em>\n<code>var</code> de nuevo. Solo la utilizas cuando queremos <em>crear</em> nuevas variables.</p>\n<p>Muchas veces se explica el concepto de variables con la analog&#xED;a de una caja:\nlas variables son como &quot;caja&quot; en las que puedes meter alg&#xFA;n valor que luego\npudes cambiar por otro. Sin embargo, una analog&#xED;a m&#xE1;s fiel es pensar en\nvariables como <strong>tent&#xE1;culos</strong>. Las variables en realidad no es que &quot;contengan&quot;\nlos valores (como una caja); m&#xE1;s bien los agarra (como un tent&#xE1;culo). De hecho,\ndos variables pueden referirse a un mismo valor. Un programa puede acceder s&#xF3;lo\na los valores que todav&#xED;a mantiene &quot;agarrados&quot;. Cuando necesitas recordar algo,\ncreas un tent&#xE1;culo nuevo para &quot;agarrarlo&quot; o cambias unos de tus tent&#xE1;culos\nexistentes para agarrar lo nuevo.</p>\n<h2 id=\"nombrando-variables\">Nombrando Variables</h2>\n<p>En JavaScript, existen ciertas reglas para nombrar variables. Los nombres de\nvariables:</p>\n<ol>\n<li><strong>No</strong> pueden incluir espacios</li>\n<li><strong>No</strong> pueden ser palabras reservadas (o <em>keywords</em>), como la palabra <code>var</code></li>\n<li><strong>No</strong> pueden comenzar con n&#xFA;meros, aunque s&#xED; pueden haber n&#xFA;meros dentro del\nnombre (solo que no al comienzo)</li>\n<li><strong>No</strong> pueden contener signos de puntuaci&#xF3;n, con la excepci&#xF3;n de los signos\n<code>$</code> y <code>_</code></li>\n</ol>\n<p>No seguir alguna de las reglas anteriores resulta en un <strong>error</strong> por parte de\nJavaScript.</p>\n<p>Adem&#xE1;s de estas reglas, existen una serie de &quot;sugerencias&quot; que debes tomar en\nconsideraci&#xF3;n a la hora de nombrar variables. Son &quot;sugerencias&quot; porque\nJavaScript no te dar&#xE1; un error si no las sigues. Sin embargo, son &quot;buenas\npr&#xE1;cticas&quot; de escritura de c&#xF3;digo que hacen que tu trabajo sea de mejor calidad.\nLas sugerencias son:</p>\n<ol>\n<li>Convenci&#xF3;n <em>camel case</em>. Dado que no podemos incluir espacios en los nombres\nde variables, una convenci&#xF3;n que se utiliza es la de <code>camel case</code>. La\nconvenci&#xF3;n dicta que el nombre de la variable empieza con una letra min&#xFA;scula\ny se coloca en may&#xFA;scula la primera letra de las palabras que contin&#xFA;an. Por\nejemplo: <code>numberOfCandies</code> o <code>studentTechScore</code>. Se llama <em>camel case</em> porque\nsimula una joroba de camello.</li>\n<li>Utilizar nombres en ingl&#xE9;s. La programaci&#xF3;n est&#xE1; basada en el ingl&#xE9;s, as&#xED; que\nes buena pr&#xE1;ctica que te acostumbres a escribir tu c&#xF3;digo en ingl&#xE9;s.</li>\n<li>Utiliza nombres descriptivos. Al igual que las otras sugerencias, algo que\nsiempre tienes que tomar en cuenta es que otras personas leer&#xE1;n tu c&#xF3;digo y\ndebes hacer el esfuerzo por utilizar nombres descriptivos que ayuden al\nlector a entender mejor lo que hace tu programa.</li>\n</ol>\n<p>Veamos algunos ejemplos:</p>\n<table>\n<thead>\n<tr>\n<th>Mal nombre</th>\n<th>Problema</th>\n<th>Mejor nombre</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>age of fiends</td>\n<td>Error: contiene espacios</td>\n<td>ageOfFriends</td>\n</tr>\n<tr>\n<td>null</td>\n<td>Error: palabra clave (keyword)</td>\n<td>empty</td>\n</tr>\n<tr>\n<td>1stName</td>\n<td>Error: empieza con n&#xFA;mero</td>\n<td>firstName</td>\n</tr>\n<tr>\n<td>full.price</td>\n<td>Error: contiene &quot;.&quot;</td>\n<td>fullPrice</td>\n</tr>\n<tr>\n<td>full_price</td>\n<td>no usa camel case</td>\n<td>fullPrice</td>\n</tr>\n<tr>\n<td>x</td>\n<td>no es descriptivo</td>\n<td>age</td>\n</tr>\n<tr>\n<td>altura</td>\n<td>en espa&#xF1;ol</td>\n<td>height</td>\n</tr>\n</tbody></table>\n<h2 id=\"incrementar-y-disminuir\">Incrementar y Disminuir</h2>\n<p>Como programadora, muchas veces tendr&#xE1;s que incrementar o disminuir el valor de\nuna variable num&#xE9;rica por un cierto valor. Por ejemplo, puede que tengas la\nvariable <code>score</code> que registra el puntaje en un juego de f&#xFA;tbol. Cada vez que\nalguien anote un gol, la variable <code>score</code> debe aumentar en 1. Esto lo puedes\nhacer de la siguiente manera:</p>\n<pre><code class=\"language-js\">var score = 0;\nscore = score + 1;\nscore;\n// retorna: 1</code></pre>\n<p>Esto mismo se puede escribir de una manera m&#xE1;s sencilla:</p>\n<pre><code class=\"language-js\">var score = 0;\nscore++;\nscore;\n// retorna: 1</code></pre>\n<p>Lo mismo podemos hacer para disminuir el valor de una variable. Por ejemplo, en\nun video juego puede que tengas una variable llamada <code>lifePoints</code> que registra\nlos &quot;puntos de vida&quot; de un jugador. El jugador parte con 100 puntos y cada vez\nque un enemigo lo golpea, pierde 25 puntos. Cada vez que toma una bebida\nregenera 10 puntos.</p>\n<pre><code class=\"language-js\">var lifePoints = 100;\nlifePoints = lifePoints - 25;\nlifePoints\n// retorna: 75\n\nlifePoints = lifePoints + 10;\nlifePoints\n// retorna: 85</code></pre>\n<p>Esto se puede escribir de una manera reducida, as&#xED;:</p>\n<pre><code class=\"language-js\">var lifePoints = 100;\nlifePoints -= 25;\nlifePoints\n// retorna: 75\n\nlifePoints += 10;\nlifePoints\n// retorna: 85</code></pre>\n<p>Existen otros operadores similares a <code>+=</code> y <code>-=</code>. Por ejemplo, existen tambi&#xE9;n\n<code>*=</code> y <code>/=</code>:</p>\n<pre><code class=\"language-js\">var balloons = 100;\nballoons *= 2;\nballoons\n// retorna: 200\n\nvar balloons = 100;\nballoons /= 4;\nballoons\n// retorna: 25</code></pre>\n",
+          "durationString": "1h"
+        },
+        "08-self-learning-MDN": {
+          "title": "Manipulando strings y numbers",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 30,
+          "body": "<h2 id=\"aprendiendo-sobre-stringlength\">Aprendiendo sobre <code>string.length</code></h2>\n<p>En el mundo de la tecnolog&#xED;a, el <strong>auto-aprendizaje</strong> es esencial.\nConstantemente salen herramientas, lenguajes o tecnolog&#xED;as nuevas que debes\naprender por tu cuenta para mantenerte al d&#xED;a. Por eso, es importante que, desde\nlos inicios de tu camino en el mundo del c&#xF3;digo, te acostumbres a aprender por\ntu cuenta y a tomar el control de tu desarrollo profesional.</p>\n<p>Internet es un excelente recurso para aprender por tu cuenta. Es como una gran\nbiblioteca de conocimiento siempre a tu disposici&#xF3;n. Veamos un ejemplo:</p>\n<p>En JavaScript existe una forma f&#xE1;cil de obtener la longitud de un <code>string</code> que\nte devuelve la cantidad de caracteres que componen el <code>string</code>. Por ejemplo, la\nlongitud de <em>&apos;hola&apos;</em> es 4 (porque son 4 caracteres) y la de\n<em>&quot;supercalifragilisticexpialidocious&quot;</em> es 34 (porque son 34 caracteres).</p>\n<p>&#xBF;C&#xF3;mo podemos aprender sobre esto? Empieza abriendo Google y realizando una\nb&#xFA;squeda con algo como: <em>&quot;obtener la longitud de un string en JavaScript&quot;</em>. Esto\nnos dar&#xE1; varios resultados que nos pueden ayudar.</p>\n<p>Seguramente uno de los resultados es de <strong>La Red de Desarrolladores de Mozilla\n(MDN)</strong>. &#xC9;sta fuente es una de las fuentes m&#xE1;s confiables para investigar sobre\nJavaScript. De hecho, el creador de JavaScript, <a href=\"https://en.wikipedia.org/wiki/Brendan_Eich\" target=\"_blank\">Brendan Eich</a>,\nes uno de los fundadores del Mozilla Foundation y el Mozilla Corporation. Como\ndice directamente la web de <a href=\"https://developer.mozilla.org/es/docs/MDN/About\" target=\"_blank\">MDN</a>:</p>\n<blockquote>\n<p>MDN es una plataforma de aprendizaje para las tecnolog&#xED;as Web y el software\ncon el que funciona la Web, incluyendo:</p>\n<ol>\n<li>Est&#xE1;ndares Web como CSS, HTML, y JavaScript.</li>\n<li>Desarrollo de aplicaciones para Web Abierta.</li>\n<li>Desarrollo de complementos para Firefox.</li>\n<li>Desarrollo de Firefox OS.</li>\n</ol>\n</blockquote>\n<p>Lee con detenimiento la secci&#xF3;n de <a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length\" target=\"_blank\">string.lenght</a>\nque te ofrece MDN. Quiz&#xE1;s no entiendas absolutamente todo (especialmente todo lo\n  referente a UTF-16), pero eso est&#xE1; bien. Debes poder manejar ese sentimiento y\n  avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece\n  bastante claro c&#xF3;mo es el tema de obtener la longitud de un string:</p>\n<pre><code class=\"language-js\">var x = &quot;Mozilla&quot;;\nvar empty = &quot;&quot;;\n\nconsole.log(&quot;Mozilla tiene &quot; + x.length + &quot; caracteres.&quot;);\n/* &quot;Mozilla tiene 7 caracteres&quot; */\n\nconsole.log(&quot;La cadena vacia tiene una longitud de &quot; + empty.length);\n/* &quot;La cadena vacia tiene una longitud de 0&quot; */</code></pre>\n<p>Nota: console.log() Es un comando que muestra un mensaje en la consola para\nfacilitar la depuraci&#xF3;n del c&#xF3;digo Javascript. La ventaja de usarlo en\ncomparaci&#xF3;n con, por ejemplo, la funci&#xF3;n alert(), es que console.log() no\ndetiene la ejecuci&#xF3;n del c&#xF3;digo hasta que el usuario acepta el mensaje de alerta\ncomo s&#xED; sucede con alert().</p>\n<p>Despu&#xE9;s de leer la documentaci&#xF3;n deber&#xED;a quedar claro que para conocer la\nlongitud de strings, lo que debemos es colocarle un <em>.length</em> al final, as&#xED;:</p>\n<pre><code class=\"language-js\">var shortWord = &apos;hola&apos;\nvar longWord = &quot;supercalifragilisticexpialidocious&quot;\n\n// Determinar longitud de cada string\n\nvar lengthShortWord = shortWord.length;\nvar lengthLongWord = longWord.length;\n\n// Imprimir en la consola\n\nconsole.log(lengthShortWord);\n// returns &gt; 4\nconsole.log(lengthLongWord);\n// returns &gt; 34\n\n// tambi&#xE9;n podemos imprimir directo en la consola, as&#xED;:\nconsole.log(&apos;hola&apos;.length);\n// returns &gt; 4\n&quot;supercalifragilisticexpialidocious&quot;.length;\n// returns &gt; 34</code></pre>\n<h2 id=\"practicando-el-auto-aprendizaje\">Practicando el auto-aprendizaje</h2>\n<p>Ahora que ha quedado demostrado el <em>&quot;s&#xFA;per poder del auto-aprendizaje&quot;</em>, lee en\nMDN otras cosas interesantes que podemos hacer con <code>strings</code> y <code>numbers</code>, como:</p>\n<ol>\n<li><a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charAt\" target=\"_blank\">Obtener un caracter espec&#xED;fico de un string</a></li>\n<li><a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/indexOf\" target=\"_blank\">Obtener el &#xED;ndice de un caracter de un string</a></li>\n<li><a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase\" target=\"_blank\">Convertir a may&#xFA;sculas un string</a></li>\n<li><a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toLowerCase\" target=\"_blank\">Convertir a min&#xFA;sculas un string</a></li>\n<li><a href=\"https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/slice\" target=\"_blank\">Cortando un string</a></li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt\" target=\"_blank\">Convertir un string en un n&#xFA;mero</a>\n<strong>nota</strong>: este art&#xED;culo est&#xE1; en ingl&#xE9;s. Intenta leerlo con ayuda del\n<a href=\"https://translate.google.com/\" target=\"_blank\">traductor de Google</a></li>\n</ol>\n<p>Al final de estas lecturas, debes saber muy bien c&#xF3;mo funcionan:</p>\n<ul>\n<li><code>charAt()</code></li>\n<li><code>indexOf()</code></li>\n<li><code>toUpperCase()</code></li>\n<li><code>toLowerCase()</code></li>\n<li><code>slice()</code></li>\n<li><code>parseInt()</code></li>\n</ul>\n<h2 id=\"otros-recursos-de-auto-aprendizaje\">Otros recursos de auto-aprendizaje</h2>\n<p>Si a&#xFA;n tienes dudas de estos conceptos, podr&#xED;as explorar otras formas de\nauto-aprendizaje:</p>\n<ol>\n<li>Busca otros recursos en la web. Uno muy bueno es <a href=\"https://es.stackoverflow.com/\" target=\"_blank\">stackoverflow</a>.\nEn espa&#xF1;ol suele haber menos contenido de calidad, as&#xED; que quiz&#xE1;s tengas que\napoyarte con el traductor de Google.</li>\n<li>Realiza una consulta en uno de los grupos de Facebook</li>\n<li>Consulta con una amiga que sepa de programaci&#xF3;n :)</li>\n</ol>\n<p><strong>NOTA: Es importante NO avanzar si no has logrado comprender bien los conceptos\nanteriores. Lo que contin&#xFA;a de este curso se construye sobre estos conceptos,\nas&#xED; que t&#xF3;mate el tiempo para aprender bien antes de avanzar.</strong></p>\n",
+          "durationString": "30min"
+        },
+        "09-comments": {
+          "title": "Comentarios",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "body": "<h2 id=\"comentarios\">Comentarios</h2>\n<p>Muchas veces, por m&#xE1;s descriptivo que escribas tu c&#xF3;digo, es necesario brindar\nm&#xE1;s informaci&#xF3;n para que otras personas puedan entender f&#xE1;cilmente c&#xF3;mo funciona\ntu programa. Para a&#xF1;adir esa informaci&#xF3;n sin afectar el flujo de tu c&#xF3;digo,\nexisten los <em>comentarios</em>.</p>\n<p>Se visualizan as&#xED;:</p>\n<pre><code class=\"language-js\">// Esto es un comentario de una l&#xED;nea\n\n/*\n  Esto es un comentario de\n  m&#xFA;ltiples\n  l&#xED;neas\n*/</code></pre>\n<p>La computadora ignora los comentarios por completo. Los comentarios en\nJavaScript empiezan con <code>//</code>. Todo lo que sigue a las barras diagonales (en la\nmisma l&#xED;nea) es ignorado por el int&#xE9;rprete de JavaScript. Los comentarios de\nm&#xFA;ltiples l&#xED;neas empiezan con <code>/*</code> y cierran con <code>*/</code>. Todo lo que est&#xE1; entre\neso es ignorado por el programa.</p>\n<p>De tal manera, los comentarios no tienen efecto alguno sobre c&#xF3;mo un programa se\nejecuta. Solo est&#xE1;n all&#xED; para proporcionar contexto. Es una <strong>buena pr&#xE1;ctica</strong>\nincluir comentarios en el c&#xF3;digo para mejorar su legibilidad.</p>\n<h2 id=\"comentarios-como-sugerencias-o-instrucciones\">Comentarios como sugerencias o instrucciones</h2>\n<p>Muchos de los ejercicios y quizzes en este curso van a incluir comentarios para\ndarte sugerencias o instrucciones.</p>\n<p>Por ejemplo, es com&#xFA;n ver algo como:</p>\n<pre><code class=\"language-js\">var firstName = // tu c&#xF3;digo aqu&#xED;\nconsole.log(/* tu c&#xF3;digo aqu&#xED; */);</code></pre>\n<p>La idea es que borres el comentario y utilices ese espacio para escribir tu\nc&#xF3;digo. No te preocupes por borrar los comentarios. Eso s&#xED;, <strong>no</strong> borres otras\npartes del programa. Si lo haces, es muy probable que no te funcione muy bien.</p>\n<p>Ahora s&#xED;, contin&#xFA;a con los ejercicios y quizzes de esta lecci&#xF3;n. &#xA1;Mucha suerte!</p>\n",
+          "durationString": "15min"
+        },
+        "10-guided-exercises": {
+          "title": "Ejercicios Guiados",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 60,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=1IZT_7EfRMw",
+              "id": "1IZT_7EfRMw"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=Ix6VLiBcABw",
+              "id": "Ix6VLiBcABw"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=2WtBw8eC0us",
+              "id": "2WtBw8eC0us"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=E5ozw3b6iM4",
+              "id": "E5ozw3b6iM4"
+            }
+          ],
+          "body": "<h2 id=\"enunciados\">Enunciados</h2>\n<p>Ahora que ya conoces ciertos conceptos base de la programaci&#xF3;n, es hora de que\nveas las cosas que puedes crear en la pr&#xE1;ctica.</p>\n<p>Los proyectos a crear son:</p>\n<ol>\n<li><strong>Edad en segundos</strong>: Crea una web que pida al usuario su edad en a&#xF1;os,\nutilizando <code>prompt()</code>, y devuelva su edad <strong>en segundos</strong>, utilizando\n<code>document.write()</code>.</li>\n<li><strong>Convertidor de temperatura</strong>: Crea una web que pida al usuario la\ntemperatura en grados Celsius (&#xB0;C), utilizando <code>prompt()</code>, y devuelva, en la\nconsola, la temperatura en grados Farenheit (&#xB0;F) utilizando <code>console.log()</code>.\nLa f&#xF3;rmula matem&#xE1;tica para pasar de &#xB0;C a &#xB0;F es: <code>T(&#xB0;F) = ( T(&#xB0;C) &#xD7; 1.8 ) + 32</code>.</li>\n<li><strong>Ganancias y p&#xE9;rdidas</strong>: Crea un programa que pide los ingresos, los costos\ny el % de impuestos, y calcula la ganancia despu&#xE9;s de impuestos. Debe\nimprimir el resultado en la web con el s&#xED;mbolo $ adelante.</li>\n<li><strong>Iniciales</strong>: Crea un programa que pide el nombre y apellido al usuario. El\nusuario debe ingresar dos palabras separadas por un espacio, por ejemplo:\n&quot;Ana Martinez&quot;. El programa debe devolver las iniciales <strong>en may&#xFA;sculas</strong>.\nVeamos unos ejemplos: &quot;ana martinez&quot; y &quot;Ana Martinez&quot; devuelven las iniciales\n&quot;AM&quot;. &quot;Michelle Seguil&quot; y &quot;michelle seguil&quot; devuelven &quot;MS&quot;.</li>\n</ol>\n<hr>\n<h2 id=\"solucionarios\">Solucionarios</h2>\n<p>A continuaci&#xF3;n, Michelle te explica c&#xF3;mo resolvi&#xF3; cada uno de los ejercicios\nanteriores.</p>\n<h3 id=\"1-edad-en-segundos\">1. Edad en segundos</h3>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/1IZT_7EfRMw?autoplay=0\"></iframe></div></p>\n<h3 id=\"2-convertidor-de-temperatura\">2. Convertidor de temperatura</h3>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/Ix6VLiBcABw?autoplay=0\"></iframe></div></p>\n<h3 id=\"3-ganancias-y-p&#xE9;rdidas\">3. Ganancias y p&#xE9;rdidas</h3>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/2WtBw8eC0us?autoplay=0\"></iframe></div></p>\n<h3 id=\"4-iniciales\">4. Iniciales</h3>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/E5ozw3b6iM4?autoplay=0\"></iframe></div></p>\n",
+          "exercises": {},
+          "durationString": "1h"
+        },
+        "11-quiz": {
+          "questions": [
+            {
+              "title": "1) ¿Cuál de las siguientes opciones reflejan \"buenos\" nombres de variables (es decir, cumplen con las reglas y las sugerencias de buenas prácticas)?",
+              "description": "",
+              "answers": [
+                "var last_name = &apos;Martinez&apos;;",
+                "var score = 1;",
+                "var cosita = &quot;El retorno del Jedi&quot;;",
+                "var undefined = true;",
+                "var likesCoffee = false;",
+                "var 2ndChild = &apos;Diana&apos;;"
+              ],
+              "solution": [
+                1,
+                4
+              ]
+            },
+            {
+              "title": "2) Los comentarios en la programación",
+              "description": "",
+              "answers": [
+                "Afectan el flujo del programa y se utilizan para hacer m&#xE1;s entendible tu c&#xF3;digo",
+                "No afectan el flujo del programa y se utilizan para hacer que el c&#xF3;digo corra\nm&#xE1;s r&#xE1;pido",
+                "No afectan el flujo del programa y se utilizan para hacer m&#xE1;s entendible tu\nc&#xF3;digo",
+                "Afectan el flujo del programa y se utilizan para hacer que el c&#xF3;digo corra\nm&#xE1;s r&#xE1;pido"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "3) Un ejemplo de conversión automática es",
+              "description": "",
+              "answers": [
+                "3 &gt; 3",
+                "&apos;hola&apos; + &apos; mundo&apos;",
+                "true &amp;&amp; false",
+                "&quot;10&quot; + 1"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "4) La diferencia entre undefined y null",
+              "description": "",
+              "answers": [
+                "No existe, son lo mismo",
+                "No importa",
+                "<code>undefined</code> no tiene valor y <code>null</code> es un string vacio",
+                "<code>undefined</code> significa que no se ha <em>asignado</em> un valor, mientras que <code>null</code>\nsignifica que hemos <em>asignado</em> el valor <code>null</code>"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "5) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta",
+              "description": "",
+              "answers": [
+                "Documentaci&#xF3;n de la Red de Desarrolladores de Mozilla (MDN)",
+                "<a href=\"http://www.w3schools.com\" target=\"_blank\">www.w3schools.com</a>",
+                "lineadecodigo.com",
+                "stackoverflow.com"
+              ],
+              "solution": [
+                0,
+                3
+              ]
+            },
+            {
+              "title": "6) El resultado de 'Hola' + 'mundo' es",
+              "description": "",
+              "answers": [
+                "&quot;Hola Mundo&quot;",
+                "&quot;Hola mundo&quot;",
+                "&quot;Holamundo&quot;",
+                "&apos;HolaMundo&apos;"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "7) ¿Qué tipo de dato es '123'?",
+              "description": "",
+              "answers": [
+                "number",
+                "string",
+                "boolean",
+                "undefined"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "8) ¿Qué tipo de dato es Infinity?",
+              "description": "",
+              "answers": [
+                "number",
+                "string",
+                "boolean",
+                "undefined"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "9) El resultado de 10 == 'diez' es",
+              "description": "",
+              "answers": [
+                "true",
+                "false"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "10)  El resultado de 10 % 3 es",
+              "description": "",
+              "answers": [
+                "1",
+                "0",
+                "3.33",
+                "10"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "11) El resultado de 'Me \"encanta\" JavaScript' es",
+              "description": "",
+              "answers": [
+                "&quot;Me &quot;encanta&quot; JavaScript&quot;",
+                "&quot;Me \\encanta\\ JavaScript&quot;",
+                "&quot;Me encanta JavaScript&quot;",
+                "&quot;Me &quot;encanta&quot; JavaScript&quot;"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "12)  El resultado de typeof NaN es",
+              "description": "",
+              "answers": [
+                "&quot;boolean&quot;",
+                "&quot;undefined&quot;",
+                "&quot;number&quot;",
+                "&quot;string&quot;"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "13)  El resultado de 4 % 15 es",
+              "description": "",
+              "answers": [
+                "4",
+                "false",
+                "15",
+                "%"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "14) El resultado de 'diez' * 4 es",
+              "description": "",
+              "answers": [
+                "NaN",
+                "40",
+                "diez4",
+                "undefined"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "15) El resultado de '50' + 1 es",
+              "description": "",
+              "answers": [
+                "&quot;501&quot;",
+                "51",
+                "&quot;50+1&quot;",
+                "50"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "16) El resultado de false == '' es",
+              "description": "",
+              "answers": [
+                "true",
+                "false",
+                "undefined",
+                "Null"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "17) El resultado de '' === NaN es",
+              "description": "",
+              "answers": [
+                "true",
+                "false",
+                "undefined",
+                "Null"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "18) El resultado de 'a string'.slice(1, 5) es",
+              "description": "",
+              "answers": [
+                "&quot; str&quot;",
+                "&quot; string&quot;",
+                "&quot;stri&quot;",
+                "&quot; strin&quot;"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "19) El resultado de 'My long string is long'.slice(5) es",
+              "description": "",
+              "answers": [
+                "&quot;ng string is long&quot;",
+                "&quot;long string is long&quot;",
+                "&quot;&quot;",
+                "&quot;My long string is long&quot;"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "20) El resultado de 'Quiero seguir aprendiendo!!!'.slice(0, -2) es",
+              "description": "",
+              "answers": [
+                "&quot;Quiero seguir aprendiendo!!!&quot;",
+                "&quot;Quiero seguir aprendiendo!!&quot;",
+                "&quot;Quiero seguir aprendiendo!&quot;",
+                "&quot;iero seguir aprendiendo!!!&quot;"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "21) El resultado de 'cualquier string'.charAt(100) es",
+              "description": "",
+              "answers": [
+                "null",
+                "undefined",
+                "&quot;&quot;",
+                "g"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "22) El resultado de 'Hola Mundo'.indexOf(' ') es",
+              "description": "",
+              "answers": [
+                "null",
+                "3",
+                "4",
+                "5"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "23) El resultado de 'Hola Mundo'.indexOf('s') es",
+              "description": "",
+              "answers": [
+                "null",
+                "undefined",
+                "0",
+                "-1"
+              ],
+              "solution": [
+                3
+              ]
+            },
+            {
+              "title": "24) El resultado de 'alphabet'.toUpperCase() es",
+              "description": "",
+              "answers": [
+                "&quot;AlphaBet&quot;",
+                "&quot;ALPHABET&quot;",
+                "&quot;alphabet&quot;",
+                "&quot;Alphabet&quot;"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "25) El resultado de typeof parseInt('543') es",
+              "description": "",
+              "answers": [
+                "543",
+                "&quot;543&quot;",
+                "&quot;Boolean&quot;",
+                "&quot;number&quot;"
+              ],
+              "solution": [
+                3
+              ]
+            }
+          ],
+          "title": "Quiz",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "durationString": "30min"
+        },
+        "12-exercises": {
+          "title": "Ejercicios",
+          "type": "practice",
+          "format": "self-paced",
+          "duration": 30,
+          "exercises": {
+            "01-coin-convert": {
+              "title": "coinConverter",
+              "body": "<p>Escribe una funci&#xF3;n con el nombre <code>coinConverter</code> la cual convertir&#xE1; una\ncantidad de d&#xF3;lares a soles peruanos, pesos mexicanos y pesos chilenos.</p>\n<p>Utiliza las tasas de cambio siguientes para ello:</p>\n<p>1.00 d&#xF3;lar = 3.25 soles peruanos\n1.00 d&#xF3;lar = 18 pesos mexicanos\n1.00 d&#xF3;lar= 660 pesos chilenos</p>\n<p>Ejemplo:</p>\n<pre><code class=\"language-js\">function coinConvert(dolares) {\n  soles = dolares * 3.25\n  pesosMexicanos = dolares * 18\n  pesosChilenos = dolares * 660\n  console.log(soles, pesosMexicanos, pesosChilenos)\n  // Este console.log imprimir&#xE1; los resultados: 162.5, 900, 33000\n}</code></pre>\n<p>&#xA1;Mucha suerte!</p>\n",
+              "files": {
+                "Ym9pbGVycGxhdGU=": {
+                  "Y29pbkNvbnZlcnQuanM=": "module.exports = function coinConvert(dolares) {\n  const conversiones = []; /* en este arreglo guardaremos los resultados de todas las conversiones */\n  const soles /* tu código aquí */;\n  const pesosMexicanos /* tu código aquí */;\n  const pesosChilenos /* tu código aquí */;\n\n  // Añade el monto equivalente en soles\n  conversiones.push(/* tu código aquí */);\n\n  // Añade el monto equivalente en pesos mexicanos\n  conversiones.push(/* tu código aquí */);\n\n  // Añade el monto equivalente en pesos chilenos\n  conversiones.push(/* tu código aquí */);\n\n  return conversiones; // finalmente retornamos los resultados\n};\n"
+                },
+                "c29sdXRpb24=": {
+                  "Y29pbkNvbnZlcnQuanM=": "module.exports = function coinConvert(usDollars) {\n  var peruvianSoles = usDollars * 3.25;\n  var mexicanPesos  = usDollars * 18;\n  var chileanPesos  = usDollars * 660;\n\n  return [peruvianSoles, mexicanPesos, chileanPesos];\n};\n"
+                },
+                "dGVzdA==": {
+                  "Y29pbkNvbnZlcnQuc3BlYy5qcw==": "'use strict';\n\nconst Assert = require('chai').assert;\nconst coinConvert = require('../solution/coinConvert');\n\ndescribe('coinConvert()', () => {\n\n  it('debería regresar [162.5, 900, 33000], para $50', () => {\n    const dollars = 50;\n    const soles = dollars * 3.25;\n    const pesosMx = dollars * 18;\n    const pesosCl = dollars * 660;\n    Assert.deepEqual(coinConvert(dollars), [soles, pesosMx, pesosCl]);\n  });\n\n  it('debería regresar [325, 1800, 66000], para $100', () => {\n    const dollars = 100;\n    const soles = dollars * 3.25;\n    const pesosMx = dollars * 18;\n    const pesosCl = dollars * 660;\n    Assert.deepEqual(coinConvert(dollars), [soles, pesosMx, pesosCl]);\n  });\n\n  it('debería regresar [243.75, 1350, 49500], para  $85', () => {\n    const dollars = 85;\n    const soles = dollars * 3.25;\n    const pesosMx = dollars * 18;\n    const pesosCl = dollars * 660;\n    Assert.deepEqual(coinConvert(dollars), [soles, pesosMx, pesosCl]);\n  });\n\n});\n"
+                }
+              }
+            },
+            "02-restaurant-bill": {
+              "title": "Cuenta de restaurante",
+              "body": "<p>Imagina que has salido a comer con tus cuatro mejores amigas. El monto\ndel consumo es de 50 d&#xF3;lares, pero a eso debes agregarle el 10% de Impuesto al\nValor Agregado (IVA). Quieres dividir el monto equitativamente entre las cinco.\nPara eso has creado este programa.</p>\n<p>Sigue los pasos a continuaci&#xF3;n para que completes el programa y determines\ncu&#xE1;nto debe pagar cada una.</p>\n<ol>\n<li><p>Crea una variable llamada <code>impuesto</code> y as&#xED;gnale el resultado de\nmultiplicar <code>monto</code> (monto del consumo) por 10%.</p>\n<blockquote>\n<p>Tip: 10% en decimal se escribe 0.10</p>\n</blockquote>\n</li>\n<li><p>Crea una variable llamada <code>total</code> y as&#xED;gnale el resultado de sumar <code>monto</code>\nm&#xE1;s <code>impuesto</code>.</p>\n</li>\n<li><p>Retorna el monto que cada una debe pagar (total dividido entre 5), con el\ns&#xED;mbolo <code>$</code> adelante (por ejemplo: $11).</p>\n<blockquote>\n<p>Tip: debes usar string concatenation para imprimir con el s&#xED;mbolo $\nadelante.</p>\n</blockquote>\n</li>\n</ol>\n<p>Ejemplo:</p>\n<pre><code class=\"language-js\">resultado = restaurantBill(50) // En este caso 50 es el monto del consumo\nconsole.log(resultado)\n// Esto imprimir&#xE1; $11 el cual es el monto que cada una de las amigas debe pagar</code></pre>\n<p>&#xA1;Mucha suerte!</p>\n",
+              "files": {
+                "Ym9pbGVycGxhdGU=": {
+                  "cmVzdGF1cmFudEJpbGwuanM=": "module.exports = function restaurantBill(monto) {\n  // 1. Crea una variable llamada impuesto y asígnale el resultado de multiplicar\n  // monto por 10%.\n  var impuesto /* tu código aquí */;\n\n  // 2. Crea una variable llamada total y asígnale el resultado de sumar monto\n  // más impuesto\n  var total /* tu código aquí */;\n\n  // 3. Retorna el monto que cada una debe pagar, con el símbolo $ adelante\n  return /* tu código aquí */;\n};\n"
+                },
+                "c29sdXRpb24=": {
+                  "cmVzdGF1cmFudEJpbGwuanM=": "module.exports = function restaurantBill(bill) {\n  return '$' + (bill * 0.1 + bill) / 5;\n};\n"
+                },
+                "dGVzdA==": {
+                  "cmVzdGF1cmFudEJpbGwuc3BlYy5qcw==": "\nconst Assert = require('chai').assert;\nconst restaurantBill = require('../solution/restaurantBill');\n\ndescribe('restaurantBill()', () => {\n\n  it('debería regresar $11, para 50', () => {\n    const preTaxAmount = 50;\n    const tax = preTaxAmount * 0.1;\n    const total = '$' + (preTaxAmount + tax) / 5 ;\n    Assert.deepEqual(restaurantBill(preTaxAmount), total);\n  });\n\n  it('debería regresar $22, para 100', () => {\n    const preTaxAmount = 100;\n    const tax = preTaxAmount * 0.1;\n    const total = '$' + (preTaxAmount + tax) / 5 ;\n    Assert.deepEqual(restaurantBill(preTaxAmount), total);\n  });\n\n  it('debería regresar $18.7, para 85', () => {\n    const preTaxAmount = 85;\n    const tax = preTaxAmount * 0.1;\n    const total = '$' + (preTaxAmount + tax) / 5 ;\n    Assert.deepEqual(restaurantBill(preTaxAmount), total);\n  });\n});\n"
+                }
+              }
+            }
+          },
+          "durationString": "30min"
+        },
+        "13-development-team": {
+          "title": "El equipo de desarrollo",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=UI1pUqfKitU&feature=youtu.be",
+              "id": "UI1pUqfKitU"
+            }
+          ],
+          "body": "<h2 id=\"etapas-y-roles-en-el-desarrollo-de-productos-digitales\">Etapas y roles en el desarrollo de productos digitales</h2>\n<p>Para poder entender c&#xF3;mo funciona un equipo de desarrollo de productos, mira el\nsiguiente video:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/UI1pUqfKitU?feature=youtu.be&amp;autoplay=0\"></iframe></div></p>\n<p>Luego de ver el video, intenta responder las siguientes preguntas:</p>\n<ul>\n<li>&#xBF;Qu&#xE9; hace un UX Designer?</li>\n<li>&#xBF;Qu&#xE9; hace un UI Designer?</li>\n<li>&#xBF;Qu&#xE9; hace un Front End Developer?</li>\n<li>&#xBF;Qu&#xE9; hace un Back End Developer?</li>\n<li>&#xBF;Qu&#xE9; hace un Product Manager?</li>\n<li>&#xBF;Qu&#xE9; hace un Growth Hacker?</li>\n</ul>\n",
+          "durationString": "15min"
+        },
+        "14-ux-design": {
+          "title": "UX Design",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 15,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=9BdtGjoIN4E&cc_lang_pref=es&cc_load_policy=1",
+              "id": "9BdtGjoIN4E"
+            },
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=wmmVhVIxW-A&amp=&feature=youtu.be",
+              "id": "wmmVhVIxW-A"
+            }
+          ],
+          "body": "<h2 id=\"&#xBF;qu&#xE9;-es-user-experience-design\">&#xBF;Qu&#xE9; es User Experience Design?</h2>\n<p>Para empezar, es bueno saber qu&#xE9; entendemos por UX. Para ello mira este video,\nen el que <a href=\"https://es.wikipedia.org/wiki/Donald_Norman\" target=\"_blank\">Don Norman</a>, primero en\nusar el t&#xE9;rmino, nos explica qu&#xE9; es UX.</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/9BdtGjoIN4E?cc_lang_pref=es&amp;cc_load_policy=1&amp;autoplay=0\"></iframe></div></p>\n<h2 id=\"&#xBF;qu&#xE9;-es-ux\">&#xBF;Qu&#xE9; es UX?</h2>\n<p>UX = User Experience son todas las experiencias que vive/experimenta una persona\nal usar un producto. Una silla, una mesa y un computador, todos tienen una\nexperiencia al usarlos.</p>\n<p>Una web, un app o cualquier producto digital tambi&#xE9;n tienen distintas\nexperiencias para el usuario. Estas experiencias no siempre son iguales, en\nmuchos casos pueden variar dependiendo del entorno en el que son usados. Por\nejemplo, la experiencia de uso de Youtube puede variar dependiendo de la\nvelocidad de la conexi&#xF3;n a internet que estemos usando, o de las publicidades\nque se nos interpongan antes o durante la ejecuci&#xF3;n del contenido que queremos\nver.</p>\n<h2 id=\"&#xBF;qu&#xE9;-es-ux-design\">&#xBF;Qu&#xE9; es UX Design?</h2>\n<blockquote>\n<p>UX Design es el trabajo de los profesionales &quot;UX Designers&quot;. Es el proceso\nmediante el cual se dise&#xF1;an las experiencias que vivir&#xE1; un usuario al usar un\nproducto.</p>\n</blockquote>\n<h3 id=\"definici&#xF3;n-formal-de-ux-design\">Definici&#xF3;n formal de UX Design</h3>\n<p>El proceso creativo y anal&#xED;tico para determinar qu&#xE9; y c&#xF3;mo ser&#xE1; una web, un app,\nun software o un gadget, teniendo en cuenta siempre las necesidades, deseos y\nmetas de los usuarios. Pero, sin dejar de lado las metas de los negocios.</p>\n<p>Para entender un poco m&#xE1;s sobre el proceso de UX Design mira este video:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/wmmVhVIxW-A?amp=&amp;feature=youtu.be&amp;autoplay=0\"></iframe></div></p>\n<h2 id=\"&#xBF;por-qu&#xE9;-estamos-aprendiendo-ux\">&#xBF;Por qu&#xE9; estamos aprendiendo UX?</h2>\n<p>Usualmente vamos a querer que los usuarios de nuestros productos (digitales o\nf&#xED;sicos) est&#xE9;n felices cuando consumen lo que ofrecemos.</p>\n<p>&#xBF;Sentarse en una silla ultra comoda o un banco de madera?\n&#xBF;Comprar en un starbucks o en una cafeter&#xED;a local?\n&#xBF;Usar Facebook o Myspace?</p>\n<p>La experiencia al usar nuestros productos es directamente proporcional a su consumo.</p>\n<p>Al tener una mejor UX tenemos m&#xE1;s consumo.</p>\n<p>Y viceversa.</p>\n",
+          "durationString": "15min"
+        },
+        "15-ux-design-vs-ui-design": {
+          "title": "UX vs UI",
+          "type": "read",
+          "format": "self-paced",
+          "duration": 30,
+          "embeds": [
+            {
+              "type": "video",
+              "provider": "youtube",
+              "href": "https://www.youtube.com/watch?v=ft5TzxG-LAc&cc_lang_pref=es&cc_load_policy=1",
+              "id": "ft5TzxG-LAc"
+            }
+          ],
+          "body": "<h2 id=\"user-interface-design-vs-user-experience-design\">User Interface Design vs User Experience Design</h2>\n<p>Para poder entender la diferencia, similitud y relaci&#xF3;n entre UI y UX, lee el\nsiguiente art&#xED;culo: <a href=\"http://blog.acantu.com/que-es-ux-y-ui/\" target=\"_blank\">UX vs UI</a>.</p>\n<p>Luego de leer este art&#xED;culo, intenta responder las siguientes preguntas:</p>\n<ul>\n<li>&#xBF;Qu&#xE9; es UX y qu&#xE9; es UI?</li>\n<li>&#xBF;Cu&#xE1;l es la relaci&#xF3;n entre UX y UI Design?</li>\n</ul>\n<h3 id=\"ux-designer-vs-ui-designer\">UX Designer vs UI Designer</h3>\n<p>Para dedicarnos a ser UX o UI Designer tenemos que tener ciertas caracter&#xED;sticas\nque puedes ver en el siguiente video:</p>\n<p><div class=\"iframe-container\"><iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" frameborder=\"0\" src=\"https://www.youtube.com/embed/ft5TzxG-LAc?cc_lang_pref=es&amp;cc_load_policy=1&amp;autoplay=0\"></iframe></div></p>\n<p>Ahora, intenta responer estas preguntas:</p>\n<ul>\n<li>&#xBF;C&#xF3;mo es la personalidad de un UX Designer?</li>\n<li>&#xBF;C&#xF3;mo es la personalidad de un UI Designer?</li>\n</ul>\n<h3 id=\"ux--ui\">UX != UI</h3>\n<p>Adicionalmente el autor Golden Krishna en su libro <a href=\"http://www.nointerface.com/book/\" target=\"_blank\">The best interface is not interface</a>\nnos deja estos t&#xE9;rminos comunes usados en UX y en UI para resaltar que son\nt&#xE9;rminos distintos.</p>\n<h4 id=\"ui\">UI</h4>\n<blockquote>\n<p>Navegaci&#xF3;n, subnavegaci&#xF3;n, men&#xFA;s, desplegables, botones, enlaces / ligas /\nlinks, ventanas, esquinas redondeadas, sombreado, mensajes de error, alertas,\nactualizaciones, checkboxes, campos de contrase&#xF1;a, campos de b&#xFA;squeda,\nentradas de texto, selectores de radio, &#xE1;reas de texto, estados de hover,\nestados de selecci&#xF3;n, estados presionados, informaci&#xF3;n sobre herramientas,\nanuncios de banner, videos incrustados, animaciones de desplazamiento,\ndesplazamiento, clics, iconograf&#xED;a, colores, listas, presentaciones de\ndiapositivas, texto alternativo, insignias, notificaciones, degradados,\nventanas emergentes, carruseles, OK / Cancelar, etc., etc., etc.</p>\n</blockquote>\n<h4 id=\"ux\">UX</h4>\n<blockquote>\n<p>Gente, felicidad, resoluci&#xF3;n de problemas, entender necesidades, amor,\neficiencia, entretenimiento, placer, deleitar, sonrisas, alma, calidez,\npersonalidad, alegr&#xED;a, satisfacci&#xF3;n, gratificaci&#xF3;n, exaltaci&#xF3;n, euforia,\nconveniencia,  eficacia, etc., etc., etc.</p>\n</blockquote>\n",
+          "durationString": "30min"
+        },
+        "16-quiz": {
+          "questions": [
+            {
+              "title": "1) ¿Qué es UX?",
+              "description": "",
+              "answers": [
+                "Es una etapa del proceso de desarrollo de productos digitales",
+                "Son todas las experiencias que vive/experimenta una persona al usar un\nproducto",
+                "Es un rol dentro del equipo de desarrollo de productos digitales",
+                "Es el resultado de un proceso de dise&#xF1;o"
+              ],
+              "solution": [
+                1
+              ]
+            },
+            {
+              "title": "2) ¿Cuáles son los 2 conceptos clave para entender User Experience Design?",
+              "description": "",
+              "answers": [
+                "Generar mayores ingresos para la compa&#xF1;&#xED;a",
+                "Ofrecer una experiencia amigable para los usuarios",
+                "Responsive design",
+                "Tener mejores productos digitales",
+                "Resolver necesidades de los usuarios"
+              ],
+              "solution": [
+                1,
+                4
+              ]
+            },
+            {
+              "title": "3) Para crear un producto digital en el mundo de hoy requieres",
+              "description": "",
+              "answers": [
+                "Un programador",
+                "Un front-end y un back-end developer",
+                "Un equipo multidisciplinario",
+                "Una egresada de Laboratoria"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "4) ¿Cuáles son las 3 etapas en el desarrollo de un producto digital según Laboratoria?",
+              "description": "",
+              "answers": [
+                "Crecimiento",
+                "Sprint kick off",
+                "Dise&#xF1;o de la experiencia",
+                "Desarrollo",
+                "Retrospectiva"
+              ],
+              "solution": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "title": "5) Facilidad para las relaciones sociales y para el análisis son características de un ___ designer",
+              "description": "",
+              "answers": [
+                "Visual",
+                "UI",
+                "UX",
+                "Front-end"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "6) Los siguientes términos: botones, ventanas, esquinas redondeadas, checkboxes, están más relacionados con",
+              "description": "",
+              "answers": [
+                "UX",
+                "Front-end developer",
+                "UI",
+                "Web development"
+              ],
+              "solution": [
+                2
+              ]
+            },
+            {
+              "title": "7) Con qué términos completarías los espacios en blanco: Una buena _______  nos permite dar una buena ________.",
+              "description": "",
+              "answers": [
+                "UI - UX",
+                "Investigaci&#xF3;n - presentaci&#xF3;n",
+                "Aplicaci&#xF3;n m&#xF3;vil - experiencia",
+                "UX - UI"
+              ],
+              "solution": [
+                0
+              ]
+            },
+            {
+              "title": "8) Son actividades que realiza un UX Designer",
+              "description": "",
+              "answers": [
+                "Pruebas (de usabilidad, con usuarios)",
+                "Dise&#xF1;o de elementos (botones, formularios)",
+                "Dise&#xF1;o visual (iconos, im&#xE1;genes)",
+                "Investigaci&#xF3;n (con stakeholders, etnogr&#xE1;fica, entrevistas 1 a 1&#x2026;)",
+                "Gu&#xED;as de estilo (paletas de color, fonts)"
+              ],
+              "solution": [
+                0,
+                3
+              ]
+            }
+          ],
+          "title": "Quiz 1",
+          "type": "quiz",
+          "format": "self-paced",
+          "duration": 30,
+          "durationString": "30min"
+        }
+      },
+      "order": 2,
+      "stats": {
+        "duration": 465,
+        "durationString": "7.8h",
+        "exerciseCount": 2,
+        "partCount": 16
+      }
+    }
+  },
+  "grades": "<p>[TODO]</p>\n",
+  "contributors": "<ul>\n<li>Tu nombre</li>\n<li>Otros colaboradores?</li>\n</ul>\n",
+  "books": "",
+  "benchmarks": "",
+  "references": "",
+  "stats": {
+    "duration": 735,
+    "durationString": "12.3h",
+    "exerciseCount": 2,
+    "unitCount": 3,
+    "partCount": 22
+  }
+}

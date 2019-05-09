@@ -1,0 +1,37 @@
+{
+  "name": "admission-curriculum",
+  "version": "1.0.0",
+  "description": "Quizes and exercises of the admission process @Laboratoria",
+  "scripts": {
+    "build": "node index.js",
+    "build:dev": "yarn build --env=dev",
+    "build:staging": "yarn build --env=staging",
+    "build:production": "yarn build --env=production",
+    "mdlint": "mdlint .",
+    "validate": "course-parser spanish/README.md  --track=js --locale=es-ES --validate",
+    "pretest": "npm run mdlint && npm run validate",
+    "test": "mocha './{,!(node_modules|build)/**/}*.spec.js'"
+  },
+  "repository": "Laboratoria/admission-curriculum",
+  "keywords": [
+    "javascript",
+    "laboratoria",
+    "admission"
+  ],
+  "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/admission-curriculum/issues"
+  },
+  "dependencies": {
+    "copy-dir": "^1.0.0",
+    "minimist": "^1.2.0",
+    "replace-in-file": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "course-parser": "Laboratoria/course-parser#1.1.1",
+    "mdlint": "Laboratoria/mdlint#v1.0.0",
+    "mocha": "^5.2.0"
+  }
+}
