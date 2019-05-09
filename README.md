@@ -6,12 +6,38 @@ This repository holds the content required for the admission process.
 
 Install dependencies: `yarn` or `npm install`
 
+## Config
+
+### Typeform
+
+You'll need to add your typeform ids inside the `.typeformrc` file, there are
+three configurations for dev, stating and production, so you can add others if you
+want. the structure is the following:
+
+```json
+{
+  "dev": {
+    ....
+  },
+  "{your-env}": {
+    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
+  },
+  ...
+}
+```
+
+
 ## Usage
 
 We have different environment (dev, staging, production) for different purposes
-the make sure you are building the right content for your environment
+, so make sure you are building the right content for your environment.
 
-#### 1. Build the content
+### 1. Build the content
 
 - For development env `yarn build:dev`
 - For staging env `yarn build:staging`
@@ -19,7 +45,7 @@ the make sure you are building the right content for your environment
 
 > The content will be saved into `build/spanish.json` file
 
-#### 2. Edit the content
+### 2. Edit the content
 
 You must edit the following data inside `build/spanish.json`:
 

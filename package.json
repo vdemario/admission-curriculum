@@ -1,7 +1,7 @@
 {
   "name": "admission-curriculum",
   "version": "1.0.0",
-  "description": "Quizes and exercises of the admission process @Laboratoria",
+  "description": "Quizzes and exercises of the admission process @Laboratoria",
   "scripts": {
     "build": "node index.js",
     "build:dev": "yarn build --env=dev",
@@ -24,7 +24,7 @@
     "url": "https://github.com/Laboratoria/admission-curriculum/issues"
   },
   "dependencies": {
-    "copy-dir": "^1.0.0",
+    "fs-extra": "^7.0.1",
     "minimist": "^1.2.0",
     "replace-in-file": "^4.0.0"
   },
