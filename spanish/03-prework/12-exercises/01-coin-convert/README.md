@@ -5,9 +5,11 @@ cantidad de dólares a soles peruanos, pesos mexicanos y pesos chilenos.
 
 Utiliza las tasas de cambio siguientes para ello:
 
+```text
 1.00 dólar = 3.25 soles peruanos
 1.00 dólar = 18 pesos mexicanos
-1.00 dólar= 660 pesos chilenos
+1.00 dólar = 660 pesos chilenos
+```
 
 Ejemplo:
 
