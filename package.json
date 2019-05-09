@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Quizzes and exercises of the admission process @Laboratoria",
   "scripts": {
-    "build": "node index.js",
-    "build:dev": "yarn build --env=dev",
-    "build:staging": "yarn build --env=staging",
-    "build:production": "yarn build --env=production",
+    "prebuild": "node index.js",
+    "compile": "curriculum-parser topic ./build/spanish --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/spanish.json",
+    "build:dev": "yarn prebuild --env=dev & yarn parse",
+    "build:staging": "npm run prebuild --env=staging && npm run parse",
+    "build:production": "npm run prebuild --env=production && npm run parse",
     "mdlint": "mdlint .",
     "validate": "course-parser spanish/README.md  --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run validate",
@@ -24,6 +25,7 @@
     "url": "https://github.com/Laboratoria/admission-curriculum/issues"
   },
   "dependencies": {
+    "curriculum-parser": "Laboratoria/curriculum-parser",
     "fs-extra": "^7.0.1",
     "minimist": "^1.2.0",
     "replace-in-file": "^4.0.0"

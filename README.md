@@ -90,10 +90,25 @@ You must edit the following data inside `build/spanish.json`:
   ...
 }
 ```
+__Additional scripts that you can use:__
+
+- To generate the content into `build` folder
+
+  ```bash
+  yarn prebuild --env={your-environment}
+  ```
+- To parse and compile the content into `spanish.json` file inside the `build` folder
+
+  ```bash
+  yarn compile
+  ```
 
 ## Testing
 
-To run tests, mdlint and curriculum-validate `yarn test`
+- To run markdown linter `yarn mdlint`
+- To validate the course content `yarn validate`
+- To run mdlint and validate `yarn pretest`
+- To run tests and pretest `yarn test`
 
 
 ## FAQ
@@ -111,3 +126,8 @@ slug: Path `slug` (`es`) is shorter than the minimum allowed length (3).
 
 That's the reason why they aren't `es` and `pt`
 
+
+## TODO
+
+- Add support for portuguese content
+- Create unit tests
