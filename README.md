@@ -6,44 +6,38 @@ This repository holds the content required for the admission process.
 
 Install dependencies: `yarn` or `npm install`
 
-## Config
+## Set Typeform IDs
 
-### Typeform
+1. Copy `.typeformrc.example` file to `.typeformrc`
+2. Add all typeform ids inside `.typeformrc` file according to environment.
 
-You'll need to add your typeform ids inside the `.typeformrc` file, there are
-three configurations for dev, stating and production, so you can add others if you
-want. the structure is the following:
+The Typeform ids _required_ are:
 
 ```json
-{
-  "dev": {
-    ....
-  },
-  "{your-env}": {
-    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
-    "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
-    "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
-    "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
-    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
-    "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
-  },
-  ...
-}
+  "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
+  "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
+  "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
+  "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
+  "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
+  "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
 ```
+
+> __Remember:__ There are three environments available
+> (dev, stating and production) for different purposes, but you can add
+> others environments if you want.
 
 
 ## Usage
 
-We have different environment (dev, staging, production) for different purposes
-, so make sure you are building the right content for your environment.
+> __Important:__ Make sure you are building the right content for your environment.
 
-### 1. Build the content
+### 1. Build
 
 - For development env `yarn build:dev`
 - For staging env `yarn build:staging`
 - For production env `yarn build:production`
 
-> The content will be saved into `build/spanish.json` file
+> The final content will be saved in `build/spanish.json` file
 
 ### 2. Edit the content
 
