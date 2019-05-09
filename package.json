@@ -5,9 +5,9 @@
   "scripts": {
     "prebuild": "node index.js",
     "compile": "curriculum-parser topic ./build/spanish --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/spanish.json",
-    "build:dev": "yarn prebuild --env=dev & yarn parse",
-    "build:staging": "npm run prebuild --env=staging && npm run parse",
-    "build:production": "npm run prebuild --env=production && npm run parse",
+    "build:dev": "run-s \"prebuild --env=dev\" compile ",
+    "build:staging": "run-s \"prebuild --env=staging\" compile",
+    "build:production": "run-s \"prebuild --env=production\" compile",
     "mdlint": "mdlint .",
     "validate": "course-parser spanish/README.md  --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run validate",
@@ -34,6 +34,7 @@
     "chai": "^4.2.0",
     "course-parser": "Laboratoria/course-parser#1.1.1",
     "mdlint": "Laboratoria/mdlint#v1.0.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.5"
   }
 }
