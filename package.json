@@ -4,12 +4,12 @@
   "description": "Quizzes and exercises of the admission process @Laboratoria",
   "scripts": {
     "prebuild": "node index.js",
-    "compile": "curriculum-parser topic ./build/spanish --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/spanish.json",
-    "build:dev": "run-s \"prebuild --env=dev\" compile ",
+    "compile": "curriculum-parser topic ./build/admission-es --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/admission-es.json",
+    "build:dev": "run-s \"prebuild --env=dev\" compile",
     "build:staging": "run-s \"prebuild --env=staging\" compile",
     "build:production": "run-s \"prebuild --env=production\" compile",
     "mdlint": "mdlint .",
-    "validate": "course-parser spanish/README.md  --track=js --locale=es-ES --validate",
+    "validate": "course-parser admission-es/README.md  --track=js --locale=es-ES --validate",
     "pretest": "npm run mdlint && npm run validate",
     "test": "mocha './{,!(node_modules|build)/**/}*.spec.js'"
   },

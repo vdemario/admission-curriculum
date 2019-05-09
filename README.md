@@ -43,11 +43,11 @@ The Typeform ids _required_ are:
 
 You must edit the following data inside `build/spanish.json`:
 
-2.1. Add the following key `order: 0` to the parent object in this way:
+2.1. Add the following key `order: 1` to the parent object in this way:
 
 ```json
 {
-  "order": 0,
+  "order": 1,
   "slug": "spanish",
   "repo": "Laboratoria/admission-curriculum",
   "path": "build/spanish",

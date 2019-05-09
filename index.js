@@ -54,7 +54,7 @@ typeformKeysRequired.forEach(key => {
 /**
  * Copy source content to build folder
  */
-const pathOrigin = 'spanish'
+const pathOrigin = 'admission-es'
 const pathDestination = `build/${pathOrigin}`
 
 try {
@@ -77,7 +77,7 @@ try {
       to: typeformVars[argv.env][key]
     })
   })
-  console.info('Content was created successfully, Check it out at build folder!!')
+  console.info('The "build/admission-es.json" file was compiled successfully!!')
 } catch (error) {
   throw error
 }
