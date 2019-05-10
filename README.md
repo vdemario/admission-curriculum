@@ -33,9 +33,9 @@ The Typeform ids _required_ are:
 
 ### 1. Build
 
-- For development env, run `yarn build:development`
-- For staging env, run `yarn build:staging`
-- For production env, run `yarn build:production`
+- For development environment, run `yarn build:development`
+- For staging environment, run `yarn build:staging`
+- For production environment, run `yarn build:production`
 
 > The final content will be saved in `build/spanish.json` file
 
@@ -99,10 +99,10 @@ __Additional scripts that you can use:__
 
 ## Testing
 
-- To run markdown linter, run `yarn mdlint`
-- To validate the course content, run `yarn validate`
-- To run mdlint and validate, run `yarn pretest`
-- To run tests and pretest, run `yarn test`
+- To run markdown linter `yarn mdlint`
+- To validate the course content `yarn validate`
+- To run mdlint and validate `yarn pretest`
+- To run tests and pretest `yarn test`
 
 ## TODO
 
