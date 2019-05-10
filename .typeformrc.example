@@ -1,5 +1,5 @@
 {
-  "dev": {
+  "development": {
     "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
     "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
     "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",

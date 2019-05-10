@@ -7,7 +7,7 @@ const argv = require('minimist')(process.argv.slice(2));
 const replace = require('replace-in-file');
 
 // variables that are required from ".typeformrc" file
-const typeformKeysRequired = new Set([
+const requiredTypeformKeys = new Set([
   "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES",
   "TYPEFORM_ID_TESTS_READING_ES",
   "TYPEFORM_ID_TESTS_LOGIC_ES",
@@ -16,8 +16,8 @@ const typeformKeysRequired = new Set([
   "TYPEFORM_ID_TESTS_MATH_ES",
 ])
 
-if (! argv.env) {
-  throw new Error('--env argument not provided, ex: --env=dev')
+if (!argv.env) {
+  throw new Error('--env argument not provided, ex: --env=development')
 }
 
 /**
@@ -44,7 +44,7 @@ if (!typeformVars[argv.env]) {
   throw new Error(`"${argv.env}" key not found inside ".typeformrc" file`)
 }
 
-typeformKeysRequired.forEach(key => {
+requiredTypeformKeys.forEach(key => {
   if (!typeformVars[argv.env].hasOwnProperty(key) || ! typeformVars[argv.env][key]) {
     throw new Error(`"${key}" not found inside the ".typeformrc" file`)
   }

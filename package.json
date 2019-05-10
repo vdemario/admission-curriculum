@@ -5,7 +5,7 @@
   "scripts": {
     "prebuild": "node index.js",
     "compile": "curriculum-parser topic ./build/admission-es --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/admission-es.json",
-    "build:dev": "run-s \"prebuild --env=dev\" compile",
+    "build:development": "run-s \"prebuild --env=development\" compile",
     "build:staging": "run-s \"prebuild --env=staging\" compile",
     "build:production": "run-s \"prebuild --env=production\" compile",
     "mdlint": "mdlint .",

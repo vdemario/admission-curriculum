@@ -23,7 +23,7 @@ The Typeform ids _required_ are:
 ```
 
 > __Remember:__ There are three environments available
-> (dev, stating and production) for different purposes, but you can add
+> (development, staging and production) for different purposes, but you can add
 > others environments if you want.
 
 
@@ -33,9 +33,9 @@ The Typeform ids _required_ are:
 
 ### 1. Build
 
-- For development env `yarn build:dev`
-- For staging env `yarn build:staging`
-- For production env `yarn build:production`
+- For development env, run `yarn build:development`
+- For staging env, run `yarn build:staging`
+- For production env, run `yarn build:production`
 
 > The final content will be saved in `build/spanish.json` file
 
@@ -99,27 +99,10 @@ __Additional scripts that you can use:__
 
 ## Testing
 
-- To run markdown linter `yarn mdlint`
-- To validate the course content `yarn validate`
-- To run mdlint and validate `yarn pretest`
-- To run tests and pretest `yarn test`
-
-
-## FAQ
-
-### Why are the folder names `spanish` and `portuguese` ?
-
-Because the `curriculum-parser` requires a path with a minimum allowed length 3
-otherwise we'll get the following error
-
-```
-Topic validation failed: slug: Path `slug` (`es`) is shorter than the minimum allowed length (3).
-
-slug: Path `slug` (`es`) is shorter than the minimum allowed length (3).
-```
-
-That's the reason why they aren't `es` and `pt`
-
+- To run markdown linter, run `yarn mdlint`
+- To validate the course content, run `yarn validate`
+- To run mdlint and validate, run `yarn pretest`
+- To run tests and pretest, run `yarn test`
 
 ## TODO
 
