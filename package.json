@@ -1,0 +1,40 @@
+{
+  "name": "admission-curriculum",
+  "version": "1.0.0",
+  "description": "Quizzes and exercises of the admission process @Laboratoria",
+  "scripts": {
+    "prebuild": "node index.js",
+    "compile": "curriculum-parser topic ./build/admission-es --version 1.0.0 --locale es-ES --track js --repo Laboratoria/admission-curriculum > ./build/admission-es.json",
+    "build:development": "run-s \"prebuild --env=development\" compile",
+    "build:staging": "run-s \"prebuild --env=staging\" compile",
+    "build:production": "run-s \"prebuild --env=production\" compile",
+    "mdlint": "mdlint .",
+    "validate": "course-parser admission-es/README.md  --track=js --locale=es-ES --validate",
+    "pretest": "npm run mdlint && npm run validate",
+    "test": "mocha './{,!(node_modules|build)/**/}*.spec.js'"
+  },
+  "repository": "Laboratoria/admission-curriculum",
+  "keywords": [
+    "javascript",
+    "laboratoria",
+    "admission"
+  ],
+  "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/admission-curriculum/issues"
+  },
+  "dependencies": {
+    "curriculum-parser": "Laboratoria/curriculum-parser",
+    "fs-extra": "^7.0.1",
+    "minimist": "^1.2.0",
+    "replace-in-file": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "course-parser": "Laboratoria/course-parser#1.1.1",
+    "mdlint": "Laboratoria/mdlint#v1.0.0",
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

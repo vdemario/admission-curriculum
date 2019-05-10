@@ -1,0 +1,26 @@
+{
+  "development": {
+    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
+  },
+  "staging": {
+    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
+  },
+  "production": {
+    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_READING_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_LOGIC_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_PERSONALITY_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES": "your-typeformid",
+    "TYPEFORM_ID_TESTS_MATH_ES": "your-typeformid"
+  }
+}
