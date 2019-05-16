@@ -1,8 +1,17 @@
 module.exports = function coinConvert(dolares) {
-  const conversiones = []; /* en este arreglo guardaremos los resultados de todas las conversiones */
-  const soles /* tu código aquí */;
-  const pesosMexicanos /* tu código aquí */;
-  const pesosChilenos /* tu código aquí */;
+  var conversiones = [];
+
+  /** crea una variable soles para asignarle el resultado de multiplicar dólares por
+      la tasa de conversión a soles */
+  var soles
+
+  /** crea una variable pesosMexicanos para asignarle el resultado de multiplicar dólares por
+      la tasa de conversión a pesos mexicanos */
+  var pesosMexicanos /* tu código aquí */;
+
+  /** crea una variable pesosChilenos para asignarle el resultado de multiplicar dólares por
+      la tasa de conversión a pesos chilenos */
+  var pesosChilenos /* tu código aquí */;
 
   // Añade el monto equivalente en soles
   conversiones.push(/* tu código aquí */);
