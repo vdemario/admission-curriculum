@@ -1,10 +1,10 @@
-# Quiz
+# Quiz 1
 
 - Tipo: `quiz`
 - Formato: `self-paced`
 - Duración: `20min`
 
-***
+---
 
 ## Preguntas
 
@@ -37,7 +37,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 4) HTML es ...*
+### 4) HTML es ?
 
 #### Opciones
 
@@ -101,7 +101,7 @@
 ### 9) ¿Qué hace la siguiente etiqueta?
 
 ```js
-<script src="nombre-del-documento.js"></script>
+<script src="nombre-del-documento.js" />
 ```
 
 #### Opciones
