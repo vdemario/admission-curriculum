@@ -26,7 +26,7 @@ Qué conocimientos previos se necesitan?
 ## Aprenderás
 
 En esta sección debes listar los objetivos de aprendizaje. Por ejemplo,
-extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/09-paradigms):
+extraído del curso de [paradigmas de programación](https://github.com/Laboratoria/curricula-js/tree/master/topics/paradigms)
 
 * Qué son los **paradigmas de programación**
 * Qué son **FP**, **OOP**, **EOP** y **PP** y cómo se comparan
@@ -35,10 +35,6 @@ extraído del curso de [paradigmas de programación](https://github.com/Laborato
 * Cómo implementar **herencia prototipal**
 * Los principios básicos de la **programación funcional**
 * A usar **composición** como alternativa la _herencia_
-* A **trabajar sobre una base de código existente**
-* A trabajar haciendo **pair programming**
-* A sacarle el jugo a git y GitHub usando **issues**, **milestones**,
-  **branches**, **forks** y **pull requests**
 
 ## Producto
 
