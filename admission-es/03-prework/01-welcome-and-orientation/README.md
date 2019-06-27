@@ -58,16 +58,14 @@ Video de Michelle explicando las descargas:
 (https://www.youtube.com/watch?v=TePHiOKb72k)
 -->
 
-### 1. Grupo de Facebook
+### 1. Ayuda
 
-Únete al grupo de Facebook correspondiente a la sede a la que estás postulando.
-Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con
-el apoyo del staff de profesores de Laboratoria.
-
-* [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
-* [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
-* [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
-* [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
+En la sección de Ayuda, podrás encontrar "Preguntas y Respuestas Frecuentes",
+que podrán guiarte en caso que tengas dudas. Si la sección de "Preguntas y
+Respuestas Frecuentes" no soluciona tus dudas, puedes contactarnos a través del
+formulario que se encuentra al final de la sección. Una vez completes el
+formulario, nosotros nos contactaremos contigo a través del correo electrónico
+para ayudarte.
 
 <!--
 ### 2. Horas de consulta
@@ -109,11 +107,11 @@ Los contactos para cada sede, son los siguientes:
 * Lima:
   - Alejandra Ramírez: alejandra@laboratoria.la
 * Ciudad de México:
-  - Lucile Baratier: lucile@laboratoria.la
+  - Paulina Treviño: paulina@laboratoria.la
 * Santiago de Chile:
-  - Valentina Smith: valentina@laboratoria.la
+  - Alexandra Neira: alexandra@laboratoria.la
 * Guadalajara:
-  - Karla Rejas: karla@laboratoria.la
+  - Ofelia Reyes: ofeleriareyes@laboratoria.la
 
 ## Sobre este curso
 
