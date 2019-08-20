@@ -1,62 +1,66 @@
 # Orientação e boas-vindas
 
-* Tipo: `lectura`
+* Tipo: `leitura`
 * Formato: `self-paced`
-* Duración: `10min`
+* Duração: `10min`
 
 ***
 
 Olá e bem-vinda à terceira fase do processo de seleção: o pré-trabalho. Você
 deve sentir-se muito orgulhosa de estar disposta a investir seu tempo e esforço
-para completar uma das etapas mais importantes do processo. Esta etapa consiste
-em fazer o curso **01. Introdução à Programação (JavaScript)** da Laboratória,
-que é o ponto de partida ideal para aprender a programar. Aqui começamos do zero,
-ensinando os fundamentos do JavaScript, que é a linguagem de programação mais
-popular para a Web.
+para completar uma das etapas mais importantes deste processo. Esta etapa
+consiste em fazer o curso **01. Introdução à Programação (JavaScript)** da
+Laboratória, que é o ponto de partida ideal para aprender a programar. Aqui
+começamos do zero ensinando os fundamentos do JavaScript, que é a linguagem de
+programação mais popular para a Web.
 
-Este curso é um passo fundamental do processo de seleção porque vai permitir-nos
-verificar seu interesse em tecnologia, bem como o seu compromisso com o programa.
-Além disso, analisaremos a sua capacidade de aprender sozinha e de
+Este curso é um passo fundamental no processo de seleção porque vai permitir-nos
+verificar seu interesse em tecnologia, bem como o seu compromisso com o
+programa. Além disso, analisaremos a sua capacidade de aprender sozinha e de
 forma independente.
 
 A duração aproximada do curso é de 15-20 horas. Você pode avançar conforme o seu
-ritmo, mas recomendamos que organize o seu tempo para ir fazendo gradualmente.
-Você tem até dia xxx para terminar.
-
-Nele pedimos que veja vídeos e faça leituras básicas sobre os temas que vai
-estudar durante o bootcamp. Estas informações vão te ajudar fazer alguns
-exercícios básicos de programação e responder a alguns testes rápidos (quiz).
-Mas não se preocupe. Você não precisa saber nada de programação para responder.
-Toda a informação que você precisa para fazer os exercícios estarão à sua
-disposição. O importante é que leia e releia todos os materiais com atenção.
+ritmo, mas recomendamos que organize o seu tempo para fazer gradualmente. A
+equipe da Laboratória te avisará sobre a data de conclusão do pré-trabalho. Não
+esqueça de anotá-la.
 
 Para passar para a próxima etapa do processo de seleção é preciso completar todo
 o pré-trabalho. As candidatas que demonstrarem maior empenho e potencial para
-aprender, serão convidadas a iniciar o período de pré-admissão, onde
+aprender, serão convidadas a iniciar o período de pré-admissão, no qual
 continuaremos com este curso de forma presencial. Será uma boa oportunidade para
 mostrar o que você já domina e sabe fazer.
 
 ## Acompanhamento e pontos de apoio
 
-Lembre-se que você não está sozinha neste processo. Vamos acompanhá-la em cada
-etapa através do apoio de vários canais ao longo do curso.
+Lembre-se de que você não está sozinha neste processo. Vamos acompanhá-la em
+cada etapa através de vários canais.
 
-### 1. Grupo Facebook
+<!-- ### 1. Grupo Facebook
 
 Junte-se ao grupo de Facebook correspondente ao lugar para o qual você está se
 candidatando. Lá você pode fazer e responder perguntas em conjunto com outras
 candidatas, com a ajuda da equipe de professores Laboratória.
 
-* [Sao Paulo](https://www.facebook.com/groups/laboratoriaSP2018turma1/)
+* [Sao Paulo](https://www.facebook.com/groups/laboratoriaSP2018turma1/) -->
 
-### 2. Mail
+### 1. Ajuda
 
-Se não conseguir responder às suas perguntas via Facebook ou no horário de aula,
-você também tem a opção de escrever diretamente para nossa equipe de professores
-para abordar questões específicas. Tente usar esta opção como último recurso,
-porque quanto mais e-mails recebem, mais demoram a responder.
+Na seção de Ajuda, você encontrará "Perguntas e Respostas Frequentes" que
+poderão te guiar caso tenha dúvidas. Se a seção de "Perguntas e Respostas
+Frequentes", não solucionar suas perguntas, você poderá entrar em contato com a
+equipe por meio do formulário no final da seção. Uma vez completo o formulário,
+nós entraremos em contato através do e-mail para te ajudar. 
 
-Contatos para cada local são:
+### 2. E-mail
+
+Se não conseguir responder às suas perguntas e precisar da ajuda de nossa equipe
+de formação ou de seleção, você poderá entrar em contato por meio dos dados de
+contato da sede. 
+
+Tente usar esta opção como último recurso, porque quanto mais e-mails recebemos,
+mais demoramos a responder.
+
+Contatos da sede:
 
 * infosp@gmail.com
 * Whatsapp: 11 94067 3333
@@ -65,33 +69,30 @@ Contatos para cada local são:
 
 ### Objetivo do curso
 
-Este curso é destinado a pessoas sem conhecimento prévio de programação que têm
-interesse em se aventurar no mundo da programação. Ele será o seu primeiro passo
+Este curso é destinado à pessoas sem conhecimento prévio de programação, que têm
+interesse em se aventurar no mundo da tecnologia. Ele será o seu primeiro passo
 no caminho de aprendizagem.
-O objetivo deste curso é lhe dar uma idéia do que se trata o mundo do
+
+O objetivo deste curso é lhe dar uma ideia do que se trata o mundo do
 desenvolvimento de software, para que possa determinar se é algo que você ama
 exercer como profissão. Depois de completar este curso você vai saber se a
 programação é algo que você gosta e terá uma boa base para o desenvolvimento de
 sua carreira no mundo da tecnologia.
 
-### O que você irá aprender
+### Objetivos de aprendizagem
 
-* Entenderá o que é a programação e por que aprender a programar.
-* Entenderá o que é JavaScript e por que aprender essa linguagem.
-* Terá uma primeira abordagem no mundo do código, criando seu primeiro site.
-* Aprenderá a dar dinamismo ao seu site usando JavaScript.
-* Aprenderá alguns conceitos básicos de programação, tais como variáveis, tipos
-  de dados e operadores.
-
-### Duração total
-
-* 15-20 horas.
-* Modalidade: Self-paced (no seu próprio ritmo - online).
+* Entender **o que é a programação** e por que aprender a programar.
+* Entender **o que é JavaScript** e por que aprender essa linguagem.
+* Ter uma primeira abordagem sobre o mundo dos códigos, criando **seu primeiro
+  site**.
+* Aprender a dar dinamismo ao seu site usando JavaScript.
+* Aprender alguns **conceitos básicos de programação**, tais como variáveis,
+  tipos de dados e operadores.
 
 ### Pré-requisitos
 
 Nenhum conhecimento prévio de programação é necessário para concluir este curso.
-Ele foi desenhado para iniciantes.
+Ele foi estruturado para iniciantes.
 
 <!-- ## Syllabus
 
