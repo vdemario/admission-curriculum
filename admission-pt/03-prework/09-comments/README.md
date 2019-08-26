@@ -1,10 +1,10 @@
 # Comentários
 
-- Tipo: `lectura`
+- Tipo: `leitura`
 - Formato: `self-paced`
-- Duración: `10min`
+- Duração: `10min`
 
-## Objetivos de Aprendizajem
+## Objetivos de Aprendizagem
 
 - Aprender o que são os _comentários_ e sua utilidade.
 
@@ -52,7 +52,7 @@ console.log(/* seu código aqui */);
 
 A ideia é que você apague o comentário e utilize esse espaço para escrever seu
 código. Não se preocupe em apagar os comentários. Aliás, **não** apague outras
-partes do programa. Se você faz isso, é muito provável que não funcione muito
+partes do programa. Se você fizer isso, é muito provável que não funcione muito
 bem.
 
 Agora sim, continue com os exercícios e questionários desta lição. Boa sorte!
