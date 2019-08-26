@@ -1,8 +1,8 @@
-# Auto-aprendizagem: manipulando strings e numbers
+# Manipulando strings e numbers
 
-- Tipo: `lectura`
+- Tipo: `leitura`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duração: `30min`
 
 ## Objetivos da Aprendizagem
 
@@ -17,7 +17,7 @@ No mundo da tecnologia, a **auto-aprendizagem** é essencial. Constantemente
 aparecem ferramentas, linguagens ou tecnologias novas que você precisa aprender
 por conta própria para se manter atualizado. Portanto, é importante que, desde
 o início do seu caminho no mundo da programação, você se acostume em aprender
-por conta própria e a levar o controle do seu crescimento profissional.
+por conta própria e ter o controle do seu crescimento profissional.
 
 A internet é um excelente recurso para aprender por conta própria. É como uma
 grande biblioteca de conhecimento sempre disponível. Vamos ver um exemplo:
@@ -35,7 +35,7 @@ Com certeza um dos resultados é da **Rede de Desenvolvedores da Mozilla (MDN)**
 Essa fonte é uma das mais confiáveis para pesquisar sobre o JavaScript. De fato,
 o criador do JavaScript, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich),
 é um dos fundadores da Fundação Mozilla e a Corporação Mozilla. Como diz
-diretamente o site da [MDN](https://developer.mozilla.org/es/docs/MDN/About):
+diretamente o site da [MDN](https://developer.mozilla.org/pt-BR/docs/MDN/About):
 
 > A Rede de Desenvolvedores da Mozilla (MDN) é uma plataforma de aprendizagem em
 > evolução para tecnologias da Web e o software que alimenta a Web, incluindo:
@@ -44,7 +44,7 @@ diretamente o site da [MDN](https://developer.mozilla.org/es/docs/MDN/About):
 > 2. Open Web app development
 > 3. Firefox add-on development
 
-Leia com atenção a seção de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
+Leia com atenção a seção de [string.lenght](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 que oferece MDN. Talvez você não entenda absolutamente tudo (especialmente o que
 se refere à UTF-16), mas isso é normal. Você deve controlar esse sentimento e
 avançar mesmo com um pouco de incerteza. Reveja o exemplo com calma; parece
@@ -81,15 +81,15 @@ var lengthLongWord = longWord.length;
 // Imprimir no console
 
 console.log(lengthShortWord);
-// returns > 4
+// retorna > 4
 console.log(lengthLongWord);
-// returns > 34
+// retorna > 34
 
 // também podemos imprimir direto no console, assim:
 console.log('hola'.length);
-// returns > 4
+// retorna > 4
 "supercalifragilisticexpialidocious".length;
-// returns > 34
+// retorna > 34
 ```
 
 ## Praticando a auto-aprendizagem
@@ -115,7 +115,7 @@ No final destas leituras, você deve saber muito bem como funcionam:
 
 ## Outros recursos de auto-aprendizagem
 
-Se você ainda tem dúvidas sobre esses conceitos, você poderia analisar outras
+Se você ainda tem dúvidas sobre esses conceitos, você poderá analisar outras
 formas de auto-aprendizagem:
 
 1. Procure outros recursos na internet. Um deles que é muito bom é o
