@@ -1,4 +1,4 @@
-# Exercícios Guiados 
+# Exercícios Guiados
 
 - Tipo: `leitura`
 - Formato: `self-paced`

@@ -49,13 +49,13 @@ Na seção de Ajuda, você encontrará "Perguntas e Respostas Frequentes" que
 poderão te guiar caso tenha dúvidas. Se a seção de "Perguntas e Respostas
 Frequentes", não solucionar suas perguntas, você poderá entrar em contato com a
 equipe por meio do formulário no final da seção. Uma vez completo o formulário,
-nós entraremos em contato através do e-mail para te ajudar. 
+nós entraremos em contato através do e-mail para te ajudar.
 
 ### 2. E-mail
 
 Se não conseguir responder às suas perguntas e precisar da ajuda de nossa equipe
 de formação ou de seleção, você poderá entrar em contato por meio dos dados de
-contato da sede. 
+contato da sede.
 
 Tente usar esta opção como último recurso, porque quanto mais e-mails recebemos,
 mais demoramos a responder.

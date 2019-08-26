@@ -139,7 +139,7 @@ seu navegador Chrome e siga os passos que Thaissa apresenta no próximo vídeo.
 Thaissa irá mostrar como escrever JavaScript e como fazer coisas legais com seu
 computador, usando apenas o navegador.
 
-[![JS EN EL NAVEGADOR](https://embed-ssl.wistia.com/deliveries/3f5fc3343ce72b987c2c485eadff289b89b1db86.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/5x1bc68sia?wvideo=5x1bc68sia)
+[![JS EN EL NAVEGADOR](https://i.ytimg.com/vi/vOMPVz22E2s/0.jpg)](https://youtu.be/vOMPVz22E2s)
 
 ## JavaScript != Java
 

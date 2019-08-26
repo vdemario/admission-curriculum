@@ -12,7 +12,8 @@
 ***
 
 O texto a continuação se baseia principalmente, com algumas modificações, no
-capítulo 2 de [Eloquent JavaScript](http://braziljs.github.io/eloquente-javascript/),de Marijn
+capítulo 2 de [Eloquent
+JavaScript](http://braziljs.github.io/eloquente-javascript/),de Marijn
 Haverbeke, 2014.
 
 ## Variáveis
@@ -32,16 +33,16 @@ Se quisesse utilizar essa `string` de novo, talvez porque Michelle fez
 aniversário e agora queremos que apareça 20 anos no lugar de 19, não poderíamos
 fazê-lo. O valor foi perdido.
 
-Para capturar e manter os valores, o JavaScript fornece algo chamado de `variável`.
-É utilizada assim:
+Para capturar e manter os valores, o JavaScript fornece algo chamado de
+`variável`. É utilizada assim:
 
 ```js
 var age = 19;
 // retorna: undefined
 ```
 
-A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variável.
-É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma
+variável. É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
 imediatamente um valor, é seguido do operador `=` e uma expressão (o número 19).
 
 A declaração anterior cria uma variável chamada age (ou idade no português) e é
@@ -101,13 +102,13 @@ variáveis.
 
 Muitas vezes é explicado o conceito de variáveis com a analogia de uma caixa: as
 variáveis são como "caixas" nas quais você pode colocar algum valor que depois
-pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis como
-sendo **tentáculos**. As variáveis realmente não "contém" os valores (como uma
-caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis podem
-se referir a um mesmo valor. Um programa pode acessar apenas os valores que
-ainda mantém "segurados". Quando você precisa lembrar algo, você cria um novo
-tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para segurar
-o novo.
+pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis
+como sendo **tentáculos**. As variáveis realmente não "contém" os valores (como
+uma caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis
+podem se referir a um mesmo valor. Um programa pode acessar apenas os valores
+que ainda mantém "segurados". Quando você precisa lembrar algo, você cria um
+novo tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para
+segurar o novo.
 
 ## Nomeando Variáveis
 
@@ -138,9 +139,9 @@ sugestões são:
 2. Utilizar nomes em inglês. A programação está baseada no inglês, dessa forma é
    uma boa prática que esteja acostumado a escrever seu código em inglês.
 3. Utilizar nomes descritivos. Assim como as outras sugestões, algo que você
-   sempre tem que considerar é que outras pessoas irão ler seu código e você deve
-   fazer o esforço para utilizar nomes descritivos que ajudem o leitor a entender
-   melhor o que seu programa faz.
+   sempre tem que considerar é que outras pessoas irão ler seu código e você
+   deve fazer o esforço para utilizar nomes descritivos que ajudem o leitor a
+   entender melhor o que seu programa faz.
 
 Vamos ver alguns exemplos:
 

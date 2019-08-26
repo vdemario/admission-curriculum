@@ -50,7 +50,7 @@ demonstram como a conectividade entre os neurônios pode mudar com as
 experiências que as pessoas acumulam. Com a prática, redes neurais estão
 crescendo e criando novas conexões. Isso significa que você pode aumentar o
 crescimento de suas redes neurais com ações, como fazer perguntas, ler, praticar
-uma e outra vez algo que você acha difícil, e manter bons hábitos alimentares e
+uma e outra vez algo que você acha difícil e manter bons hábitos alimentares e
 do sono.
 
 Graças a estas novas descobertas científicas, muitos pesquisadores estão
@@ -86,7 +86,7 @@ refletir e encontrar estratégias para a mudança.
 A figura a seguir resume algumas das diferenças entre as duas mentalidades e vai
 ajudá-la a identificar como melhorar:
 
-![Image Growth
+![Imagem Growth
 Mindset](https://user-images.githubusercontent.com/25912510/37315096-cd7b31a0-2625-11e8-9255-c5e7848076ef.png)
 
 ## Growth Mindset na Laboratória

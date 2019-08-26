@@ -56,9 +56,9 @@ seguinte:
 Chrome](https://user-images.githubusercontent.com/25912510/37315484-fdd43c6e-2627-11e8-835d-1b7b71a7913b.png)
 
 O navegador “lê” o arquivo HTML (o texto e as tags) e o apresenta de acordo com
-as regras da linguagem. Por exemplo, o texto que está entre essas tags `<h1>
-</h1>` é considerado cabeçalho, enquanto o texto entre as tags `<p> </p>` é
-considerado parágrafo. Por isso, o texto _Olá Mundo!_ aparece maior do que o
+as regras da linguagem. Por exemplo, o texto que está entre essas tags
+`<h1> </h1>` é considerado cabeçalho, enquanto o texto entre as tags `<p> </p>`
+é considerado parágrafo. Por isso, o texto _Olá Mundo!_ aparece maior do que o
 texto _Esta é a minha primeira página._
 
 ## Criando a sua primeira página
@@ -71,7 +71,7 @@ A Thaissa  explicará o porquê da necessidade de um editor de texto apropriado
 para resolver os exercícios:
 
 [![Editor de texto
-intro](https://embed-ssl.wistia.com/deliveries/8cff57d37f73a74a557d246050d583027af215ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/37gb5iondx?wvideo=37gb5iondx)
+intro](https://i.ytimg.com/vi/3xS2fWWsAdk/0.jpg)](https://youtu.be/3xS2fWWsAdk)
 
 No próximo vídeo a Thaissa te guiará pelos seguintes passos para que você crie a
 sua primeira página:
@@ -89,7 +89,7 @@ sua primeira página:
 Video:
 
 [![Minha primeira página
-HTML](https://embed-ssl.wistia.com/deliveries/5965a3abc9c483a990a081c16a199ce6ea2d70ce.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/u3xr67d4he?wvideo=u3xr67d4he)
+HTML](https://i.ytimg.com/vi/uIpfFSQ-b2c/0.jpg)](https://youtu.be/uIpfFSQ-b2c)
 
 ## Marcadores e elementos HTML
 
@@ -116,11 +116,11 @@ Façamos uma breve análise de todos os elementos do nosso documento:
    que contém informações sobre o documento e o `body` (corpo, em português),
    que contém o documento em si.
 4. Dentro do elemento `head` há o elemento `title` (com seu marcador inicial e
-   final) que contém o título do documento. É por isso que, quando abrimos
-   nosso arquivo HTML pelo navegador, podemos ver o texto “Minha primeira
-   página” na aba da página. É importante notar que o elemento `title`está
-   _inserido_ dentro do elemento `head`; que por sua vez está _inserido_ dentro
-   do elemento `html`.
+   final) que contém o título do documento. É por isso que, quando abrimos nosso
+   arquivo HTML pelo navegador, podemos ver o texto “Minha primeira página” na
+   aba da página. É importante notar que o elemento `title` está _inserido_
+   dentro do elemento `head`; que por sua vez está _inserido_ dentro do elemento
+   `html`.
 5. Finalmente, temos o elemento `body` (com seu marcador inicial e final) que
    _engloba_ o conteúdo que irá aparecer no navegador. Neste caso, dentro de
    `body` há dois elementos adicionais: o `h1` (cabeçalho) e o `p` (parágrafo).
@@ -142,12 +142,12 @@ Agrega estilos con CSS
 ## HTML e JavaScript
 
 É importante que você entenda que HTML _**não é**_ uma `linguagem de
-programação; `é uma` linguagem de marcação`. Como vimos, o HTML nos ajuda a dar
+programação;` é uma `linguagem de marcação`. Como vimos, o HTML nos ajuda a dar
 a estrutura da nossa página. Entretanto, se quisermos atribuir _comportamento_
-ou _interação_, precisaremos utilizar uma `linguagem de
-programação`. E a **linguagem de programação que pode ser entendida pelos
-navegadores é o JavaScript**. Com o JavaScript conseguimos fazer com que as
-páginas possam responder às ações do usuário, tornando-as interativas.
+ou _interação_, precisaremos utilizar uma `linguagem de programação`. E a
+**linguagem de programação que pode ser entendida pelos navegadores é o
+JavaScript**. Com o JavaScript conseguimos fazer com que as páginas possam
+responder às ações do usuário, tornando-as interativas.
 
 Para incluir um código JavaScript em um documento HTML você pode utilizar o
 elemento `script` e colocar o seu código entre os marcadores inicial (`<script
@@ -188,7 +188,8 @@ JavaScript.
 
 ## Adicionando interação à página
 
-Agora é a sua vez! Continue seguindo os passos da Thaissa para incorporar interação à sua página:
+Agora é a sua vez! Continue seguindo os passos da Thaissa para incorporar
+interação à sua página:
 
 Os passos para prosseguir são:
 

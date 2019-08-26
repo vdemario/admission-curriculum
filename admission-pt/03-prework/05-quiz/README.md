@@ -64,7 +64,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) Quanto aos elementos de head e body :
+### 6) Quanto aos elementos de head e body
 
 #### Opções
 
