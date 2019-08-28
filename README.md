@@ -59,10 +59,7 @@ You must edit the following data inside `build/spanish.json`:
 }
 ```
 
-2.2. Remove the `exercises` key from `10-guided-exercises` object, you can find it
-`syllabus --> 03-prework --> 10-guided-exercises --> exercises`
-
-2.3. Change the value of `order` key for `01-baseline`, `02-tests` and `03-prework` in this way:
+2.2. Change the value of `order` key for `01-baseline`, `02-tests` and `03-prework` in this way:
 
 ```json
 {
