@@ -59,28 +59,6 @@ You must edit the following data inside `build/spanish.json`:
 }
 ```
 
-2.2. Change the value of `order` key for `01-baseline`, `02-tests` and `03-prework` in this way:
-
-```json
-{
-  ...
-  "syllabus": {
-    "01-baseline": {
-      "order": 1
-      ...
-    },
-    "02-tests":{
-      "order": 2
-      ...
-    },
-    "03-prework": {
-      "order": 3
-      ...
-    }
-  }
-  ...
-}
-```
 __Additional scripts that you can use:__
 
 - To generate the content into `build` folder
