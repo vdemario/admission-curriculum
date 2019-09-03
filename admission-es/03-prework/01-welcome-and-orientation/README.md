@@ -11,8 +11,8 @@ Debes sentirte muy orgullosa de estar dispuesta a invertir tu tiempo y esfuerzo
 para completar una de las etapas más importantes del proceso. Esta etapa
 consiste en realizar el curso **01. Introducción a la programación (con
 JavaScript)** de Laboratoria, que es el punto de inicio ideal para aprender a
-programar. Aquí empezamos desde cero, enseñándote los fundamentos de JavaScript,
-el lenguaje de programación más popular de la Web.
+programar. Aquí empezamos desde cero, aprendiendo los fundamentos de JavaScript,
+el lenguaje de programación más popular del mundo.
 
 Este curso es un paso fundamental del proceso de selección, pues nos permitirá
 comprobar tu interés por la tecnología, así como tu compromiso para pertenecer
@@ -21,9 +21,8 @@ individual e independiente.
 
 La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu
 propio ritmo, pero te recomendamos organizarte con tiempo para que vayas
-haciéndolo poco a poco. El equipo de Laboratoria estará recordándoles
-constantemente las fechas de cierre para el pretrabajo, no olvides anotarla y
-tenerla presente.
+haciéndolo poco a poco. El equipo de Laboratoria te comunicará las fechas de
+cierre para el pretrabajo, no olvides anotarla y tenerla presente.
 
 Para pasar a la siguiente etapa del proceso de selección es necesario que
 completes todo el pre-trabajo. Las postulantes que demuestren el mayor
@@ -33,7 +32,7 @@ buena oportunidad para demostrar todo lo que ya dominan y saben hacer.
 
 ## Acompañamiento y puntos de apoyo
 
-Recuerda que no estás sola en este proceso. Nosotros te estaremos acompañando a
+Recuerda que no estás sola en este proceso. Nosotrxs te estaremos acompañando a
 cada paso a través de varios canales de apoyo a lo largo del curso:
 
 <!--
