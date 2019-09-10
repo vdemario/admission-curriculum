@@ -1,8 +1,8 @@
 # Sua primeira página web
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `20min`
+- Duración: `20min`
 
 ## Objetivos de aprendizagem
 
@@ -44,7 +44,7 @@ tudo o que diz, vamos explicar passo a passo mais abaixo):
   </head>
   <body>
     <h1>Olá Mundo!</h1>
-    <p>Esta é minha primeira página.</p>
+    <p>Esta é minha primeira página web</p>
   </body>
 </html>
 ```
@@ -59,7 +59,7 @@ O navegador “lê” o arquivo HTML (o texto e as tags) e o apresenta de acordo
 as regras da linguagem. Por exemplo, o texto que está entre essas tags
 `<h1> </h1>` é considerado cabeçalho, enquanto o texto entre as tags `<p> </p>`
 é considerado parágrafo. Por isso, o texto _Olá Mundo!_ aparece maior do que o
-texto _Esta é a minha primeira página._
+texto _Esta é a minha primeira página web_.
 
 ## Criando a sua primeira página
 
@@ -86,7 +86,7 @@ sua primeira página:
 4. Salve o documento HTML
 5. Abra o documento HTML em um navegador como o Chrome
 
-Video:
+Vídeo:
 
 [![Minha primeira página
 HTML](https://i.ytimg.com/vi/uIpfFSQ-b2c/0.jpg)](https://youtu.be/uIpfFSQ-b2c)
@@ -150,9 +150,9 @@ JavaScript**. Com o JavaScript conseguimos fazer com que as páginas possam
 responder às ações do usuário, tornando-as interativas.
 
 Para incluir um código JavaScript em um documento HTML você pode utilizar o
-elemento `script` e colocar o seu código entre os marcadores inicial (`<script
-type="text/javascript">`) e final (`</script>`), tal como mostra o seguinte
-exemplo:
+elemento `script` e colocar o seu código entre os marcadores inicial
+(`<script type="text/javascript">`) e final (`</script>`), tal como mostra
+o seguinte exemplo:
 
 ```html
 <!DOCTYPE html>
@@ -197,18 +197,18 @@ Os passos para prosseguir são:
    HTML.
 2. Dentro do mesmo arquivo HTML, entre os marcadores inicial e final do elemento
    `script`, escreva uma linha de código de JavaScript (por exemplo, algo como
-   `alert()`, `document.write()` ou `prompt()`)
+   `alert()`, `document.write()` ou `prompt()`).
 3. Salve seu documento HTML.
 4. Atualize a página do navegador por onde está vendo o seu documento HTML.
 5. Crie um novo documento chamado `app.js` na mesma pasta onde está seu
    documento HTML.
 6. Adicione o atributo `src` ao elemento `script` com a referência de seu
-   arquivo `app.js`
+   arquivo `app.js`.
 7. Passe todo o código JavaScript do documento HTML ao documento JS.
 8. Atualize a página do navegador e certifique-se de que o funcionamento da
    página é igual a como era antes.
 
-Video do Thaissa:
+Vídeo do Thaissa:
 
 [![Minha primeira HTML
 Web](https://embed-ssl.wistia.com/deliveries/b01097fed7f8868ca3f815a940ab9761551e3d78.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=f7b617e0)](https://laboratoria.wistia.com/medias/c7dis0vp80?wvideo=c7dis0vp80)

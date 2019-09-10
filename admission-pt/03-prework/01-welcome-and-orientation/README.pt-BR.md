@@ -1,8 +1,8 @@
 # Orientação e boas-vindas
 
-* Tipo: `leitura`
-* Formato: `self-paced`
-* Duração: `10min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `10min`
 
 ***
 
@@ -62,8 +62,8 @@ mais demoramos a responder.
 
 Contatos da sede:
 
-* infosp@gmail.com
-* Whatsapp: 11 94067 3333
+- infosp@gmail.com
+- Whatsapp: 11 94067 3333
 
 ## Sobre este curso
 
@@ -81,12 +81,12 @@ sua carreira no mundo da tecnologia.
 
 ### Objetivos de aprendizagem
 
-* Entender **o que é a programação** e por que aprender a programar.
-* Entender **o que é JavaScript** e por que aprender essa linguagem.
-* Ter uma primeira abordagem sobre o mundo dos códigos, criando **seu primeiro
+- Entender **o que é a programação** e por que aprender a programar.
+- Entender **o que é JavaScript** e por que aprender essa linguagem.
+- Ter uma primeira abordagem sobre o mundo dos códigos, criando **seu primeiro
   site**.
-* Aprender a dar dinamismo ao seu site usando JavaScript.
-* Aprender alguns **conceitos básicos de programação**, tais como variáveis,
+- Aprender a dar dinamismo ao seu site usando JavaScript.
+- Aprender alguns **conceitos básicos de programação**, tais como variáveis,
   tipos de dados e operadores.
 
 ### Pré-requisitos

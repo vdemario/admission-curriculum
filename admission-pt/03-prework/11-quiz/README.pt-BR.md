@@ -2,13 +2,13 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duração: `30min`
+- Duración: `30min`
 
 ***
 
 ## Perguntas
 
-### 1) Qual das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
+### 1) Quais das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
 
 #### Opções
 
@@ -84,10 +84,10 @@
 
 #### Opções
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">2</solution>
 
@@ -95,10 +95,10 @@
 
 #### Opções
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
@@ -247,7 +247,7 @@
 
 #### Opções
 
-1. null
+1. `null`
 2. 3
 3. 4
 4. 5

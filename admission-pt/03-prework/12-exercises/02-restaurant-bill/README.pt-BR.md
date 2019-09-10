@@ -9,8 +9,8 @@ Para isso você criou este programa.
 Siga as etapas abaixo para completar o programa e determinar
 quanto deve pagar cada um.
 
-1. Crie uma variável chamada tax (imposto em inglês) e atribua-lhe o resultado
-   de multiplique a conta em 10%. Dica: 10% em decimal é escrito 0,10.
+1. Crie uma variável chamada tax (imposto em inglês) e atribua-lhe como resultado
+   a multiplicação da conta em 10%. Dica: 10% em decimal é escrito 0.10.
 2. Crie uma variável chamada total e atribua-lhe o resultado da adição de conta
    mais impostos
 3. Retorne o valor que cada um deve pagar (total dividido por 5), com o símbolo

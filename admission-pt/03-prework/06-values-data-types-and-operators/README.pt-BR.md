@@ -1,6 +1,6 @@
 # Valores, tipos de dados e operadores
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
 - Duración: `60min`
 
@@ -19,7 +19,7 @@ Marijn Haverbeke, 2014.
 ## Vivemos num mundo de Dados
 
 Em 2010, o então CEO da Google, Eric
-Schmidt,([mencionava](https://techcrunch.com/2010/08/04/schmidt-data/)) que num
+Schmidt, ([mencionava](https://techcrunch.com/2010/08/04/schmidt-data/)) que num
 período de dois dias nós criávamos tantos dados quanto no período que compreende
 desde o início da civilização até o ano de 2003. As compras que você faz são
 dados, as suas notas na escola são dados, seu perfil do Facebook está repleto de

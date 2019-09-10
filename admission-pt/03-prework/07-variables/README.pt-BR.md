@@ -1,8 +1,8 @@
 # Variáveis
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `60min`
+- Duración: `60min`
 
 ## Objetivos de Aprendizagem
 
@@ -167,7 +167,7 @@ isso da seguinte forma:
 var score = 0;
 score = score + 1;
 score;
-// retorna > 1
+// retorna: 1
 ```
 
 Isso pode ser escrito de uma forma mais simples:
@@ -176,7 +176,7 @@ Isso pode ser escrito de uma forma mais simples:
 var score = 0;
 score++;
 score;
-// retorna > 1
+// retorna: 1
 ```
 
 O mesmo pode ser feito para diminuir o valor de uma variável. Por exemplo, num
@@ -189,11 +189,11 @@ recupera 10 pontos.
 var lifePoints = 100;
 lifePoints = lifePoints - 25;
 lifePoints;
-// retorna > 75
+// retorna: 75
 
 lifePoints = lifePoints + 10;
 lifePoints;
-// retorna > 85
+// retorna: 85
 ```
 
 Isso pode ser escrito de forma reduzida, assim:
@@ -202,11 +202,11 @@ Isso pode ser escrito de forma reduzida, assim:
 var lifePoints = 100;
 lifePoints -= 25;
 lifePoints;
-// retorna > 75
+// retorna: 75
 
 lifePoints += 10;
 lifePoints;
-// retorna > 85
+// retorna: 85
 ```
 
 Existem outros operadores similares a `+=` e `-=`. Por exemplo, existem também
@@ -216,10 +216,10 @@ Existem outros operadores similares a `+=` e `-=`. Por exemplo, existem também
 var balloons = 100;
 balloons *= 2;
 balloons;
-// retorna > 200
+// retorna: 200
 
 var balloons = 100;
 balloons /= 4;
 balloons;
-// retorna > 25
+// retorna: 25
 ```

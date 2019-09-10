@@ -1,8 +1,8 @@
 # Por que aprender programação?
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `20min`
+- Duración: `20min`
 
 ## Objetivos de aprendizagem
 
@@ -13,7 +13,7 @@
 ***
 
 O texto abaixo é uma tradução para o português, com alguns ajustes, do capítulo
-1 do [JavaScript for crianças](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
+1 do [JavaScript para crianças](http://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf),
 Nick Morgan, 2015.
 
 ## O que é programação?
@@ -96,7 +96,7 @@ Você pode não ter ouvido falar de JavaScript antes, mas certamente você já u
 JavaScript é usado para escrever programas que são executados em **páginas da
 internet**. Ele controla como uma página da internet é vista ou faz a página
 responder quando um usuário clica em um botão ou move o mouse. Sites como Gmail,
-Facebook e Twitter usam o JavaScript para facilitar o envio de e-mail, postagem
+Facebook e Twitter usam o JavaScript para facilitar o envio de e-mail, postagens,
 comentários ou a navegação em sites.
 
 ## Por que JavaScript?
@@ -134,12 +134,12 @@ linguagem de programação excelente para aprender.
 
 Certamente você está se perguntando como é essa história de ter um interpretador
 JavaScript no navegador. Bem, _**a melhor maneira de aprender é fazendo**_: abra
-seu navegador Chrome e siga os passos que Thaissa apresenta no próximo vídeo.
+seu navegador e siga os passos que Thaissa apresenta no próximo vídeo.
 
 Thaissa irá mostrar como escrever JavaScript e como fazer coisas legais com seu
 computador, usando apenas o navegador.
 
-[![JS EN EL NAVEGADOR](https://i.ytimg.com/vi/vOMPVz22E2s/0.jpg)](https://youtu.be/vOMPVz22E2s)
+[![JS NO NAVEGADOR](https://i.ytimg.com/vi/vOMPVz22E2s/0.jpg)](https://youtu.be/vOMPVz22E2s)
 
 ## JavaScript != Java
 

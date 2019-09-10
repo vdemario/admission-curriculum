@@ -1,7 +1,10 @@
 language: node_js
 node_js:
   - 8
-after_script:
-  - cp .typeformrc.example .typeformrc
-  - yarn build:development
+before_script:
+  - cp .typeformrc.example admission-es/.typeformrc
+  - cp .typeformrc.example admission-pt/.typeformrc
+script:
+  - yarn build --env=development
+  - yarn build --env=development --locale=pt-BR
 

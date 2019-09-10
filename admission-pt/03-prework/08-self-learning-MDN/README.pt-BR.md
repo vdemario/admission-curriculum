@@ -1,8 +1,8 @@
 # Manipulando strings e numbers
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `30min`
+- Duración: `30min`
 
 ## Objetivos da Aprendizagem
 
@@ -13,7 +13,7 @@
 
 ## Aprendendo sobre `string.length`
 
-No mundo da tecnologia, a **auto-aprendizagem** é essencial. Constantemente
+No mundo da tecnologia a **auto-aprendizagem** é essencial. Constantemente
 aparecem ferramentas, linguagens ou tecnologias novas que você precisa aprender
 por conta própria para se manter atualizado. Portanto, é importante que, desde
 o início do seu caminho no mundo da programação, você se acostume em aprender
@@ -40,7 +40,7 @@ diretamente o site da [MDN](https://developer.mozilla.org/pt-BR/docs/MDN/About):
 > A Rede de Desenvolvedores da Mozilla (MDN) é uma plataforma de aprendizagem em
 > evolução para tecnologias da Web e o software que alimenta a Web, incluindo:
 >
-> 1. Padrões web como CSS, HTML, e JavaScript
+> 1. Padrões web como CSS, HTML e JavaScript
 > 2. Open Web app development
 > 3. Firefox add-on development
 
@@ -81,15 +81,15 @@ var lengthLongWord = longWord.length;
 // Imprimir no console
 
 console.log(lengthShortWord);
-// retorna > 4
+// retorna: 4
 console.log(lengthLongWord);
-// retorna > 34
+// retorna: 34
 
 // também podemos imprimir direto no console, assim:
 console.log('hola'.length);
-// retorna > 4
+// retorna: 4
 "supercalifragilisticexpialidocious".length;
-// retorna > 34
+// retorna: 34
 ```
 
 ## Praticando a auto-aprendizagem
@@ -121,7 +121,7 @@ formas de auto-aprendizagem:
 1. Procure outros recursos na internet. Um deles que é muito bom é o
    [stackoverflow](https://es.stackoverflow.com/).
    Em português costuma ter menos conteúdo de qualidade, assim você talvez tenha
-   que usar o tradutor do Google.
+   que usar o tradutor do Google
 2. Faça uma consulta em algum grupo do Facebook
 3. Consulte uma amiga que saiba de programação :)
 

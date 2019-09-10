@@ -1,8 +1,8 @@
 # Comentários
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `10min`
+- Duración: `10min`
 
 ## Objetivos de Aprendizagem
 

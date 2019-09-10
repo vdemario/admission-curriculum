@@ -1,12 +1,12 @@
 # Growth Mindset
 
-* Tipo: `leitura`
-* Formato: `self-paced`
-* Duração: `20min`
+- Tipo: `lectura`
+- Formato: `self-paced`
+- Duración: `20min`
 
 ## Objetivos de aprendizagem
 
-* Entender o que é Growth Mindset (mentalidade de crescimento ) e adotá-la antes
+- Entender o que é Growth Mindset (mentalidade de crescimento ) e adotá-la antes
   de iniciar este curso.
 
 ***
@@ -109,14 +109,14 @@ este desafio: aprender a programar para transformar o seu futuro.
 E para isso, você terá de propor o seguinte:
 
 > Eu, futura estudante da Laboratória, me comprometo a sempre lembrar que eu sou
-> capaz de desenvolver minha inteligência através da aprendizagem . Isso requer
+> capaz de desenvolver minha inteligência através da aprendizagem. Isso requer
 > esforço, ao mesmo tempo que me permite alcançar uma maior realização. Eu
 > prometo sempre querer aprender mais, aceitando os desafios e sendo persistente
 > diante dos obstáculos, porque eu sei que com a prática posso superar. Eu sei
 > que os erros que cometo não significam um fracasso, mas sim oportunidades que
 > me permitem aprender mais. Estou ciente de que, por vezes, terei dúvidas sobre
 > minha capacidade de aprender. Eu sei que não será fácil, mas eu sei que posso
-> fazê-lo. Eu > prometo nunca mais dizer "eu não posso", e sim mudar essa frase
-> para "eu ainda não > posso", porque eu tenho uma mentalidade de crescimento.
+> fazê-lo. Eu prometo nunca mais dizer "eu não posso", e sim mudar essa frase
+> para "eu ainda não posso", porque eu tenho uma mentalidade de crescimento.
 
 **Eu proponho e me comprometo.**

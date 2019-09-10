@@ -1,8 +1,8 @@
 # Exercícios Guiados
 
-- Tipo: `leitura`
+- Tipo: `lectura`
 - Formato: `self-paced`
-- Duração: `10min`
+- Duración: `10min`
 
 ## Objetivos de Aprendizagem
 
@@ -22,13 +22,16 @@ super importante você praticar!! Os projetos para criar são:
 1. **Idade em segundos**: Crie um site que peça ao usuário a idade dele em anos,
    utilizando `prompt()` e devolva a idade **em segundos**, utilizando
    `document.write()`.
-2. **Conversor de temperatura**:Crie um site que peça ao usuário a temperatura
+
+2. **Conversor de temperatura**: Crie um site que peça ao usuário a temperatura
    em graus Celsius (°C), utilizando `prompt()` e devolva, no console, a
    temperatura em graus Farenheit (°F) utilizando `console.log()`. A fórmula
    matemática para converter de °C a °F é: `T(°F) = ( T(°C) × 1.8 ) + 32`.
+
 3. **Ganhos e perdas**: Crie um programa que peça as entradas, saídas e a %
    de impostos e calcule o ganho depois de impostos. Deve imprimir o resultado
    no site com o símbolo $ na frente.
+
 4. **Iniciais**: Crie um programa que peça o nome e sobrenome do usuário. O
    usuário deve introduzir duas palavras separadas por um espaço, por exemplo:
    "Ana Martinez". O programa deve devolver as iniciais **em maiúsculas**. Vamos
