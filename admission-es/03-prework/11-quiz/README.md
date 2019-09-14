@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `30min`
 
----
+***
 
 ## Preguntas
 
@@ -12,12 +12,12 @@
 
 #### Opciones
 
-1. `var last_name = 'Martinez';`
-2. `var score = 1;`
-3. `var cosita = "El retorno del Jedi";`
-4. `var undefined = true;`
-5. `var likesCoffee = false;`
-6. `var 2ndChild = 'Diana';`
+1. const last_name = 'Martinez';
+2. const score = 1;
+3. const cosita = "El retorno del Jedi";
+4. const undefined = true;
+5. const likesCoffee = false;
+6. const 2ndChild = 'Diana';
 
 <solution style="display:none;">2,5</solution>
 
@@ -39,10 +39,10 @@
 
 #### Opciones
 
-1. `3 > 3`
-2. `'hola' + ' mundo'`
-3. `true && false`
-4. `"10" + 1`
+1. 3 > 3
+2. 'hola' + ' mundo'
+3. true && false
+4. "10" + 1
 
 <solution style="display:none;">4</solution>
 
@@ -58,7 +58,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 5) De la lista a continuación, elige las dos fuentes más confiable para aprender por tu cuenta
+### 5) De la lista a continuación, elige las dos (2) fuentes más confiable para aprender por tu cuenta
 
 #### Opciones
 
@@ -106,12 +106,12 @@
 
 #### Opciones
 
-1. `true`
-2. `false`
+1. true
+2. false
 
 <solution style="display:none;">2</solution>
 
-### 10) El resultado de 10 % 3 es
+### 10)  El resultado de 10 % 3 es
 
 #### Opciones
 
@@ -133,7 +133,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 12) El resultado de typeof NaN es
+### 12)  El resultado de **typeof NaN** es
 
 #### Opciones
 
@@ -144,25 +144,25 @@
 
 <solution style="display:none;">3</solution>
 
-### 13) El resultado de 4 % 15 es
+### 13)  El resultado de 4 % 15 es
 
 #### Opciones
 
 1. 4
-2. `false`
+2. false
 3. 15
 4. %
 
 <solution style="display:none;">1</solution>
 
-### 14) El resultado de 'diez' \* 4 es
+### 14) El resultado de 'diez' * 4 es
 
 #### Opciones
 
-1. `NaN`
+1. NaN
 2. 40
 3. diez4
-4. `undefined`
+4. undefined
 
 <solution style="display:none;">1</solution>
 
@@ -181,10 +181,10 @@
 
 #### Opciones
 
-1. `true`
-2. `false`
-3. `undefined`
-4. `null`
+1. true
+2. false
+3. undefined
+4. null
 
 <solution style="display:none;">1</solution>
 
@@ -192,10 +192,10 @@
 
 #### Opciones
 
-1. `true`
-2. `false`
-3. `undefined`
-4. `null`
+1. true
+2. false
+3. undefined
+4. null
 
 <solution style="display:none;">2</solution>
 
@@ -236,8 +236,8 @@
 
 #### Opciones
 
-1. `null`
-2. `undefined`
+1. null
+2. undefined
 3. ""
 4. g
 
@@ -247,7 +247,7 @@
 
 #### Opciones
 
-1. `null`
+1. null
 2. 3
 3. 4
 4. 5
@@ -258,8 +258,8 @@
 
 #### Opciones
 
-1. `null`
-2. `undefined`
+1. null
+2. undefined
 3. 0
 4. -1
 
