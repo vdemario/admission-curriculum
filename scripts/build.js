@@ -1,30 +1,37 @@
-// TODO: Refactor code into functions
-// TODO: Create unit tests
-// TODO: Add support for portuguese language
 const fs = require('fs')
 const fse = require('fs-extra')
 const argv = require('minimist')(process.argv.slice(2));
 const replace = require('replace-in-file');
+const parse = require('./parse')
 
 // variables that are required from ".typeformrc" file
 const requiredTypeformKeys = new Set([
-  "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE_ES",
-  "TYPEFORM_ID_TESTS_READING_ES",
-  "TYPEFORM_ID_TESTS_LOGIC_ES",
-  "TYPEFORM_ID_TESTS_PERSONALITY_ES",
-  "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE_ES",
-  "TYPEFORM_ID_TESTS_MATH_ES",
+  "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE",
+  "TYPEFORM_ID_TESTS_READING",
+  "TYPEFORM_ID_TESTS_LOGIC",
+  "TYPEFORM_ID_TESTS_PERSONALITY",
+  "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE",
+  "TYPEFORM_ID_TESTS_MATH",
 ])
+const availableLocales = ['es-ES', 'pt-BR']
 
 if (!argv.env) {
   throw new Error('--env argument not provided, ex: --env=development')
 }
 
+const locale = argv.locale || 'es-ES'
+
+if (! availableLocales.includes(locale)) {
+  throw new Error(`locale "${locale}" is not available. Try again with "es-ES" or "pt-BR"`)
+}
+
+
 /**
  * Load typeform variables from ".typeformrc" file
  */
 let typeformVars = null
-const typeformrcFilePath = './.typeformrc'
+const topicId = `admission-${locale.split('-')[0]}`
+const typeformrcFilePath = `${topicId}/.typeformrc`
 
 if (!fs.existsSync(typeformrcFilePath)) {
   throw new Error('".typeformrc" file not found in the root folder')
@@ -54,12 +61,11 @@ requiredTypeformKeys.forEach(key => {
 /**
  * Copy source content to build folder
  */
-const pathOrigin = 'admission-es'
-const pathDestination = `build/${pathOrigin}`
+const pathDestination = `build/${topicId}`
 
 try {
   fse.emptyDirSync(pathDestination)
-  fse.copySync(pathOrigin, pathDestination)
+  fse.copySync(topicId, pathDestination)
 } catch (error) {
   throw error
 }
@@ -77,9 +83,20 @@ try {
       to: typeformVars[argv.env][key]
     })
   })
-  console.info('The "build/admission-es.json" file was compiled successfully!!')
+  console.info(`The ${pathDestination} directory was compiled successfully!!`)
 } catch (error) {
   throw error
 }
 
-process.exit()
+parse([{ type: 'topic', id : topicId, locale }])
+  .then(results => {
+    const hasErrors = results.reduce(
+      (memo, { result }) => memo || result instanceof Error,
+      false,
+    );
+    process.exit(hasErrors ? 1 : 0);
+  })
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
