@@ -122,11 +122,11 @@
 
 <solution style="display:none;">1</solution
 
-### 11) El resultado de 'Me \"encanta\" JavaScript' es
+### 11) El resultado de 'Me \\"encanta\\" JavaScript' es
 
 #### Opciones
 
-1. "Me \"encanta\" JavaScript"
+1. "Me \\"encanta\\" JavaScript"
 2. "Me \encanta\ JavaScript"
 3. "Me encanta JavaScript"
 4. "Me "encanta" JavaScript"
