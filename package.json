@@ -1,0 +1,31 @@
+{
+  "name": "admission-curriculum",
+  "version": "1.0.0",
+  "description": "Topics used by the old admission process @Laboratoria",
+  "scripts": {
+    "prebuild": "npm run test",
+    "build": "node scripts/build.js",
+    "mdlint": "mdlint .",
+    "validate": "node scripts/validate.js",
+    "pretest": "npm run mdlint && npm run validate",
+    "test": "mocha './{,!(node_modules|build)/**/}*.spec.js'"
+  },
+  "repository": "Laboratoria/admission-curriculum",
+  "keywords": [
+    "javascript",
+    "laboratoria",
+    "admission"
+  ],
+  "author": "Laboratoria <sumate@laboratoria.la> (http://laboratoria.la/)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/admission-curriculum/issues"
+  },
+  "devDependencies": {
+    "@laboratoria/curriculum-parser": "^2.4.0",
+    "@laboratoria/mdlint": "^1.1.0",
+    "chai": "^4.2.0",
+    "minimist": "^1.2.0",
+    "mocha": "^6.2.0"
+  }
+}
