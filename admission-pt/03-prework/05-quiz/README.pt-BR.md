@@ -100,7 +100,7 @@
 ### 9) O que o seguinte rótulo faz?
 
 ```js
-<script src="nome-do-documento.js" />
+<script src="nome-do-documento.js"></script>
 ```
 
 #### Opções
