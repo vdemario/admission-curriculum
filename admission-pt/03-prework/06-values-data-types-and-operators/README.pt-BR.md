@@ -417,7 +417,7 @@ interrogação "escolhe" qual dos outros dois valores será o resultado. Quando 
 verdadeiro, o valor central é escolhido, e quando é falso, o valor da direita é
 o resultado.
 
-## 4. Null e undefined ( nulo e indefinido)
+## 4. Null e undefined (nulo e indefinido)
 
 Existem dois valores especiais, escritos como `null` e `undefined`, que são
 usados para denotar a ausência de um valor significativo. São valores por si

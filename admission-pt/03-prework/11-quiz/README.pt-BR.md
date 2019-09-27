@@ -12,12 +12,12 @@
 
 #### Opções
 
-1. `var last_name = 'Martim';`
-2. `var score = 1;`
-3. `var coisinha = "O retorno de Jedi";`
-4. `var undefined = true;`
-5. `var likesCoffee = false;`
-6. `var 2ndChild = 'Diana';`
+1. const last_name = 'Martim';
+2. const score = 1;
+3. const coisinha = "O retorno de Jedi";
+4. const undefined = true;
+5. const likesCoffee = false;
+6. const 2ndChild = 'Diana';
 
 <solution style="display:none;">2,5</solution>
 
@@ -39,10 +39,10 @@
 
 #### Opções
 
-1. `3 > 3`
-2. `'oi' + ' mundo'`
-3. `true && false`
-4. `"10" + 1`
+1. 3 > 3
+2. 'oi' + ' mundo'
+3. true && false
+4. "10" + 1
 
 <solution style="display:none;">4</solution>
 
@@ -84,10 +84,10 @@
 
 #### Opções
 
-1. `number`
-2. `string`
-3. `boolean`
-4. `undefined`
+1. number
+2. string
+3. boolean
+4. undefined
 
 <solution style="display:none;">2</solution>
 
@@ -95,10 +95,10 @@
 
 #### Opções
 
-1. `number`
-2. `string`
-3. `boolean`
-4. `undefined`
+1. number
+2. string
+3. boolean
+4. undefined
 
 <solution style="display:none;">1</solution>
 
@@ -106,8 +106,8 @@
 
 #### Opções
 
-1. `true`
-2. `false`
+1. true
+2. false
 
 <solution style="display:none;">2</solution>
 
@@ -122,18 +122,18 @@
 
 <solution style="display:none;">1</solution>
 
-### 11) O resultado de 'Me \"encanta\" JavaScript' é
+### 11) O resultado de 'Me \\"encanta\\" JavaScript' é
 
 #### Opções
 
-1. "Me \"encanta\" JavaScript"
+1. "Me \\"encanta\\" JavaScript"
 2. "Me \encanta\ JavaScript"
 3. "Me encanta JavaScript"
 4. "Me "encanta" JavaScript"
 
 <solution style="display:none;">4</solution>
 
-### 12) O resultado de typeof NaN é
+### 12) O resultado de **typeof NaN** é
 
 #### Opções
 
@@ -149,7 +149,7 @@
 #### Opções
 
 1. 4
-2. `false`
+2. false
 3. 15
 4. %
 
@@ -159,10 +159,10 @@
 
 #### Opções
 
-1. `NaN`
+1. NaN
 2. 40
 3. dez4
-4. `undefined`
+4. undefined
 
 <solution style="display:none;">1</solution>
 
@@ -181,10 +181,10 @@
 
 #### Opções
 
-1. `true`
-2. `false`
-3. `undefined`
-4. `null`
+1. true
+2. false
+3. undefined
+4. null
 
 <solution style="display:none;">1</solution>
 
@@ -192,10 +192,10 @@
 
 #### Opções
 
-1. `true`
-2. `false`
-3. `undefined`
-4. `null`
+1. true
+2. false
+3. undefined
+4. null
 
 <solution style="display:none;">2</solution>
 
@@ -236,8 +236,8 @@
 
 #### Opções
 
-1. `null`
-2. `undefined`
+1. null
+2. undefined
 3. ""
 4. g
 
@@ -247,7 +247,7 @@
 
 #### Opções
 
-1. `null`
+1. null
 2. 3
 3. 4
 4. 5
@@ -258,8 +258,8 @@
 
 #### Opções
 
-1. `null`
-2. `undefined`
+1. null
+2. undefined
 3. 0
 4. -1
 
