@@ -37,11 +37,13 @@ You need to pass 2 environment variables: `env`, `locale`
 **`env`** : `development`, `staging`, `production`
 **`locale`**: `es-ES`, `pt-BR`
 
-For instance:
+By default `locale` takes the value `es-ES`
 
-`yarn build --env=production --locale=es-ES`
+**For instance:**
 
-The final content will be saved in `build/admission-{es|pt}.json` file
+`yarn build --env=production --locale=pt-BR`
+
+The final content will be saved in `build/admission-pt.json` file
 
 ### 2. Edit the content
 
