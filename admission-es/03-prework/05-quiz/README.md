@@ -101,7 +101,7 @@
 ### 9) ¿Qué hace la siguiente etiqueta?
 
 ```js
-<script src="nombre-del-documento.js" />
+<script src="nombre-del-documento.js"></script>
 ```
 
 #### Opciones
