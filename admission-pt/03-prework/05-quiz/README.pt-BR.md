@@ -2,24 +2,24 @@
 
 - Tipo: `quiz`
 - Formato: `self-paced`
-- Duración: `30min`
+- Duración: `20min`
 
 ---
 
-## Preguntas
+## Perguntas
 
-### 1) Cada navegador vem com um interpretador de JavaScript que entende com ler os programas de JavaScript
+### 1) Cada navegador vem com um interpretador de JavaScript que entende como ler os programas de JavaScript
 
-#### Opciones
+#### Opções
 
 1. Verdadeiro
 2. Falso
 
 <solution style="display:none;">1</solution>
 
-### 2) JavaScript é uma versão moderna de linguagem de programação Java
+### 2) JavaScript é uma versão moderna da linguagem de programação Java
 
-#### Opciones
+#### Opções
 
 1. Verdadeiro
 2. Falso
@@ -28,7 +28,7 @@
 
 ### 3) Qual dos seguintes NÃO é um navegador web?
 
-#### Opciones
+#### Opções
 
 1. Google Chrome
 2. Internet Explorer
@@ -39,45 +39,45 @@
 
 ### 4) HTML é ?
 
-#### Opciones
+#### Opções
 
-1. A linguagem de programação para criar páginas da Web
+1. A linguagem de programação para criar páginas Web
 2. A linguagem de marcação de texto para criar a estrutura de páginas da web
-3. A ferramenta de marketing para páginas da web
+3. A ferramenta de marketing para páginas Web
 4. Um protocolo para o envio de informações sobre a Internet
 
 <solution style="display:none;">2</solution>
 
-### 5) O que o seguinte rótulo faz?
+### 5) O que o seguinte marcador faz?
 
 ```html
 <!DOCTYPE html>
 ```
 
-#### Opciones
+#### Opções
 
-1. Definir a abertura de código HTML
-2. Definir as linhas de código HTML que irá documentar
+1. Definir a abertura do código HTML
+2. Definir as linhas de código HTML que o documento terá
 3. Fazer com que o navegador interprete o documento como HTML moderno, ao
    contrário de várias versões que estavam em uso no passado.
-4. Salvar o arquivo com .html
+4. Salvar o arquivo com a extensão .html
 
 <solution style="display:none;">3</solution>
 
-### 6) Quanto aos elementos de head e body ?
+### 6) Quanto aos elementos de head e body
 
-#### Opciones
+#### Opções
 
-1. Head contém informações sobre o documento, e body também
+1. Head contém informações sobre o documento e o body também
 2. Head contém informações sobre cabeçalhos e body sobre parágrafos
-3. Head contém o próprio documento e body informações sobre o documento
-4. Head contém informações sobre o documento, e o body contém o documento em si
+3. Head contém o documento em si e body informações sobre o documento
+4. Head contém informações sobre o documento e o body contém o documento em si
 
 <solution style="display:none;">4</solution>
 
 ### 7) O elemento título deve estar dentro do elemento ?
 
-#### Opciones
+#### Opções
 
 1. head
 2. body
@@ -88,7 +88,7 @@
 
 ### 8) Para incluir JavaScript em uma página HTML o elemento usado é ?
 
-#### Opciones
+#### Opções
 
 1. head
 2. body
@@ -103,7 +103,7 @@
 <script src="nome-do-documento.js" />
 ```
 
-#### Opciones
+#### Opções
 
 1. Atribuir o nome para o documento JavaScript
 2. Escrever JavaScript diretamente no HTML
@@ -114,7 +114,7 @@
 
 ### 10) Nomes comuns para os seus arquivos são ?
 
-#### Opciones
+#### Opções
 
 1. index.html e app.js
 2. minha-página-irada.html e javascript.js

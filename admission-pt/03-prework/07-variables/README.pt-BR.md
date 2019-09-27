@@ -12,9 +12,9 @@
 ***
 
 O texto a continuação se baseia principalmente, com algumas modificações, no
-capítulo 2 de [Eloquent JavaScript](http://eloquentjavascript.net/),de Marijn
-Haverbeke, 2014. Traducción en [Español](http://hectorip.github.io/Eloquent-JavaScript-ES-online/chapters/01_values.html)
-disponible gracias a [hectorip](https://github.com/hectorip).
+capítulo 2 de [Eloquent
+JavaScript](http://braziljs.github.io/eloquente-javascript/),de Marijn
+Haverbeke, 2014.
 
 ## Variáveis
 
@@ -26,41 +26,41 @@ utilizados ou se perdem. Segue no seu console o seguinte exemplo:
 
 ```js
 'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + 19 + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 19 anos"
+// retorna: "Oi, meu nome é Michelle e tenho 19 anos"
 ```
 
-Se quisesse utilizar esse `string` de novo, talvez porque Michelle fez
+Se quisesse utilizar essa `string` de novo, talvez porque Michelle fez
 aniversário e agora queremos que apareça 20 anos no lugar de 19, não poderíamos
 fazê-lo. O valor foi perdido.
 
-Para capturar e manter os valores, o JavaScript fornece algo chamado `variável`.
-É utilizada assim:
+Para capturar e manter os valores, o JavaScript fornece algo chamado de
+`variável`. É utilizada assim:
 
 ```js
 var age = 19;
-// returns: undefined
+// retorna: undefined
 ```
 
-A palavra chave (_keyword_) `var` indica que esta frase irá definir uma variável.
-É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
+A palavra chave (_keyword_) `var` indica que esta frase irá definir uma
+variável. É seguida pelo nome da variável (o nome _age_) e, se queremos atribuir
 imediatamente um valor, é seguido do operador `=` e uma expressão (o número 19).
 
 A declaração anterior cria uma variável chamada age (ou idade no português) e é
-usada para reter o número 19. A console devolve undefined, mas não pense que é
+usada para reter o número 19. O console devolve undefined, mas não pense que é
 um erro. É o que o JavaScript faz quando um comando não devolve nenhum valor.
 Quando você escreve 12 + 5, o console devolve 17. Mas ao declarar uma variável
 chamada age atribuindo o valor 19, não há um valor fornecido. É por isso que a
-console simplesmente devolve undefined (no restante dos exemplos vamos a omitir
+console simplesmente devolve undefined (no restante dos exemplos vamos omitir
 esse undefined devolvido porque não adiciona muito valor na explicação).
 
-Depois que uma variável tem sido definida, o nome dela pode ser usada como uma
+Depois que uma variável foi definida, o nome dela pode ser usado como uma
 expressão. O valor da expressão é o valor que a variável contém atualmente.
 Continuemos com o exemplo anterior:
 
 ```js
 var age = 19;
 'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 19 anos"
+// retorna: "Oi, meu nome é Michelle e tenho 19 anos"
 ```
 
 O console nos ajuda a saber o valor de uma variável. Se escrevemos o nome de uma
@@ -70,16 +70,16 @@ não foi atribuído nenhum valor, o console devolve undefined.
 
 ```js
 age
-// returns: Uncaught ReferenceError: age is not defined
+// retorna: Uncaught ReferenceError: age is not defined
 //           at <anonymous>:1:1
 
 var age = 19;
 age
-// returns: 19
+// retorna: 19
 
 var weight;
 weight
-// returns: undefined
+// retorna: undefined
 ```
 
 Quando uma variável aponta para um valor, não quer dizer que está ligada a esse
@@ -89,11 +89,11 @@ existentes para desconectá-las do seu valor atual e ser apontadas para um novo.
 
 ```js
 var age = 19;
-// returns: undefined
+// retorna: undefined
 age = 20;
-// returns: 20
+// retorna: 20
 'Oi, meu nome é ' + 'Michelle' + ' e tenho ' + age + ' anos';
-// returns: "Oi, meu nome é Michelle e tenho 20 anos"
+// retorna: "Oi, meu nome é Michelle e tenho 20 anos"
 ```
 
 Leve em consideração que para atribuir um novo valor, você não tem que utilizar
@@ -101,14 +101,14 @@ a _keyword_ `var` novamente. Você só utiliza ela quando precisa _criar_ novas
 variáveis.
 
 Muitas vezes é explicado o conceito de variáveis com a analogia de uma caixa: as
-variáveis são como "caixa" nas quais você pode colocar algum valor que depois
-pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis como
-sendo **tentáculos**. As variáveis realmente não "contém" os valores (como uma
-caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis podem
-se referir a um mesmo valor. Um programa pode acessar apenas os valores que
-ainda mantém "segurados". Quando você precisa lembrar algo, você cria um novo
-tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para segurar
-o novo.
+variáveis são como "caixas" nas quais você pode colocar algum valor que depois
+pode mudar por outro. Contudo, uma analogia mais fiel é pensar nas variáveis
+como sendo **tentáculos**. As variáveis realmente não "contém" os valores (como
+uma caixa); mas apenas os segura (como um tentáculo). De fato, duas variáveis
+podem se referir a um mesmo valor. Um programa pode acessar apenas os valores
+que ainda mantém "segurados". Quando você precisa lembrar algo, você cria um
+novo tentáculo para "segurá-lo" ou muda um dos tentáculos existentes para
+segurar o novo.
 
 ## Nomeando Variáveis
 
@@ -121,7 +121,7 @@ variáveis:
    nome (só não pode no início)
 4. **Não** podem conter sinais de pontuação, salvo os símbolos `$` e `_`
 
-Não respeitar alguma das regras anteriores produz um erro por parte do
+Não respeitar alguma das regras anteriores produz um **error** por parte do
 JavaScript.
 
 Além dessas regras, existem uma série de "sugestões" que você deve levar em
@@ -139,9 +139,9 @@ sugestões são:
 2. Utilizar nomes em inglês. A programação está baseada no inglês, dessa forma é
    uma boa prática que esteja acostumado a escrever seu código em inglês.
 3. Utilizar nomes descritivos. Assim como as outras sugestões, algo que você
-   sempre tem que considerar é que outras pessoas irão ler seu código e você deve
-   fazer o esforço para utilizar nomes descritivos que ajudem o leitor a entender
-   melhor o que seu programa faz.
+   sempre tem que considerar é que outras pessoas irão ler seu código e você
+   deve fazer o esforço para utilizar nomes descritivos que ajudem o leitor a
+   entender melhor o que seu programa faz.
 
 Vamos ver alguns exemplos:
 
@@ -167,7 +167,7 @@ isso da seguinte forma:
 var score = 0;
 score = score + 1;
 score;
-// returns > 1
+// retorna: 1
 ```
 
 Isso pode ser escrito de uma forma mais simples:
@@ -176,7 +176,7 @@ Isso pode ser escrito de uma forma mais simples:
 var score = 0;
 score++;
 score;
-// returns > 1
+// retorna: 1
 ```
 
 O mesmo pode ser feito para diminuir o valor de uma variável. Por exemplo, num
@@ -188,12 +188,12 @@ recupera 10 pontos.
 ```js
 var lifePoints = 100;
 lifePoints = lifePoints - 25;
-lifePoints
-// returns > 75
+lifePoints;
+// retorna: 75
 
 lifePoints = lifePoints + 10;
-lifePoints
-// returns > 85
+lifePoints;
+// retorna: 85
 ```
 
 Isso pode ser escrito de forma reduzida, assim:
@@ -201,12 +201,12 @@ Isso pode ser escrito de forma reduzida, assim:
 ```js
 var lifePoints = 100;
 lifePoints -= 25;
-lifePoints
-// returns > 75
+lifePoints;
+// retorna: 75
 
 lifePoints += 10;
-lifePoints
-// returns > 85
+lifePoints;
+// retorna: 85
 ```
 
 Existem outros operadores similares a `+=` e `-=`. Por exemplo, existem também
@@ -215,11 +215,11 @@ Existem outros operadores similares a `+=` e `-=`. Por exemplo, existem também
 ```js
 var balloons = 100;
 balloons *= 2;
-balloons
-// returns > 200
+balloons;
+// retorna: 200
 
 var balloons = 100;
 balloons /= 4;
-balloons
-// returns > 25
+balloons;
+// retorna: 25
 ```
