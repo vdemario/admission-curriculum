@@ -1,4 +1,4 @@
-# Quiz 1
+# Quiz
 
 - Tipo: `quiz`
 - Formato: `self-paced`
@@ -10,7 +10,7 @@
   conocimientos a prueba. Es una oportunidad para que te calibres y valides que
   realmente estás aprendiendo. ¡Mucho éxito!
 
-***
+---
 
 ## Preguntas
 
@@ -26,7 +26,7 @@
 
 <solution style="display:none;">2</solution>
 
-### 2) ¿Cuáles son los 2 conceptos clave para entender User Experience Design?
+### 2) ¿Cuáles son los dos conceptos clave para entender User Experience Design?
 
 #### Opciones
 
@@ -49,7 +49,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 4) ¿Cuáles son las 3 etapas en el desarrollo de un producto digital según Laboratoria?
+### 4) ¿Cuáles son las tres etapas en el desarrollo de un producto digital según Laboratoria?
 
 #### Opciones
 
@@ -83,7 +83,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 7) Con qué términos completarías los espacios en blanco: `Una buena _______  nos permite dar una buena ________.`
+### 7) Con qué términos podemos completar los espacios en blanco: `Una buena _______ nos permite dar una buena ________.`
 
 #### Opciones
 

@@ -5,20 +5,29 @@ const { spawn } = require('child_process');
 const { repository, version } = require('../package.json');
 
 const rubricVersion = '3.x';
+const buildPath = 'build';
 
 const parse = ({ type, id, locale }, validate = false) => new Promise((resolve) => {
   console.log(`=> Parsing ${type} ${id} ${locale}...`);
   const suffix = locale.split('-')[0];
-  const fd = fs.openSync(
-    validate
-      ? '/dev/null'
-      : `build/${id}.json`,
-    'w',
-  );
+  let destPath;
+
+  if (validate) {
+    if (!fs.existsSync(buildPath)){
+      fs.mkdirSync(buildPath);
+    }
+
+    destPath = `${buildPath}/${id}.json`;
+  } else {
+    destPath = '/dev/null';
+  }
+
+  const fd = fs.openSync(destPath, 'w')
+
   const child = spawn('npx', [
     'curriculum-parser',
     type,
-    `${validate ? '': 'build/'}${id}`,
+    `${id}`,
     '--repo', repository,
     '--version', version,
     '--rubric', rubricVersion,

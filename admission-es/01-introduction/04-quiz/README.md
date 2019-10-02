@@ -4,7 +4,7 @@
 - Formato: `self-paced`
 - Duración: `20min`
 
-***
+---
 
 ## Preguntas
 
@@ -37,7 +37,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 4) HTML es ...*
+### 4) HTML es ?
 
 #### Opciones
 
@@ -48,7 +48,11 @@
 
 <solution style="display:none;">2</solution>
 
-### 5) La función de <!DOCTYPE html> es
+### 5) ¿Qué hace la siguiente etiqueta?
+
+```html
+<!DOCTYPE html>
+```
 
 #### Opciones
 

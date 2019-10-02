@@ -9,6 +9,8 @@ if (! availableLocales.includes(locale)) {
   throw new Error(`locale "${locale}" is not available. Try again with "es-ES" or "pt-BR"`)
 }
 
+const topicId = `admission-${locale.split('-')[0]}`
+
 parse([{ type: 'topic', id : topicId, locale }])
   .then(results => {
     const hasErrors = results.reduce(

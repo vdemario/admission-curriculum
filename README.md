@@ -4,13 +4,13 @@ This repository holds the topics required for the **OLD** admission process in s
 
 ## Install
 
-Install dependencies: `yarn` or `npm install`
+Install dependencies: `npm install`
 
 ## Usage
 
 ### 1. Build
 
-`yarn build --locale={es-ES|pt-BR}`
+`npm run build --locale={es-ES|pt-BR}`
 
 **`locale`**: `es-ES`, `pt-BR`
 
@@ -41,6 +41,6 @@ You must edit the following data inside `build/admission-{es|pt}.json`:
 
 ## Testing
 
-- To validate the course content `yarn validate`
-- To run markdown linter `yarn mdlint`
-- To run tests and pretest `yarn test`
+- To validate the course content `npm run validate`
+- To run markdown linter `npm run mdlint`
+- To run tests and pretest `npm run test`

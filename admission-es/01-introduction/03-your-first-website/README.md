@@ -4,13 +4,12 @@
 - Formato: `self-paced`
 - Duración: `20min`
 
-## Objetivos
+## Objetivos de aprendizaje
 
-- Entender la función del HTML para crear la estructura básica de una página
-  web.
+- Entender como construir la estructura básica de una página web usando HTML.
 - Conocer los principales elementos y etiquetas HTML.
 - Aprender a darle dinamismo a una web utilizando JavaScript.
-- Tener un primer acercamiento al mundo del código, creando tu primera página
+- Tener un primer acercamiento al mundo del código, creando tu primer sitio
   web.
 
 ***
@@ -28,7 +27,7 @@ necesitaremos algo más flexible, como una página web. En esta sección aprende
 cómo crear una página web HTML básica y darle interacción con JavaScript.
 
 HTML (HyperText Markup Language) es el lenguaje utilizado para crear la
-estructura de una página web. Para crear una web, se empieza creando un
+estructura de un sitio web. Para crear este sitio, se empieza creando un
 documento en formato HTML. Esto es muy parecido a crear un documento con formato
 word, excel o powerpoint.
 
@@ -72,11 +71,11 @@ Michelle te explica por qué necesitarás un editor de texto para los ejercicios
 En el siguiente video, Michelle te guiará a través de los siguientes pasos para
 que crees tu primera web:
 
-1. Descarga Atom, un editor de texto: [Descargar](https://atom.io/). Si tienes
-   problemas descargando Atom, puedes descargar otro editor de texto llamado
-   Sublime Text, hay versión para Mac y Windows. Ten en cuenta que las
-   explicaciones que te dará Michelle, estarán en Atom pero tú podrás hacer lo
-   mismo en Sublime Text. [Descarga Sublime aquí](https://www.sublimetext.com/3)
+1. Descarga Atom, un editor de texto: [Descargar](https://atom.io/), hay versión
+   para Mac y Windows. Si deseas puedes descargar otro editor de texto llamado
+   Visual Studio Code, ten en cuenta que las explicaciones que te dará Michelle
+   estarán en Atom pero tú podrás hacer lo mismo en Visual Studio Code.
+   [Descarga VSCode aquí](https://code.visualstudio.com/)
 2. Crea un documento HTML llamado `index.html`
 3. Agrega algunos elementos al documento HTML (por ejemplo: un título y un
    párrafo)
@@ -148,7 +147,7 @@ acciones de usuario, volviéndolas interactivas.
 
 Para incluir JavaScript en un documento HTML puedes utilizar el elemento
 `script` y colocar tu código JavaScript entre sus etiquetas de inicio
-(`<script type="text/javascript">`) y cierre (`</script>`), tal como lo muestra
+(`<script>`) y cierre (`</script>`), tal como lo muestra
 el siguiente ejemplo:
 
 ```html
@@ -161,7 +160,7 @@ el siguiente ejemplo:
     <h1>¡Hola Mundo!</h1>
     <p>Esta es mi primera web</p>
 
-    <script type="text/javascript">
+    <script>
       alert('¡Hola Mundo!');
     </script>
 
@@ -185,7 +184,7 @@ documento JavaScript.
 ## Añádele interacción a tu web
 
 ¡Ahora te toca a tí! Continúa con Michelle siguiendo los pasos para agregarle
-interacción a tu página web:
+interacción a tu sitio web:
 
 Los pasos a seguir son:
 

@@ -11,8 +11,8 @@ Debes sentirte muy orgullosa de estar dispuesta a invertir tu tiempo y esfuerzo
 para completar una de las etapas más importantes del proceso. Esta etapa
 consiste en realizar el curso **01. Introducción a la programación (con
 JavaScript)** de Laboratoria, que es el punto de inicio ideal para aprender a
-programar. Aquí empezamos desde cero, enseñándote los fundamentos de JavaScript,
-el lenguaje de programación más popular de la Web.
+programar. Aquí empezamos desde cero, aprendiendo los fundamentos de JavaScript,
+el lenguaje de programación más popular del mundo.
 
 Este curso es un paso fundamental del proceso de selección, pues nos permitirá
 comprobar tu interés por la tecnología, así como tu compromiso para pertenecer
@@ -21,9 +21,8 @@ individual e independiente.
 
 La duración aproximada del curso es de 15-20 horas. Tú podrás avanzar a tu
 propio ritmo, pero te recomendamos organizarte con tiempo para que vayas
-haciéndolo poco a poco. El equipo de Laboratoria estará recordándoles
-constantemente las fechas de cierre para el pretrabajo, no olvides anotarla y
-tenerla presente.
+haciéndolo poco a poco. El equipo de Laboratoria te comunicará las fechas de
+cierre para el pretrabajo, no olvides anotarla y tenerla presente.
 
 Para pasar a la siguiente etapa del proceso de selección es necesario que
 completes todo el pre-trabajo. Las postulantes que demuestren el mayor
@@ -33,7 +32,7 @@ buena oportunidad para demostrar todo lo que ya dominan y saben hacer.
 
 ## Acompañamiento y puntos de apoyo
 
-Recuerda que no estás sola en este proceso. Nosotros te estaremos acompañando a
+Recuerda que no estás sola en este proceso. Nosotrxs te estaremos acompañando a
 cada paso a través de varios canales de apoyo a lo largo del curso:
 
 <!--
@@ -58,16 +57,14 @@ Video de Michelle explicando las descargas:
 (https://www.youtube.com/watch?v=TePHiOKb72k)
 -->
 
-### 1. Grupo de Facebook
+### 1. Ayuda
 
-Únete al grupo de Facebook correspondiente a la sede a la que estás postulando.
-Ahí podrás preguntar y resolver dudas en conjunto con las demás postulantes, con
-el apoyo del staff de profesores de Laboratoria.
-
-* [Lima](https://facebook.com/groups/LaboratoriaLima20172/)
-* [Ciudad de México](https://facebook.com/groups/LaboratoriaMX20172/)
-* [Santiago de Chile](https://facebook.com/groups/LaboratoriaCHILE20172/)
-* [Guadalajara](https://www.facebook.com/groups/LaboratoriaGDL20171/)
+En la sección de Ayuda, podrás encontrar "Preguntas y Respuestas Frecuentes",
+que podrán guiarte en caso que tengas dudas. Si la sección de "Preguntas y
+Respuestas Frecuentes" no soluciona tus dudas, puedes contactarnos a través del
+formulario que se encuentra al final de la sección. Una vez completes el
+formulario, nosotros nos contactaremos contigo a través del correo electrónico
+para ayudarte.
 
 <!--
 ### 2. Horas de consulta
@@ -109,11 +106,11 @@ Los contactos para cada sede, son los siguientes:
 * Lima:
   - Alejandra Ramírez: alejandra@laboratoria.la
 * Ciudad de México:
-  - Lucile Baratier: lucile@laboratoria.la
+  - Paulina Treviño: paulina@laboratoria.la
 * Santiago de Chile:
-  - Valentina Smith: valentina@laboratoria.la
+  - Alexandra Neira: alexandra@laboratoria.la
 * Guadalajara:
-  - Karla Rejas: karla@laboratoria.la
+  - Ofelia Reyes: ofeleriareyes@laboratoria.la
 
 ## Sobre este curso
 
