@@ -1,4 +1,4 @@
-# Quiz 3
+# Quiz
 
 - Tipo: `quiz`
 - Formato: `self-paced`
