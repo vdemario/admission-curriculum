@@ -8,281 +8,358 @@
 
 ## Perguntas
 
-### 1) Quais das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
+### 1) Qual/Quais das seguintes opções refletem "bons" nomes de variáveis (ou seja, em conformidade com as regras e sugestões de boas práticas)?
 
-#### Opções
+#### Opciones
 
-1. const last_name = 'Martim';
-2. const score = 1;
-3. const coisinha = "O retorno de Jedi";
-4. const undefined = true;
-5. const likesCoffee = false;
-6. const 2ndChild = 'Diana';
+1. `const last_name = 'Martim';`
+2. `const score = 1;`
+3. `const cosita = 'O retorno de Jedi';`
+4. `const undefined = true;`
+5. `const likesCoffee = false;`
+6. `const 2ndChild = 'Diana';`
 
 <solution style="display:none;">2,5</solution>
 
-### 2) Os comentários na programação
+### 2) Comentários na programação
 
-#### Opções
+#### Opciones
 
-1. Afetam o fluxo do programa e são usados para tornar o código mais compreensível
+1. Afetam o fluxo do programa e são usados para tornar o código mais
+   compreensível
 2. Não afetam o fluxo do programa e são usados para fazer o código funcionar
    mais rápido
 3. Não afetam o fluxo do programa e são usados para tornar o código mais
    compreensível
-4. Afetam o fluxo do programa e são usados para fazer o código funcionar
-   mais rápido
+4. Afetam o fluxo do programa e são usados para fazer o código funcionar mais
+   rápido
 
 <solution style="display:none;">3</solution>
 
 ### 3) Um exemplo de conversão automática é
 
-#### Opções
+#### Opciones
 
-1. 3 > 3
-2. 'oi' + ' mundo'
-3. true && false
-4. "10" + 1
+1. `3 > 3`
+2. `'oi' + ' mundo'`
+3. `true && false`
+4. `'10' + 1`
 
 <solution style="display:none;">4</solution>
 
 ### 4) A diferença entre undefined y null
 
-#### Opções
+#### Opciones
 
 1. Não existe, são iguais
 2. Não importa
-3. `undefined`  não tem valor e `null` é uma string vazia
+3. `undefined` não tem valor e `null` é uma string vazia
 4. `undefined` significa que um valor não foi atribuído, enquanto que `null`
-    significa que nós atribuímos o valor `null`
+   significa que nós atribuímos o valor `null`
 
 <solution style="display:none;">4</solution>
 
 ### 5) A partir da lista abaixo escolher duas fontes confiáveis para aprender por você mesma
 
-#### Opções
+#### Opciones
 
-1. Documentação da Rede de Desenvolvedores do Mozilla (MDN)
-2. www.w3schools.com
-3. linhadecodigo.com
+1. Documentación de la Red de Desarrolladores de Mozilla (MDN)
+2. elrincondelvago.com
+3. lineadecodigo.com
 4. stackoverflow.com
 
 <solution style="display:none;">1,4</solution>
 
-### 6) O resultado de 'Olá' + 'mundo' é
+### 6) Qual o resultado da seguinte expressão?
 
-#### Opções
+```js
+'Olá' + 'mundo'
+```
 
-1. "Olá Mundo"
-2. "Olá mundo"
-3. "Olámundo"
-4. "OláMundo"
+#### Opciones
+
+1. `'Olá Mundo'`
+2. `'Olá mundo'`
+3. `'Olámundo'`
+4. `'OláMundo'`
 
 <solution style="display:none;">3</solution>
 
-### 7) Que tipo de dados é '123'?
+### 7) Qual é o tipo do seguinte valor?
 
-#### Opções
+```js
+'123'
+```
 
-1. number
-2. string
-3. boolean
-4. undefined
+#### Opciones
+
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">2</solution>
 
 ### 8) Que tipo de dados é Infinity?
 
-#### Opções
+#### Opciones
 
-1. number
-2. string
-3. boolean
-4. undefined
+1. `number`
+2. `string`
+3. `boolean`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
-### 9) Resultado 10 == "dez" é
+### 9) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+10 == 'dez'
+```
 
-1. true
-2. false
+#### Opciones
+
+1. `true`
+2. `false`
 
 <solution style="display:none;">2</solution>
 
-### 10) O resultado de 10 % 3 é
+### 10) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+10 % 3
+```
 
-1. 1
-2. 0
-3. 3.33
-4. 10
+#### Opciones
+
+1. `1`
+2. `0`
+3. `3.33`
+4. `10`
 
 <solution style="display:none;">1</solution>
 
-### 11) O resultado de 'Me \\"encanta\\" JavaScript' é
+### 11) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'JavaScript me \'encanta\''
+```
 
-1. "Me \\"encanta\\" JavaScript"
-2. "Me \encanta\ JavaScript"
-3. "Me encanta JavaScript"
-4. "Me "encanta" JavaScript"
+#### Opciones
+
+1. `JavaScript me \'encanta\'`
+2. `JavaScript me \encanta\`
+3. `JavaScript me encanta`
+4. `JavaScript me 'encanta'`
 
 <solution style="display:none;">4</solution>
 
-### 12) O resultado de **typeof NaN** é
+### 12) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+typeof NaN
+```
 
-1. "boolean"
-2. "undefined"
-3. "number"
-4. "string"
+#### Opciones
+
+1. `'boolean'`
+2. `'undefined'`
+3. `'number'`
+4. `'string'`
 
 <solution style="display:none;">3</solution>
 
-### 13) O resultado de 4 % 15 é
+### 13) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+4 % 15
+```
 
-1. 4
-2. false
-3. 15
-4. %
+#### Opciones
 
-<solution style="display:none;">1</solution>
-
-### 14) O resultado de 'dez' * 4 é
-
-#### Opções
-
-1. NaN
-2. 40
-3. dez4
-4. undefined
+1. `4`
+2. `false`
+3. `15`
+4. `%`
 
 <solution style="display:none;">1</solution>
 
-### 15) O resultado de '50' + 1 é
+### 14) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'dez' * 4
+```
 
-1. "501"
-2. 51
-3. "50"+1
-4. 50
+#### Opciones
 
-<solution style="display:none;">1</solution>
-
-### 16) O resultado de false == '' é
-
-#### Opções
-
-1. true
-2. false
-3. undefined
-4. null
+1. `NaN`
+2. `40`
+3. `'dez4'`
+4. `undefined`
 
 <solution style="display:none;">1</solution>
 
-### 17) O resultado de '' === NaN é
+### 15) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'50' + 1
+```
 
-1. true
-2. false
-3. undefined
-4. null
+#### Opciones
+
+1. `'501'`
+2. `51`
+3. `'50+1'`
+4. `50`
+
+<solution style="display:none;">1</solution>
+
+### 16) Qual é o resultado da seguinte expressão?
+
+```js
+false == ''
+```
+
+#### Opciones
+
+1. `true`
+2. `false`
+3. `undefined`
+4. `null`
+
+<solution style="display:none;">1</solution>
+
+### 17) Qual é o resultado da seguinte expressão?
+
+```js
+'' === NaN
+```
+
+#### Opciones
+
+1. `true`
+2. `false`
+3. `undefined`
+4. `null`
 
 <solution style="display:none;">2</solution>
 
-### 18) O resultado de "a string".slice(1, 5) é
+### 18) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'a string'.slice(1, 5)
+```
 
-1. " str"
-2. " string"
-3. "stri"
-4. " strin"
+#### Opciones
 
-<solution style="display:none;">1</solution>
-
-### 19) O resultado de "My long string is long".slice(5) é
-
-#### Opções
-
-1. "ng string is long"
-2. "long string is long"
-3. ""
-4. "My long string is long"
+1. `' str'`
+2. `' string'`
+3. `'stri'`
+4. `' strin'`
 
 <solution style="display:none;">1</solution>
 
-### 20) O resultado de 'Quero seguir aprendendo!!!'.slice(0, -2) é
+### 19) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'My long string is long'.slice(5)
+```
 
-1. "Quero seguir aprendendo!!!"
-2. "Quero seguir aprendendo!!"
-3. "Quero seguir aprendendo!"
-4. "ero seguir aprendendo!!!"
+#### Opciones
+
+1. `'ng string is long'`
+2. `'long string is long'`
+3. `''`
+4. `'My long string is long'`
+
+<solution style="display:none;">1</solution>
+
+### 20) Qual é o resultado da seguinte expressão?
+
+```js
+'Quero seguir aprendendo!!!'.slice(0, -2)
+```
+
+#### Opciones
+
+1. `'Quero seguir aprendendo!!!'`
+2. `'Quero seguir aprendendo!!'`
+3. `'Quero seguir aprendendo!'`
+4. `'ero seguir aprendendo!!!'`
 
 <solution style="display:none;">3</solution>
 
-### 21) O resultado de 'qualquer string'.charAt(100) é
+### 21) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'qualquer string'.charAt(100)
+```
 
-1. null
-2. undefined
-3. ""
-4. g
+#### Opciones
+
+1. `null`
+2. `undefined`
+3. `''`
+4. `'g'`
 
 <solution style="display:none;">3</solution>
 
-### 22) O resultado de 'Olá Mundo'.indexOf(' ') é
+### 22) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'Olá Mundo'.indexOf(' ')
+```
 
-1. null
-2. 3
-3. 4
-4. 5
+#### Opciones
+
+1. `null`
+2. `3`
+3. `4`
+4. `5`
 
 <solution style="display:none;">2</solution>
 
-### 23) O resultado de 'Olá Mundo'.indexOf('s') é
+### 23) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'Olá Mundo'.indexOf('s')
+```
 
-1. null
-2. undefined
-3. 0
-4. -1
+#### Opciones
+
+1. `null`
+2. `undefined`
+3. `0`
+4. `-1`
 
 <solution style="display:none;">4</solution>
 
-### 24) O resultado de 'alphabet'.toUpperCase() é
+### 24) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+'alphabet'.toUpperCase()
+```
 
-1. "AlphaBet"
-2. "ALPHABET"
-3. "alphabet"
-4. "Alphabet"
+#### Opciones
+
+1. `'AlphaBet'`
+2. `'ALPHABET'`
+3. `'alphabet'`
+4. `'Alphabet'`
 
 <solution style="display:none;">2</solution>
 
-### 25) O resultado de typeof parseInt('543') é
+### 25) Qual é o resultado da seguinte expressão?
 
-#### Opções
+```js
+typeof parseInt('543')
+```
 
-1. 543
-2. "543"
-3. "boolean"
-4. "number"
+#### Opciones
+
+1. `543`
+2. `'543'`
+3. `'boolean'`
+4. `'number'`
 
 <solution style="display:none;">4</solution>
