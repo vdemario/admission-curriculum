@@ -1,7 +1,9 @@
-module.exports = function coinConvert(usDollars) {
-  var peruvianSoles = usDollars * 3.25;
-  var mexicanPesos  = usDollars * 18;
-  var chileanPesos  = usDollars * 660;
+const coinConvert = (dollars) => {
+  const soles = dollars * 3.25;
+  const pesosMexicanos = dollars * 18;
+  const pesosChilenos = dollars * 660;
 
-  return [peruvianSoles, mexicanPesos, chileanPesos];
+  return [soles, pesosMexicanos, pesosChilenos];
 };
+
+module.exports = coinConvert;
