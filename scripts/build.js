@@ -11,7 +11,7 @@ if (!availableLocales.includes(locale)) {
   )
 }
 
-parse([{ type: 'topic', id: 'admission-legacy', locale }])
+parse([{ type: 'topic', id: 'intro', locale }])
   .then(results => {
     const hasErrors = results.reduce(
       (memo, { result }) => memo || result instanceof Error,

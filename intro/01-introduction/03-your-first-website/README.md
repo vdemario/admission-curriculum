@@ -21,11 +21,6 @@ de Marijn Haverbeke, 2014.
 
 ## HTML: HyperText Markup Language
 
-La consola de JavaScript que hemos utilizando hasta ahora es ideal para probar
-pequeños fragmentos de código. Sin embargo, para crear programas reales,
-necesitaremos algo más flexible, como una página web. En esta sección aprenderás
-cómo crear una página web HTML básica y darle interacción con JavaScript.
-
 HTML (HyperText Markup Language) es el lenguaje utilizado para crear la
 estructura de un sitio web. Para crear este sitio, se empieza creando un
 documento en formato HTML. Esto es muy parecido a crear un documento con formato

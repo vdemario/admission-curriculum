@@ -2,7 +2,7 @@ const parse = require('./parse')
 
 parse(
   [
-    { type: 'topic', id: `admission-legacy`, locale: 'es-ES' },
+    { type: 'topic', id: `intro`, locale: 'es-ES' },
   ],
   true
 )
