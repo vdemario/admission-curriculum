@@ -40,8 +40,30 @@ for part in ${parts[@]}; do
   fi
 done
 
+changedExercises=0
+exercises=(
+  01-coin-convert/boilerplate/coinConvert.js
+  01-coin-convert/solution/coinConvert.js
+  01-coin-convert/test/coinConvert.spec.js
+  02-restaurant-bill/boilerplate/restaurantBill.js
+  02-restaurant-bill/solution/restaurantBill.js
+  02-restaurant-bill/test/restaurantBill.spec.js
+)
 
-echo "Files changed: ${changed}"
+for exercise in ${exercises[@]}; do
+  src="${tmpdir}/admission-es/03-prework/12-exercises/${exercise}"
+  dest="intro/02-variables-and-data-types/06-exercises/${exercise}"
+  changes=$( diff "$dest" "$src" )
+
+  if [[ "$?" != "0" ]]; then
+    ((changedExercises=changedExercises+1))
+    echo "$src" "->" "$dest"
+    echo "$changes"
+  fi
+done
+
 echo "Total files compared: ${total}"
+echo "Files changed: ${changed}"
+echo "Files changed from exercises: ${changedExercises}"
 
 git worktree remove "$tmpdir"
