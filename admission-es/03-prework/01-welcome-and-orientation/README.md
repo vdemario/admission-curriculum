@@ -106,7 +106,7 @@ Los contactos para cada sede, son los siguientes:
 * Lima:
   - Alejandra Ramírez: alejandra@laboratoria.la
 * Ciudad de México:
-  - Paulina Treviño: paulina@laboratoria.la
+  - Catalina Guerrero: catalina.g@laboratoria.la
 * Santiago de Chile:
   - Alexandra Neira: alexandra@laboratoria.la
 * Guadalajara:
