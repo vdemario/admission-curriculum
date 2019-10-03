@@ -56,14 +56,13 @@ for exercise in ${exercises[@]}; do
   changes=$( diff "$dest" "$src" )
 
   if [[ "$?" != "0" ]]; then
-    ((changedExercises=changedExercises+1))
+    ((changed=changed+1))
     echo "$src" "->" "$dest"
     echo "$changes"
   fi
 done
 
-echo "Total files compared: ${total}"
 echo "Files changed: ${changed}"
-echo "Files changed from exercises: ${changedExercises}"
+echo "Total files compared: ${total}"
 
 git worktree remove "$tmpdir"
