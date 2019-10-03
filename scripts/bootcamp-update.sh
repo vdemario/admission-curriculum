@@ -49,6 +49,35 @@ for part in ${parts[@]}; do
   fi
 done
 
+exercise_files=(
+  01-coin-convert/boilerplate/coinConvert.js
+  01-coin-convert/solution/coinConvert.js
+  01-coin-convert/test/coinConvert.spec.js
+  02-restaurant-bill/boilerplate/restaurantBill.js
+  02-restaurant-bill/solution/restaurantBill.js
+  02-restaurant-bill/test/restaurantBill.spec.js
+)
+
+for exercise_file in ${exercise_files[@]}; do
+  src="${bootcamp_repo_dir}/topics/javascript/01-basics/06-exercises/${exercise_file}"
+  dest="03-prework/12-exercises/${exercise_file}"
+
+  changes=$( diff "admission-es/$dest" "$src" )
+  if [[ "$?" != "0" ]]; then
+    ((changed=changed+1))
+    echo "$src" "->" "admission-es/${dest}"
+    echo "$changes"
+  fi
+
+  changes=$( diff "admission-pt/$dest" "$src" )
+  if [[ "$?" != "0" ]]; then
+    ((changed=changed+1))
+    echo "$src" "->" "admission-pt/${dest}"
+    echo "$changes"
+  fi
+
+  ((total=total+2))
+done
 
 echo "Files changed: ${changed}"
 echo "Total files compared: ${total}"
