@@ -13,13 +13,13 @@ const parse = ({ type, id, locale }, validate = false) => new Promise((resolve) 
   let destPath;
 
   if (validate) {
+    destPath = '/dev/null';
+  } else {
     if (!fs.existsSync(buildPath)){
       fs.mkdirSync(buildPath);
     }
 
-    destPath = `${buildPath}/${id}.json`;
-  } else {
-    destPath = '/dev/null';
+    destPath = `${buildPath}/${suffix === 'es' ? id : `${id}-${suffix}`}.json`;
   }
 
   const fd = fs.openSync(destPath, 'w')
