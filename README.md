@@ -10,18 +10,17 @@ Install dependencies: `npm install`
 
 ### 1. Build
 
-`npm run build --locale={es-ES|pt-BR}`
+`npm run build -- --locale=pt-BR`
 
 **`locale`**: `es-ES`, `pt-BR`
 
 by default `locale` takes the value `es-ES`
 
-
-The final content will be saved in `build/admission-{es|pt}.json` file
+The final content will be saved in `build/intro-pt.json` file
 
 ### 2. Edit the content
 
-You must edit the following data inside `build/admission-{es|pt}.json`:
+You must edit the following data inside `build/intro-pt.json`:
 
 2.1. Add the following key `order: 1` to the parent object in this way:
 

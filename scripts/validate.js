@@ -1,11 +1,6 @@
 const parse = require('./parse')
 
-parse(
-  [
-    { type: 'topic', id: `intro`, locale: 'es-ES' },
-  ],
-  true
-)
+parse(['es-ES', 'pt-BR'], true)
   .then(results => {
     const hasErrors = results.reduce(
       (memo, { result }) => memo || result instanceof Error,
