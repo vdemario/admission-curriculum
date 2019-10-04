@@ -22,6 +22,8 @@ parts=(
   10-guided-exercises:javascript/01-basics/04-guided-exercises
   11-quiz:javascript/01-basics/05-quiz
   12-exercises:javascript/01-basics/06-exercises
+  12-exercises/01-coin-convert:javascript/01-basics/06-exercises/01-coin-convert
+  12-exercises/02-restaurant-bill:javascript/01-basics/06-exercises/02-restaurant-bill
 )
 
 
