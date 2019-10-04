@@ -9,7 +9,7 @@ if [[ -n "$1" ]]; then
   bootcamp_repo_dir=$( realpath "$1" )
 else
   bootcamp_repo_dir=`mktemp -d 2>/dev/null || mktemp -d -t 'bootcamp_repo_dir'`
-  git clone -b master --single-branch --depth=1 https://github.com/Laboratoria/bootcamp.git "$bootcamp_repo_dir"
+  git clone --depth=1 https://github.com/Laboratoria/bootcamp.git "$bootcamp_repo_dir"
   clean_up_repo_dir="yes"
 fi
 
