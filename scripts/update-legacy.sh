@@ -59,7 +59,6 @@ for part in ${parts[@]}; do
   fi
 done
 
-changedExercises=0
 exercises=(
   01-coin-convert/boilerplate/coinConvert.js
   01-coin-convert/solution/coinConvert.js
