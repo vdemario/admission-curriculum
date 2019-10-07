@@ -62,7 +62,7 @@ mais demoramos a responder.
 
 Contatos da sede:
 
-- infosp@gmail.com
+- infosp@laboratoria.la
 - Whatsapp: 11 94067 3333
 
 ## Sobre este curso
