@@ -26,13 +26,11 @@ The Typeform ids _required_ are:
 > (development, staging and production) for different purposes, but you can add
 > others environments if you want.
 
-## Usage
+## Build
 
 > **Important:** Make sure you are building the right content for your environment and language
 
-### 1. Build
-
-You need to pass 2 environment variables: `env`, `locale`
+You can pass 2 environment variables: `env`, `locale`
 
 **`env`** : `development`, `staging`, `production`
 **`locale`**: `es-ES`, `pt-BR`
@@ -44,26 +42,6 @@ By default `locale` takes the value `es-ES`
 `yarn build --env=production --locale=pt-BR`
 
 The final content will be saved in `build/admission-pt.json` file
-
-### 2. Edit the content
-
-You must edit the following data inside `build/admission-{es|pt}.json`:
-
-2.1. Add the following key `order: 1` to the parent object in this way:
-
-```json
-{
-  "order": 1,
-  "slug": "spanish",
-  "repo": "Laboratoria/admission-curriculum",
-  "path": "build/spanish",
-  "version": "1.0.0",
-  "parserVersion": "2.0.0-alpha.2",
-  "track": "js",
-  "locale": "es-ES",
-  ....
-}
-```
 
 ## Testing
 
