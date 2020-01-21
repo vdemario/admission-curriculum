@@ -44,13 +44,14 @@ que são termos diferentes.
 
 #### UI
 
-> Navegação sub-navegação, menus, pop, botões, links, janelas, cantos
-> arredondados, sombreamento, mensagens de erro, alertas, atualizações,
-> caixas de seleção, campos de senha, campos de pesquisa, entradas de texto,
-> seletores de rádio, áreas texto, estados hover, estados de seleção, os estados
-> pressionadas, ferramenta, banners, vídeos incorporados, animações de rolagem,
+> Navegação, sub-navegação, menus, pop, botões, links, janelas, cantos
+> arredondados, sombreamento, mensagens de erro, alertas, atualizações, caixas
+> de seleção, campos de senha, campos de pesquisa, entradas de texto, seletores
+> de tipoe `radio`, áreas de texto, estados pressionados, estados de seleção, os
+> estados pressionadas, banners, vídeos incorporados, animações de rolagem,
 > deslizar, cliques, iconografia, cores, listas, slideshows, texto alternativo,
-> logotipos, avisos, gradientes, pop-ups, carrosséis, OK/Cancelar, etc, etc, etc.
+> logotipos, avisos, gradientes, pop-ups, carrosséis, OK/Cancelar, etc, etc,
+> etc.
 
 #### UX
 

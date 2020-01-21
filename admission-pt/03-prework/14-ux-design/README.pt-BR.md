@@ -26,9 +26,9 @@ utilizar um produto. Uma cadeira, uma mesa e um computador, todos têm uma
 experiência para utilizá-los.
 
 Uma página web, um aplicativo ou qualquer produto digital também possui
-experiências distintas para o usuário Estas experiências nem sempre são iguais.
-Em muitos caso, podem variar dependendo do contexto em que são usados. Por
-exemplo, a experiência de uso do youTube pode variar dependendo da velocidade de
+experiências distintas para o usuário. Estas experiências nem sempre são iguais.
+Em muitos casos, podem variar dependendo do contexto em que são usados. Por
+exemplo, a experiência de uso do YouTube pode variar dependendo da velocidade de
 conexão com a internet que estivermos usando, ou de publicidades que aparecem
 antes ou durante a execução do conteúdo que quisermos ver.
 
@@ -41,7 +41,7 @@ usuário ao utilizar um produto.
 ### Definição formal de UX Design
 
 O processo criativo e analítico para determinar qual e como será uma página web,
-um aplicativo um software ou dispositivo, tendo em conta sempre as necessidades,
+um aplicativo, um software ou dispositivo, tendo em conta sempre as necessidades,
 desejos e objetivos dos usuários. Mas sem deixar de lado as metas dos negócios.
 
 Para entender um pouco mais sobre o processo de UX Design veja este vídeo:
@@ -53,7 +53,7 @@ Para entender um pouco mais sobre o processo de UX Design veja este vídeo:
 Usualmente vamos querer que os usuários de nossos produtos \(digitais ou físicos\)
 estejam felizes quando consomem o que ofertamos.
 
-Sentar em una cadeira ultra confortável ou em um banco de madeira? Comprar em um
+Sentar em uma cadeira ultra confortável ou em um banco de madeira? Comprar em um
 Starbucks ou em uma cafeteria local? Usar Facebook ou Myspace?
 
 A experiência ao usar nossos produtos é diretamente proporcional ao seu consumo.
