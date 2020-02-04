@@ -4,12 +4,12 @@ This repository holds the topics required for the admission process in spanish a
 
 ## Install
 
-Install dependencies: `yarn` or `npm install`
+`npm install`
 
 ## Set Typeform IDs
 
-1. Copy `.typeformrc.example` file to `admission-es/.typeformrc` or `admission-pt/.typeformrc`
-2. Add all typeform ids inside `.typeformrc` file according to environment.
+1. Copy `.typeformrc.example` file to `.typeformrc`
+2. Add all typeform ids inside `.typeformrc` file according the language and environment.
 
 The Typeform ids _required_ are:
 
@@ -39,12 +39,12 @@ By default `locale` takes the value `es-ES`
 
 **For instance:**
 
-`yarn build --env=production --locale=pt-BR`
+`npm run build -- --env=production --locale=pt-BR`
 
 The final content will be saved in `build/admission-pt.json` file
 
 ## Testing
 
-- To validate the course content `yarn validate`
-- To run markdown linter `yarn mdlint`
-- To run tests and pretest `yarn test`
+- To validate the course content `npm run validate`
+- To run markdown linter `npm run mdlint`
+- To run tests and pretest `npm run test`
