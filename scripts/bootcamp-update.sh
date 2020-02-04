@@ -30,22 +30,22 @@ parts=(
 for part in ${parts[@]}; do
   pair=(${part//:/ })
   src="${bootcamp_repo_dir}/topics/${pair[1]}"
-  dest="03-prework/${pair[0]}"
+  dest="admission/03-prework/${pair[0]}"
 
   ((total=total+1))
-  changes=$( diff "admission-es/${dest}/README.md" "${src}/README.md" )
+  changes=$( diff "${dest}/README.md" "${src}/README.md" )
   if [[ "$?" != "0" ]]; then
     ((changed=changed+1))
-    echo "${src}/README.md" "->" "admission-es/${dest}/README.md"
+    echo "${src}/README.md" "->" "${dest}/README.md"
     echo "$changes"
   fi
 
   if [[ -f "${src}/README.pt-BR.md" ]]; then
     ((total=total+1))
-    changes=$( diff "admission-pt/${dest}/README.pt-BR.md" "${src}/README.pt-BR.md" )
+    changes=$( diff "${dest}/README.pt-BR.md" "${src}/README.pt-BR.md" )
     if [[ "$?" != "0" ]]; then
       ((changed=changed+1))
-      echo "${src}/README.pt-BR.md" "->" "admission-pt/${dest}/README.pt-BR.md"
+      echo "${src}/README.pt-BR.md" "->" "${dest}/README.pt-BR.md"
       echo "$changes"
     fi
   fi
@@ -62,23 +62,16 @@ exercise_files=(
 
 for exercise_file in ${exercise_files[@]}; do
   src="${bootcamp_repo_dir}/topics/javascript/01-basics/06-exercises/${exercise_file}"
-  dest="03-prework/12-exercises/${exercise_file}"
+  dest="admission/03-prework/12-exercises/${exercise_file}"
 
-  changes=$( diff "admission-es/$dest" "$src" )
+  changes=$( diff "$dest" "$src" )
   if [[ "$?" != "0" ]]; then
     ((changed=changed+1))
-    echo "$src" "->" "admission-es/${dest}"
+    echo "$src" "->" "$dest"
     echo "$changes"
   fi
 
-  changes=$( diff "admission-pt/$dest" "$src" )
-  if [[ "$?" != "0" ]]; then
-    ((changed=changed+1))
-    echo "$src" "->" "admission-pt/${dest}"
-    echo "$changes"
-  fi
-
-  ((total=total+2))
+  ((total=total+1))
 done
 
 echo "Files changed: ${changed}"
