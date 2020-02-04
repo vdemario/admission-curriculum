@@ -20,6 +20,7 @@ if (!argv.env) {
 }
 
 const locale = argv.locale || 'es-ES'
+const [localeSuffix] = locale.split('-')
 
 if (! availableLocales.includes(locale)) {
   throw new Error(`locale "${locale}" is not available. Try again with "es-ES" or "pt-BR"`)
@@ -30,7 +31,7 @@ if (! availableLocales.includes(locale)) {
  * Load typeform variables from ".typeformrc" file
  */
 let typeformVars = null
-const topicId = `admission-${locale.split('-')[0]}`
+const topicId = 'admission'
 const typeformrcFilePath = `${topicId}/.typeformrc`
 
 if (!fs.existsSync(typeformrcFilePath)) {
@@ -47,12 +48,17 @@ try {
 /**
  * Check typeform variables required
  */
-if (!typeformVars[argv.env]) {
-  throw new Error(`"${argv.env}" key not found inside ".typeformrc" file`)
+if (!typeformVars[localeSuffix]) {
+  throw new Error(`"${localeSuffix}" key not found inside ".typeformrc" file`)
 }
 
+if (!typeformVars[localeSuffix][argv.env]) {
+  throw new Error(`"${argv.env}" key not found inside ".typeformrc" file`)
+}
+const filteredTypeformVars = typeformVars[localeSuffix][argv.env];
+
 requiredTypeformKeys.forEach(key => {
-  if (!typeformVars[argv.env].hasOwnProperty(key) || ! typeformVars[argv.env][key]) {
+  if (!filteredTypeformVars[key]) {
     throw new Error(`"${key}" not found inside the ".typeformrc" file`)
   }
 })
@@ -76,11 +82,11 @@ try {
  * .typeformrc according to the environment chosen
  */
 try {
-  Object.keys(typeformVars[argv.env]).forEach((key) => {
+  Object.keys(filteredTypeformVars).forEach((key) => {
     replace.sync({
-      files: pathDestination + '/**/*.md',
+      files: pathDestination + `/**/README${localeSuffix === 'es' ? '' : '.pt-BR'}.md`,
       from: key,
-      to: typeformVars[argv.env][key]
+      to: filteredTypeformVars[key]
     })
   })
   console.info(`The ${pathDestination} directory was compiled successfully!!`)

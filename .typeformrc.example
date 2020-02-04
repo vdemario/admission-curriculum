@@ -1,26 +1,54 @@
 {
-  "development": {
-    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_READING": "your-typeformid",
-    "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-    "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
-    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+  "es": {
+    "development": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    },
+    "staging": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    },
+    "production": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    }
   },
-  "staging": {
-    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_READING": "your-typeformid",
-    "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-    "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
-    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
-  },
-  "production": {
-    "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_READING": "your-typeformid",
-    "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-    "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
-    "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
-    "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+  "pt": {
+    "development": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    },
+    "staging": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    },
+    "production": {
+      "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_READING": "your-typeformid",
+      "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
+      "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
+    }
   }
 }
