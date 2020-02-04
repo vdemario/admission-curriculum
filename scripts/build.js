@@ -32,7 +32,7 @@ if (! availableLocales.includes(locale)) {
  */
 let typeformVars = null
 const topicId = 'admission'
-const typeformrcFilePath = `${topicId}/.typeformrc`
+const typeformrcFilePath = `.typeformrc`
 
 if (!fs.existsSync(typeformrcFilePath)) {
   throw new Error('".typeformrc" file not found in the root folder')
