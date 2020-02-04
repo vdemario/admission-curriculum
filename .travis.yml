@@ -5,6 +5,6 @@ before_script:
   - cp .typeformrc.example admission-es/.typeformrc
   - cp .typeformrc.example admission-pt/.typeformrc
 script:
-  - yarn build --env=development
-  - yarn build --env=development --locale=pt-BR
+  - npm run build -- --env=development
+  - npm run build -- --env=development --locale=pt-BR
 
