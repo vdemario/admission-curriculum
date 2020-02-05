@@ -3,8 +3,7 @@ node_js:
   - 8
   - 10
 before_script:
-  - cp .typeformrc.example admission-es/.typeformrc
-  - cp .typeformrc.example admission-pt/.typeformrc
+  - cp .typeformrc.example .typeformrc
 script:
   - npm run build -- --env=development
   - npm run build -- --env=development --locale=pt-BR
