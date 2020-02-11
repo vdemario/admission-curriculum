@@ -12,7 +12,7 @@ const parse = ({ type, id, locale }, validate = false) => new Promise((resolve) 
   const fd = fs.openSync(
     validate
       ? '/dev/null'
-      : `build/${id}.json`,
+      : `build/${locale === 'es-ES' ? id : `${id}-${suffix}`}.json`,
     'w',
   );
   const child = spawn('npx', [
