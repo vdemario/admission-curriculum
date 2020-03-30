@@ -18,8 +18,6 @@ The Typeform ids _required_ are:
   "TYPEFORM_ID_TESTS_READING": "your-typeformid",
   "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
   "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
-  "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE": "your-typeformid",
-  "TYPEFORM_ID_TESTS_MATH": "your-typeformid"
 ```
 
 > **Remember:** There are three environments available

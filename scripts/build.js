@@ -10,9 +10,8 @@ const requiredTypeformKeys = new Set([
   "TYPEFORM_ID_TESTS_READING",
   "TYPEFORM_ID_TESTS_LOGIC",
   "TYPEFORM_ID_TESTS_PERSONALITY",
-  "TYPEFORM_ID_TESTS_EMOTIONAL_INTELLIGENCE",
-  "TYPEFORM_ID_TESTS_MATH",
 ])
+
 const availableLocales = ['es-ES', 'pt-BR']
 
 if (!argv.env) {
