@@ -15,9 +15,9 @@
 
 ## Enunciados
 
-Agora que você já conhece certos conceitos básicos da programação, é hora de
-você ver na prática as coisas que você consegue criar. Não é um teste , mas é
-super importante você praticar!! Os projetos a criar são:
+Agora que você já conhece certos conceitos básicos da programação, é hora de ver na prática as coisas que você consegue criar. Não é um teste, mas é super importante você praticar!!
+
+Os projetos a criar são:
 
 1. **Idade em segundos**: Crie um site que peça ao usuário a idade dele em anos,
    utilizando `prompt()`, e devolva a idade **em segundos**, utilizando
