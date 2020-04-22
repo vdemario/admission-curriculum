@@ -32,8 +32,8 @@ que você pode ver no vídeo a seguir:
 
 Agora, tente responder a estas perguntas:
 
-- Como é a personalidade de um Designer UX?
-- Como é a personalidade de um Designer UI?
+- Como é a personalidade de um UX Designer?
+- Como é a personalidade de um UI Designer?
 
 ### UX != UI
 
@@ -47,15 +47,15 @@ que são termos diferentes.
 > Navegação, sub-navegação, menus, pop, botões, links, janelas, cantos
 > arredondados, sombreamento, mensagens de erro, alertas, atualizações, caixas
 > de seleção, campos de senha, campos de pesquisa, entradas de texto, seletores
-> de tipoe `radio`, áreas de texto, estados pressionados, estados de seleção, os
-> estados pressionadas, banners, vídeos incorporados, animações de rolagem,
+> do tipo `radio`, áreas de texto, estados pressionados, estados de seleção,
+> banners, vídeos incorporados, animações de rolagem,
 > deslizar, cliques, iconografia, cores, listas, slideshows, texto alternativo,
 > logotipos, avisos, gradientes, pop-ups, carrosséis, OK/Cancelar, etc, etc,
 > etc.
 
 #### UX
 
-> Pessoas, Felicidade, resolução de problemas, entender necessidades,
+> Pessoas, felicidade, resolução de problemas, entender necessidades,
 > amor, eficiência, entretenimento, prazer, satisfação, sorrisos, alma,
 > calor, personalidade, alegria, satisfação, gratificação, excitação,
 > euforia, conveniência, eficiência, etc, etc, etc.
