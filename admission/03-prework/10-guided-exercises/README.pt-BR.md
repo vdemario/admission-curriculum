@@ -15,7 +15,9 @@
 
 ## Enunciados
 
-Agora que você já conhece certos conceitos básicos da programação, é hora de ver na prática as coisas que você consegue criar. Não é um teste, mas é super importante você praticar!!
+Agora que você já conhece certos conceitos básicos da programação,
+é hora de ver na prática as coisas que você consegue criar.
+Não é um teste, mas é super importante você praticar!!
 
 Os projetos a criar são:
 

@@ -1,11 +1,16 @@
 # Conta do restaurante
 
-Imagine que você saiu para comer com as suas quatro melhores amigas e o valor total da conta foi de 50 reais (lembrando que você deve adicionar os 10% da taxa de serviço). Vocês querem dividir a conta igualmente entre as cinco e você vai criar um programa para realizar essa tarefa.
+Imagine que você saiu para comer com as suas quatro melhores amigas
+e o valor total da conta foi de 50 reais
+(lembrando que você deve adicionar os 10% da taxa de serviço).
+Vocês querem dividir a conta igualmente entre as cinco
+e você vai criar um programa para realizar essa tarefa.
 
 O exercício inclui um _boilerplate_ (_modelo_) que já inclui uma função
 (`restaurantBill`), que receberá um _argumento_ (`bill`) com o valor total
-da conta sem contar a taxa de serviço (um _número_) e se espera que o retorno seja uma
-_string_ com a quantidade que deve ser paga por cada uma, já incluindo os 10% da taxa de serviço (e incluindo, também, o símbolo de dólar).
+da conta sem contar a taxa de serviço (um _número_) e se espera que o retorno
+seja uma _string_ com a quantidade que deve ser paga por cada uma,
+já incluindo os 10% da taxa de serviço (e incluindo, também, o símbolo de dólar).
 
 O _boilerplate_ (_modelo_):
 
