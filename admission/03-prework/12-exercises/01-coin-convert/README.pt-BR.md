@@ -1,6 +1,6 @@
 # coinConvert
 
-Neste exercício vamos nos concentrar em atribuir _valores_ à _variáveis_. O
+Neste exercício vamos nos concentrar em atribuir _valores_ a _variáveis_. O
 exercício já inclui um _boilerplate_ (_modelo_), com uma _função_, dentro da qual
 você terá que substituir os _comentários_ `/* ??? */` por _expressões_ que produzam
 o _valor_ que queremos armazenar (_atribuir_) na variável correspondente.
