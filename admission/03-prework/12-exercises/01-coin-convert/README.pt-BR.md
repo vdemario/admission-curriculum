@@ -1,8 +1,8 @@
 # coinConvert
 
-Neste exercício vamos nos concentrar em atribuir _valores_ em _variáveis_. O
+Neste exercício vamos nos concentrar em atribuir _valores_ à _variáveis_. O
 exercício já inclui um _boilerplate_ (_modelo_), com uma _função_, dentro da qual
-você terá que substituir os _comentário_ `/* ??? */` por _expressões_ que produzam
+você terá que substituir os _comentários_ `/* ??? */` por _expressões_ que produzam
 o _valor_ que queremos armazenar (_atribuir_) na variável correspondente.
 
 O _boilerplate_ (_modelo_):
@@ -23,15 +23,15 @@ const coinConvert = (dollars) => {
 ```
 
 A _função_ do exercício se chama `coinConvert` e irá nos permitir converter uma
-quantidade de dólares em 3 moedas diferentes (soles, pesos mexicanos e pesos
-chilenos).
+quantidade de dólares em 3 moedas diferentes: soles, pesos mexicanos e pesos
+chilenos.
 
 Está _função_ irá receber apenas um _argumento_ (`dollars`), que é um _número_
-que representa um valor em dólares, e irá retornar um _array_ com três valores: a
+que representa um valor em dólares e irá retornar um _array_ com três valores: a
 quantidade em soles, pesos mexicanos e pesos chilenos. Por enquanto, não
 precisamos nos preocupar com a _função_ em si ou como retornar um _array_, o
 _boilerplate_, já está fazendo isso. Você deve se concentrar em usar a variável
-`dollars` junto com a operação para criar os valores que queremos atribuir nas
+`dollars` junto com a operação para criar os valores que queremos atribuir às
 variáveis `soles`, `pesosMexicanos` e `pesosChilenos`.
 
 Utilize as seguintes taxas de câmbio:
