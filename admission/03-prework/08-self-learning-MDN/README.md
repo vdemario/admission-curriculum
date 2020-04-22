@@ -45,7 +45,7 @@ dice directamente la web de [MDN](https://developer.mozilla.org/es/docs/MDN/Abou
 > 3. Desarrollo de complementos para Firefox.
 > 4. Desarrollo de Firefox OS.
 
-Lee con detenimiento la sección de [string.lenght](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
+Lee con detenimiento la sección de [string.length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
 que te ofrece MDN. Quizás no entiendas absolutamente todo (especialmente todo lo
   referente a UTF-16), pero eso está bien. Debes poder manejar ese sentimiento y
   avanzar con un poco de incentidumbre. Revisa el ejemplo con calma; parece

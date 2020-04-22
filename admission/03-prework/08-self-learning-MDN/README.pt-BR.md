@@ -44,7 +44,7 @@ diretamente o site da [MDN](https://developer.mozilla.org/pt-BR/docs/MDN/About):
 > 2. Open Web app development
 > 3. Firefox add-on development
 
-Leia com atenção a seção de [string.lenght](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+Leia com atenção a seção de [string.length](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 que oferece MDN. Talvez você não entenda absolutamente tudo (especialmente o que
 se refere à UTF-16), mas isso é normal. Você deve controlar esse sentimento e
 avançar mesmo com um pouco de incerteza. Reveja o exemplo com calma; parece
@@ -102,7 +102,7 @@ outras coisas interessantes que podemos fazer com `strings` e `numbers`, como:
 3. [Converter para maiúsculas uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 4. [Converter para minúsculas uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 5. [Cortando uma string](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
-6. [Convertir un string en un número](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+6. [Converter uma string em um número](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
 
 No final destas leituras, você deve saber muito bem como funcionam:
 
