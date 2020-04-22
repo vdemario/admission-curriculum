@@ -14,7 +14,7 @@
 
 1. `const last_name = 'Martim';`
 2. `const score = 1;`
-3. `const cosita = 'O retorno de Jedi';`
+3. `const coisinha = 'O retorno de Jedi';`
 4. `const undefined = true;`
 5. `const likesCoffee = false;`
 6. `const 2ndChild = 'Diana';`
@@ -63,9 +63,9 @@
 
 #### Opciones
 
-1. Documentación de la Red de Desarrolladores de Mozilla (MDN)
-2. elrincondelvago.com
-3. lineadecodigo.com
+1. Documentação da Rede de Desenvolvedores da Mozilla (MDN)
+2. meucodigovago.com
+3. linhadecodigo.com
 4. stackoverflow.com
 
 <solution style="display:none;">1,4</solution>

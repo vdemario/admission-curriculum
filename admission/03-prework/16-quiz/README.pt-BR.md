@@ -1,4 +1,4 @@
-# Quiz # 1
+# Quiz
 
 - Tipo: `quiz`
 - Formato: `individual`
@@ -72,7 +72,7 @@
 
 <solution style="display:none;">3</solution>
 
-### 6) As seguintes terminologias: `botões`, `janelas`, `bordas arredendadas`, `checkboxes`, estão mais relacionados com
+### 6) As seguintes terminologias: `botões`, `janelas`, `bordas arredondadas`, `checkboxes`, estão mais relacionados com
 
 #### Opciones
 

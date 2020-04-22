@@ -75,7 +75,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 7) O elemento título deve estar dentro do elemento ?
+### 7) O elemento "title" deve estar dentro do elemento ?
 
 #### Opções
 
@@ -97,7 +97,7 @@
 
 <solution style="display:none;">4</solution>
 
-### 9) O que o seguinte rótulo faz?
+### 9) O que o seguinte elemento faz?
 
 ```js
 <script src="nome-do-documento.js"></script>
