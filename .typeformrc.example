@@ -4,19 +4,19 @@
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     },
     "staging": {
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     },
     "production": {
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     }
   },
   "pt": {
@@ -24,19 +24,19 @@
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     },
     "staging": {
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     },
     "production": {
       "TYPEFORM_ID_BASE_LINE_QUESTIONNAIRE": "your-typeformid",
       "TYPEFORM_ID_TESTS_READING": "your-typeformid",
       "TYPEFORM_ID_TESTS_LOGIC": "your-typeformid",
-      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid",
+      "TYPEFORM_ID_TESTS_PERSONALITY": "your-typeformid"
     }
   }
 }
